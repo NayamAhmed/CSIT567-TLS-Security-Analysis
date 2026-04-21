@@ -1,0 +1,558 @@
+[
+  {
+    "host": "mit.edu",
+    "port": 443,
+    "scan_time": "2026-04-19T18:37:04.915331",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "web.mit.edu",
+        "O": "Massachusetts Institute of Technology",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "GeoTrust TLS RSA CA G1",
+        "O": "DigiCert Inc"
+      },
+      "valid_from": "2025-12-10T00:00:00+00:00",
+      "valid_to": "2026-04-30T23:59:59+00:00",
+      "days_remaining": 11,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0xce4fdae0137778e71b708da3d3bcaa2",
+      "san": [
+        "web.mit.edu",
+        "alum-dev.mit.edu",
+        "alum.mit.edu",
+        "climate.mit.edu",
+        "emergency-dev.mit.edu",
+        "events-static.mit.edu",
+        "giving-dev.mit.edu",
+        "giving.mit.edu",
+        "img.mit.edu",
+        "mit.edu",
+        "mit.mit.edu",
+        "mitpress.mit.edu",
+        "mitpressbookstore.mit.edu",
+        "staging-mitpress.mit.edu",
+        "swartz-documents.mit.edu",
+        "swartz-report.mit.edu",
+        "thereader-staging.mitpress.mit.edu",
+        "thereader.mitpress.mit.edu",
+        "w.mit.edu",
+        "w3.mit.edu",
+        "web-cert.mit.edu",
+        "web-forms.mit.edu",
+        "web-staging.mit.edu",
+        "web.mit",
+        "www-cert.mit.edu",
+        "www-mit.mit.edu",
+        "www-staging.mit.edu",
+        "www.mit",
+        "www.mit.edu",
+        "www.web.mit.edu",
+        "wwww.mit.edu"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "stanford.edu",
+    "port": 443,
+    "scan_time": "2026-04-19T18:37:06.422543",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "stanford.edu",
+        "O": "Stanford University",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "InCommon RSA Server CA 2",
+        "O": "Internet2"
+      },
+      "valid_from": "2025-04-24T00:00:00+00:00",
+      "valid_to": "2026-04-24T23:59:59+00:00",
+      "days_remaining": 5,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha384WithRSAEncryption",
+      "serial_number": "0x8be197abdedb26b5488173318c16cb0b",
+      "san": [
+        "stanford.edu",
+        "*.stanford.edu",
+        "web.stanford.edu",
+        "www-v6.stanford.edu"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "harvard.edu",
+    "port": 443,
+    "scan_time": "2026-04-19T18:37:08.475767",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "harvard.edu",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "E8",
+        "O": "Let's Encrypt"
+      },
+      "valid_from": "2026-03-08T07:37:41+00:00",
+      "valid_to": "2026-06-06T07:37:40+00:00",
+      "days_remaining": 47,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA384",
+      "serial_number": "0x5dd48e500c44d0801801e588c688adf0bea",
+      "san": [
+        "harvard.edu",
+        "www.harvard.edu"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "caltech.edu",
+    "port": 443,
+    "scan_time": "2026-04-19T18:37:09.926126",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "caltech.edu",
+        "O": "California Institute of Technology",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "InCommon RSA Server CA 2",
+        "O": "Internet2"
+      },
+      "valid_from": "2025-12-10T00:00:00+00:00",
+      "valid_to": "2026-12-10T23:59:59+00:00",
+      "days_remaining": 235,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x3f5c9d571b654970a5a295b328247f16",
+      "san": [
+        "caltech.edu",
+        "admissions.caltech.edu",
+        "alumni.caltech.edu",
+        "aphms.caltech.edu",
+        "bbe.caltech.edu",
+        "biology.caltech.edu",
+        "bond.caltech.edu",
+        "brinsonhub.caltech.edu",
+        "caltech.info",
+        "caltech.net",
+        "caltech.org",
+        "cms.caltech.edu",
+        "cns.caltech.edu",
+        "csa.caltech.edu",
+        "eands.caltech.edu",
+        "eas.caltech.edu",
+        "ee.caltech.edu",
+        "einstein.caltech.edu",
+        "finaid.caltech.edu",
+        "galcit.caltech.edu",
+        "gps.caltech.edu",
+        "hpc.caltech.edu",
+        "hss.caltech.edu",
+        "imss.caltech.edu",
+        "jobs.caltech.edu",
+        "kiss.caltech.edu",
+        "lncrna.caltech.edu",
+        "mayo.caltech.edu",
+        "mems.caltech.edu",
+        "ogc.caltech.edu",
+        "pma.caltech.edu",
+        "quarantine.caltech.edu",
+        "registermydevice.caltech.edu",
+        "spamtrap.caltech.edu",
+        "srl.caltech.edu",
+        "studaff.caltech.edu",
+        "techer.caltech.edu",
+        "theory.caltech.edu",
+        "vis.caltech.edu",
+        "vision.caltech.edu",
+        "www.csa.caltech.edu",
+        "www.srl.caltech.edu",
+        "www.techer.caltech.edu"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "berkeley.edu",
+    "port": 443,
+    "scan_time": "2026-04-19T18:37:12.016661",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "berkeley.edu",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "WE1",
+        "O": "Google Trust Services"
+      },
+      "valid_from": "2026-04-17T02:32:07+00:00",
+      "valid_to": "2026-07-16T03:31:58+00:00",
+      "days_remaining": 87,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA256",
+      "serial_number": "0xb119cc10b6fcafa3132cd67793fd0b48",
+      "san": [
+        "berkeley.edu"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "ucla.edu",
+    "port": 443,
+    "scan_time": "2026-04-19T18:37:13.524221",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "ucla.edu",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon"
+      },
+      "valid_from": "2025-08-18T00:00:00+00:00",
+      "valid_to": "2026-09-16T23:59:59+00:00",
+      "days_remaining": 150,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0xa6a3a4e7d2c548adc45fd1843ad03ef",
+      "san": [
+        "ucla.edu"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "umich.edu",
+    "port": 443,
+    "scan_time": "2026-04-19T18:37:15.385363",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "umich.edu",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "WE1",
+        "O": "Google Trust Services"
+      },
+      "valid_from": "2026-03-23T17:10:58+00:00",
+      "valid_to": "2026-06-21T18:10:54+00:00",
+      "days_remaining": 62,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA256",
+      "serial_number": "0xefecc6bae82a28ec0e841919f76c1e97",
+      "san": [
+        "umich.edu"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "cornell.edu",
+    "port": 443,
+    "scan_time": "2026-04-19T18:37:16.796229",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "cornell.edu",
+        "O": "Cornell University",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "InCommon RSA Server CA 2",
+        "O": "Internet2"
+      },
+      "valid_from": "2025-07-02T00:00:00+00:00",
+      "valid_to": "2026-07-02T23:59:59+00:00",
+      "days_remaining": 74,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0xcde4b2a4c37cf6fd27ce886754055999",
+      "san": [
+        "cornell.edu"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "princeton.edu",
+    "port": 443,
+    "scan_time": "2026-04-19T18:37:18.382017",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "princeton.edu",
+        "O": "The Trustees of Princeton University",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "InCommon RSA Server CA 2",
+        "O": "Internet2"
+      },
+      "valid_from": "2025-05-07T00:00:00+00:00",
+      "valid_to": "2026-06-07T23:59:59+00:00",
+      "days_remaining": 49,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha384WithRSAEncryption",
+      "serial_number": "0x80df7b0deb2ba5da01e1351ec3d4edce",
+      "san": [
+        "princeton.edu"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "yale.edu",
+    "port": 443,
+    "scan_time": "2026-04-19T18:37:20.031267",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "yale.edu",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "Certainly Intermediate R1",
+        "O": "Certainly"
+      },
+      "valid_from": "2026-04-16T09:28:01+00:00",
+      "valid_to": "2026-05-16T09:28:00+00:00",
+      "days_remaining": 26,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x78f71777074071b6f004224d0956c5f2244b",
+      "san": [
+        "yale.edu"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  }
+]

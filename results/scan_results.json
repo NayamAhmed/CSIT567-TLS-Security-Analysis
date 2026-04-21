@@ -1,0 +1,339 @@
+[
+  {
+    "host": "badssl.com",
+    "port": 443,
+    "scan_time": "2026-03-21T17:06:18.442486",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "*.badssl.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "R13",
+        "O": "Let's Encrypt"
+      },
+      "valid_from": "2026-01-20T20:02:51",
+      "valid_to": "2026-04-20T20:02:50",
+      "days_remaining": 30,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x6171e8fca260a2a33194f1be5a775e1c5ed",
+      "san": [
+        "*.badssl.com",
+        "badssl.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "expired.badssl.com",
+    "port": 443,
+    "scan_time": "2026-03-21T17:06:20.228790",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "*.badssl.com",
+        "O": null,
+        "OU": "Domain Control Validated",
+        "C": null
+      },
+      "issuer": {
+        "CN": "COMODO RSA Domain Validation Secure Server CA",
+        "O": "COMODO CA Limited"
+      },
+      "valid_from": "2015-04-09T00:00:00",
+      "valid_to": "2015-04-12T23:59:59",
+      "days_remaining": -3996,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x4ae79549fa9abe3f100f17a478e16909",
+      "san": [
+        "*.badssl.com",
+        "badssl.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": true,
+      "is_valid": false
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "weak-rsa.badssl.com",
+    "port": 443,
+    "scan_time": "2026-03-21T17:06:21.905315",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "badssl-fallback-unknown-subdomain-or-no-sni",
+        "O": "BadSSL Fallback. Unknown subdomain or no SNI.",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "BadSSL Intermediate Certificate Authority",
+        "O": "BadSSL"
+      },
+      "valid_from": "2016-08-08T21:17:05",
+      "valid_to": "2018-08-08T21:17:05",
+      "days_remaining": -2782,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0xcdbc5a4aec9767b1",
+      "san": [
+        "badssl-fallback-unknown-subdomain-or-no-sni"
+      ],
+      "is_self_signed": false,
+      "is_expired": true,
+      "is_valid": false
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "rc4.badssl.com",
+    "port": 443,
+    "scan_time": "2026-03-21T17:06:23.624981",
+    "tls_versions": {
+      "TLSv1.2": false,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {},
+      "issuer": {},
+      "valid_from": null,
+      "valid_to": null,
+      "days_remaining": null,
+      "key_type": null,
+      "key_size": null,
+      "signature_algorithm": null,
+      "serial_number": null,
+      "san": [],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": false,
+      "error": "[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1032)"
+    },
+    "vulnerabilities": {},
+    "error": "'<' not supported between instances of 'NoneType' and 'int'"
+  },
+  {
+    "host": "rc4-md5.badssl.com",
+    "port": 443,
+    "scan_time": "2026-03-21T17:06:25.190437",
+    "tls_versions": {
+      "TLSv1.2": false,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {},
+      "issuer": {},
+      "valid_from": null,
+      "valid_to": null,
+      "days_remaining": null,
+      "key_type": null,
+      "key_size": null,
+      "signature_algorithm": null,
+      "serial_number": null,
+      "san": [],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": false,
+      "error": "[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1032)"
+    },
+    "vulnerabilities": {},
+    "error": "'<' not supported between instances of 'NoneType' and 'int'"
+  },
+  {
+    "host": "3des.badssl.com",
+    "port": 443,
+    "scan_time": "2026-03-21T17:06:26.764380",
+    "tls_versions": {
+      "TLSv1.2": false,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {},
+      "issuer": {},
+      "valid_from": null,
+      "valid_to": null,
+      "days_remaining": null,
+      "key_type": null,
+      "key_size": null,
+      "signature_algorithm": null,
+      "serial_number": null,
+      "san": [],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": false,
+      "error": "[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1032)"
+    },
+    "vulnerabilities": {},
+    "error": "'<' not supported between instances of 'NoneType' and 'int'"
+  },
+  {
+    "host": "tls-v1-0.badssl.com",
+    "port": 443,
+    "scan_time": "2026-03-21T17:06:28.275300",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "*.badssl.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "R13",
+        "O": "Let's Encrypt"
+      },
+      "valid_from": "2026-01-20T20:02:51",
+      "valid_to": "2026-04-20T20:02:50",
+      "days_remaining": 30,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x6171e8fca260a2a33194f1be5a775e1c5ed",
+      "san": [
+        "*.badssl.com",
+        "badssl.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "tls-v1-1.badssl.com",
+    "port": 443,
+    "scan_time": "2026-03-21T17:06:29.901951",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "*.badssl.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "R13",
+        "O": "Let's Encrypt"
+      },
+      "valid_from": "2026-01-20T20:02:51",
+      "valid_to": "2026-04-20T20:02:50",
+      "days_remaining": 30,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x6171e8fca260a2a33194f1be5a775e1c5ed",
+      "san": [
+        "*.badssl.com",
+        "badssl.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  }
+]

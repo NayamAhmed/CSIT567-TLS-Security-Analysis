@@ -1,0 +1,26 @@
+[
+  {
+    "host": "expired.badssl.com",
+    "issues": [
+      "Certificate expired"
+    ]
+  },
+  {
+    "host": "weak-rsa.badssl.com",
+    "issues": [
+      "Certificate expired"
+    ]
+  },
+  {
+    "host": "sha1-intermediate.badssl.com",
+    "issues": [
+      "Certificate expired"
+    ]
+  },
+  {
+    "host": "self-signed.badssl.com",
+    "issues": [
+      "Self-signed certificate"
+    ]
+  }
+]

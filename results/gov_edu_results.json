@@ -1,0 +1,844 @@
+[
+  {
+    "host": "whitehouse.gov",
+    "port": 443,
+    "scan_time": "2026-03-21T17:27:19.864279",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "whitehouse.gov",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "E7",
+        "O": "Let's Encrypt"
+      },
+      "valid_from": "2026-01-27T10:14:00+00:00",
+      "valid_to": "2026-04-27T10:13:59+00:00",
+      "days_remaining": 36,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA384",
+      "serial_number": "0x5c1e5581ac1fa80f19f4b7dd6abb4be034d",
+      "san": [
+        "whitehouse.gov",
+        "www.whitehouse.gov"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "state.gov",
+    "port": 443,
+    "scan_time": "2026-03-21T17:27:21.100745",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "state.gov",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "Amazon RSA 2048 M02",
+        "O": "Amazon"
+      },
+      "valid_from": "2025-04-27T00:00:00+00:00",
+      "valid_to": "2026-05-27T23:59:59+00:00",
+      "days_remaining": 67,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x9792719e32ee3d60393ed8b0aa13c32",
+      "san": [
+        "state.gov",
+        "*.state.gov"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "nsa.gov",
+    "port": 443,
+    "scan_time": "2026-03-21T17:31:07.545973",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "www.defense.gov",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "R13",
+        "O": "Let's Encrypt"
+      },
+      "valid_from": "2026-02-19T17:12:39+00:00",
+      "valid_to": "2026-05-20T17:12:38+00:00",
+      "days_remaining": 59,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x585046ff390169116a9fcdf0b15a582e2d4",
+      "san": [
+        "2017dodtransition.defense.gov",
+        "2025dodtransition.defense.gov",
+        "actuary.defense.gov",
+        "armedforcessports.defense.gov",
+        "atsdio.defense.gov",
+        "basicresearch.defense.gov",
+        "business.defense.gov",
+        "cmsmedia.defense.gov",
+        "comptroller.defense.gov",
+        "ctip.defense.gov",
+        "cyberwork.defense.gov",
+        "dam.defense.gov",
+        "data.defense.gov",
+        "dbb.defense.gov",
+        "dcips.defense.gov",
+        "dcmo.defense.gov",
+        "dod.defense.gov",
+        "dodcertpmo.defense.gov",
+        "dodcio.defense.gov",
+        "dodmwrandresalepolicy.defense.gov",
+        "dodsioo.defense.gov",
+        "dpac.defense.gov",
+        "dpcld.defense.gov",
+        "dpclo.defense.gov",
+        "energy.defense.gov",
+        "frcsw.navair.navy.mil",
+        "history.defense.gov",
+        "innovation.defense.gov",
+        "irt.defense.gov",
+        "jamrs.defense.gov",
+        "jifco.defense.gov",
+        "jnlwp.defense.gov",
+        "jsc.defense.gov",
+        "kb.defense.gov",
+        "la.defense.gov",
+        "m.nsa.gov",
+        "media.defense.gov",
+        "militarypay.defense.gov",
+        "nmio.ise.gov",
+        "nsa.gov",
+        "ogc.osd.mil",
+        "oig.nsa.gov",
+        "open.defense.gov",
+        "ousdi.defense.gov",
+        "policy.defense.gov",
+        "prhome.defense.gov",
+        "ra.defense.gov",
+        "rfpb.defense.gov",
+        "servicedesk.defense.gov",
+        "testqfwtnxc2r2odbaxs2x-a.defense.gov",
+        "valor.defense.gov",
+        "vwac.defense.gov",
+        "www.alssa.mil",
+        "www.blueroof.gov",
+        "www.business.defense.gov",
+        "www.dantes.mil",
+        "www.dc3.mil",
+        "www.defense.gov",
+        "www.deomi.mil",
+        "www.dod.defense.gov",
+        "www.dodnafaccounting.defense.gov",
+        "www.dsca.mil",
+        "www.jtfcs.northcom.mil",
+        "www.jtfn.northcom.mil",
+        "www.norad.mil",
+        "www.northcom.mil",
+        "www.nsa.gov",
+        "www.ukraineoversight.gov",
+        "www.whs.mil"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "nih.gov",
+    "port": 443,
+    "scan_time": "2026-03-21T17:31:08.855591",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "www.nih.gov",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "Go Daddy Secure Certificate Authority - G2",
+        "O": "GoDaddy.com, Inc."
+      },
+      "valid_from": "2026-02-05T15:04:58+00:00",
+      "valid_to": "2027-02-15T15:47:15+00:00",
+      "days_remaining": 330,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0xbd30871c34f50e0f",
+      "san": [
+        "salud.nih.gov",
+        "devtestdomain.nih.gov",
+        "stagetestdomain.nih.gov",
+        "stagetestdomain6.nih.gov",
+        "stagetestdomain5.nih.gov",
+        "testdomain2.nih.gov",
+        "stagetestdomain2.nih.gov",
+        "stagetestdomain7.nih.gov",
+        "www.nih.com",
+        "devtestdomain7.nih.gov",
+        "clinicalresearchtrials.nih.gov",
+        "www.nih.gov",
+        "nih.gov",
+        "stagetestdomain4.nih.gov",
+        "devtestdomain4.nih.gov",
+        "newsinhealth.nih.gov",
+        "devtestdomain6.nih.gov",
+        "testdomain.nih.gov",
+        "stagetestdomain3.nih.gov",
+        "www.health.nih.gov",
+        "testdomain3.nih.gov",
+        "devtestdomain2.nih.gov",
+        "nihrecord.nih.gov",
+        "nih.com",
+        "devtestdomain3.nih.gov",
+        "nihplainlanguage.nih.gov",
+        "devtestdomain5.nih.gov",
+        "health.nih.gov"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "mit.edu",
+    "port": 443,
+    "scan_time": "2026-03-21T17:31:10.193015",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "web.mit.edu",
+        "O": "Massachusetts Institute of Technology",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "GeoTrust TLS RSA CA G1",
+        "O": "DigiCert Inc"
+      },
+      "valid_from": "2025-12-10T00:00:00+00:00",
+      "valid_to": "2026-04-30T23:59:59+00:00",
+      "days_remaining": 40,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0xce4fdae0137778e71b708da3d3bcaa2",
+      "san": [
+        "web.mit.edu",
+        "alum-dev.mit.edu",
+        "alum.mit.edu",
+        "climate.mit.edu",
+        "emergency-dev.mit.edu",
+        "events-static.mit.edu",
+        "giving-dev.mit.edu",
+        "giving.mit.edu",
+        "img.mit.edu",
+        "mit.edu",
+        "mit.mit.edu",
+        "mitpress.mit.edu",
+        "mitpressbookstore.mit.edu",
+        "staging-mitpress.mit.edu",
+        "swartz-documents.mit.edu",
+        "swartz-report.mit.edu",
+        "thereader-staging.mitpress.mit.edu",
+        "thereader.mitpress.mit.edu",
+        "w.mit.edu",
+        "w3.mit.edu",
+        "web-cert.mit.edu",
+        "web-forms.mit.edu",
+        "web-staging.mit.edu",
+        "web.mit",
+        "www-cert.mit.edu",
+        "www-mit.mit.edu",
+        "www-staging.mit.edu",
+        "www.mit",
+        "www.mit.edu",
+        "www.web.mit.edu",
+        "wwww.mit.edu"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "stanford.edu",
+    "port": 443,
+    "scan_time": "2026-03-21T17:31:12.351272",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "stanford.edu",
+        "O": "Stanford University",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "InCommon RSA Server CA 2",
+        "O": "Internet2"
+      },
+      "valid_from": "2025-04-24T00:00:00+00:00",
+      "valid_to": "2026-04-24T23:59:59+00:00",
+      "days_remaining": 34,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha384WithRSAEncryption",
+      "serial_number": "0x8be197abdedb26b5488173318c16cb0b",
+      "san": [
+        "stanford.edu",
+        "*.stanford.edu",
+        "web.stanford.edu",
+        "www-v6.stanford.edu"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "harvard.edu",
+    "port": 443,
+    "scan_time": "2026-03-21T17:31:14.277937",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "harvard.edu",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "E8",
+        "O": "Let's Encrypt"
+      },
+      "valid_from": "2026-03-08T07:37:41+00:00",
+      "valid_to": "2026-06-06T07:37:40+00:00",
+      "days_remaining": 76,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA384",
+      "serial_number": "0x5dd48e500c44d0801801e588c688adf0bea",
+      "san": [
+        "harvard.edu",
+        "www.harvard.edu"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "berkeley.edu",
+    "port": 443,
+    "scan_time": "2026-03-21T17:31:15.523593",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "berkeley.edu",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "WE1",
+        "O": "Google Trust Services"
+      },
+      "valid_from": "2026-02-17T02:01:50+00:00",
+      "valid_to": "2026-05-18T03:01:40+00:00",
+      "days_remaining": 57,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA256",
+      "serial_number": "0x73b6534264984bb013ccc64eb3789426",
+      "san": [
+        "berkeley.edu"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "oxford.ac.uk",
+    "port": 443,
+    "scan_time": "2026-03-21T17:31:16.823912",
+    "tls_versions": {
+      "TLSv1.2": false,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {},
+      "issuer": {},
+      "valid_from": null,
+      "valid_to": null,
+      "days_remaining": null,
+      "key_type": null,
+      "key_size": null,
+      "signature_algorithm": null,
+      "serial_number": null,
+      "san": [],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": false,
+      "error": "timed out"
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "cambridge.ac.uk",
+    "port": 443,
+    "scan_time": "2026-03-21T17:32:48.193306",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "cambridge.ac.uk",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "R12",
+        "O": "Let's Encrypt"
+      },
+      "valid_from": "2026-02-03T17:12:08+00:00",
+      "valid_to": "2026-05-04T17:12:07+00:00",
+      "days_remaining": 43,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x6b3927224e5af5a7eccaa586a2c6791f0fd",
+      "san": [
+        "cambridge.ac.uk"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "ucla.edu",
+    "port": 443,
+    "scan_time": "2026-03-21T17:32:50.470867",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "ucla.edu",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon"
+      },
+      "valid_from": "2025-08-18T00:00:00+00:00",
+      "valid_to": "2026-09-16T23:59:59+00:00",
+      "days_remaining": 179,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0xa6a3a4e7d2c548adc45fd1843ad03ef",
+      "san": [
+        "ucla.edu"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "umich.edu",
+    "port": 443,
+    "scan_time": "2026-03-21T17:32:52.323132",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "umich.edu",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "WE1",
+        "O": "Google Trust Services"
+      },
+      "valid_from": "2026-01-23T15:16:32+00:00",
+      "valid_to": "2026-04-23T16:16:29+00:00",
+      "days_remaining": 32,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA256",
+      "serial_number": "0xd023fa96bd3c34df1319ef32a264a0a8",
+      "san": [
+        "umich.edu"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "cornell.edu",
+    "port": 443,
+    "scan_time": "2026-03-21T17:32:53.584683",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "cornell.edu",
+        "O": "Cornell University",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "InCommon RSA Server CA 2",
+        "O": "Internet2"
+      },
+      "valid_from": "2025-07-02T00:00:00+00:00",
+      "valid_to": "2026-07-02T23:59:59+00:00",
+      "days_remaining": 103,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0xcde4b2a4c37cf6fd27ce886754055999",
+      "san": [
+        "cornell.edu"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "princeton.edu",
+    "port": 443,
+    "scan_time": "2026-03-21T17:32:54.918401",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "princeton.edu",
+        "O": "The Trustees of Princeton University",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "InCommon RSA Server CA 2",
+        "O": "Internet2"
+      },
+      "valid_from": "2025-05-07T00:00:00+00:00",
+      "valid_to": "2026-06-07T23:59:59+00:00",
+      "days_remaining": 78,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha384WithRSAEncryption",
+      "serial_number": "0x80df7b0deb2ba5da01e1351ec3d4edce",
+      "san": [
+        "princeton.edu"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "yale.edu",
+    "port": 443,
+    "scan_time": "2026-03-21T17:32:56.254076",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "yale.edu",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "Certainly Intermediate R1",
+        "O": "Certainly"
+      },
+      "valid_from": "2026-03-07T11:18:10+00:00",
+      "valid_to": "2026-04-06T11:18:09+00:00",
+      "days_remaining": 15,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x79ceb9dc9239e8841865e3171d565efa38b4",
+      "san": [
+        "yale.edu"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  }
+]

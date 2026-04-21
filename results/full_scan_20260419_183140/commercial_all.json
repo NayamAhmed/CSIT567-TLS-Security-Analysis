@@ -1,0 +1,6698 @@
+[
+  {
+    "host": "youtube.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:32:06.809881",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "*.google.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "WR2",
+        "O": "Google Trust Services"
+      },
+      "valid_from": "2026-03-30T08:35:08+00:00",
+      "valid_to": "2026-06-22T08:35:07+00:00",
+      "days_remaining": 63,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0xe6a2de36b18b40fd10822ffeea55fa16",
+      "san": [
+        "*.google.com",
+        "*.appengine.google.com",
+        "*.bdn.dev",
+        "*.origin-test.bdn.dev",
+        "*.cloud.google.com",
+        "*.crowdsource.google.com",
+        "*.datacompute.google.com",
+        "*.google.ca",
+        "*.google.cl",
+        "*.google.co.in",
+        "*.google.co.jp",
+        "*.google.co.uk",
+        "*.google.com.ar",
+        "*.google.com.au",
+        "*.google.com.br",
+        "*.google.com.co",
+        "*.google.com.mx",
+        "*.google.com.tr",
+        "*.google.com.vn",
+        "*.google.de",
+        "*.google.es",
+        "*.google.fr",
+        "*.google.hu",
+        "*.google.it",
+        "*.google.nl",
+        "*.google.pl",
+        "*.google.pt",
+        "*.googleapis.cn",
+        "*.gstatic.cn",
+        "*.gstatic-cn.com",
+        "googlecnapps.cn",
+        "*.googlecnapps.cn",
+        "googleapps-cn.com",
+        "*.googleapps-cn.com",
+        "gkecnapps.cn",
+        "*.gkecnapps.cn",
+        "googledownloads.cn",
+        "*.googledownloads.cn",
+        "recaptcha.net.cn",
+        "*.recaptcha.net.cn",
+        "recaptcha-cn.net",
+        "*.recaptcha-cn.net",
+        "widevine.cn",
+        "*.widevine.cn",
+        "ampproject.org.cn",
+        "*.ampproject.org.cn",
+        "ampproject.net.cn",
+        "*.ampproject.net.cn",
+        "google-analytics-cn.com",
+        "*.google-analytics-cn.com",
+        "googleadservices-cn.com",
+        "*.googleadservices-cn.com",
+        "googlevads-cn.com",
+        "*.googlevads-cn.com",
+        "googleapis-cn.com",
+        "*.googleapis-cn.com",
+        "googleoptimize-cn.com",
+        "*.googleoptimize-cn.com",
+        "doubleclick-cn.net",
+        "*.doubleclick-cn.net",
+        "*.fls.doubleclick-cn.net",
+        "*.g.doubleclick-cn.net",
+        "doubleclick.cn",
+        "*.doubleclick.cn",
+        "*.fls.doubleclick.cn",
+        "*.g.doubleclick.cn",
+        "dartsearch-cn.net",
+        "*.dartsearch-cn.net",
+        "googletraveladservices-cn.com",
+        "*.googletraveladservices-cn.com",
+        "googletagservices-cn.com",
+        "*.googletagservices-cn.com",
+        "googletagmanager-cn.com",
+        "*.googletagmanager-cn.com",
+        "googlesyndication-cn.com",
+        "*.googlesyndication-cn.com",
+        "*.safeframe.googlesyndication-cn.com",
+        "app-measurement-cn.com",
+        "*.app-measurement-cn.com",
+        "gvt1-cn.com",
+        "*.gvt1-cn.com",
+        "gvt2-cn.com",
+        "*.gvt2-cn.com",
+        "2mdn-cn.net",
+        "*.2mdn-cn.net",
+        "googleflights-cn.net",
+        "*.googleflights-cn.net",
+        "admob-cn.com",
+        "*.admob-cn.com",
+        "*.gemini.cloud.google.com",
+        "googlesandbox-cn.com",
+        "*.googlesandbox-cn.com",
+        "*.safenup.googlesandbox-cn.com",
+        "*.gstatic.com",
+        "*.metric.gstatic.com",
+        "*.gvt1.com",
+        "*.gcpcdn.gvt1.com",
+        "*.gvt2.com",
+        "*.gcp.gvt2.com",
+        "*.url.google.com",
+        "*.youtube-nocookie.com",
+        "*.ytimg.com",
+        "ai.android",
+        "android.com",
+        "*.android.com",
+        "*.flash.android.com",
+        "g.cn",
+        "*.g.cn",
+        "g.co",
+        "*.g.co",
+        "goo.gl",
+        "www.goo.gl",
+        "google-analytics.com",
+        "*.google-analytics.com",
+        "google.com",
+        "googlecommerce.com",
+        "*.googlecommerce.com",
+        "ggpht.cn",
+        "*.ggpht.cn",
+        "urchin.com",
+        "*.urchin.com",
+        "youtu.be",
+        "youtube.com",
+        "*.youtube.com",
+        "music.youtube.com",
+        "*.music.youtube.com",
+        "youtubeeducation.com",
+        "*.youtubeeducation.com",
+        "youtubekids.com",
+        "*.youtubekids.com",
+        "yt.be",
+        "*.yt.be",
+        "android.clients.google.com",
+        "*.android.google.cn",
+        "*.chrome.google.cn",
+        "*.developers.google.cn",
+        "*.aistudio.google.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "google.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:32:08.263617",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "*.google.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "WR2",
+        "O": "Google Trust Services"
+      },
+      "valid_from": "2026-03-30T08:35:08+00:00",
+      "valid_to": "2026-06-22T08:35:07+00:00",
+      "days_remaining": 63,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0xe6a2de36b18b40fd10822ffeea55fa16",
+      "san": [
+        "*.google.com",
+        "*.appengine.google.com",
+        "*.bdn.dev",
+        "*.origin-test.bdn.dev",
+        "*.cloud.google.com",
+        "*.crowdsource.google.com",
+        "*.datacompute.google.com",
+        "*.google.ca",
+        "*.google.cl",
+        "*.google.co.in",
+        "*.google.co.jp",
+        "*.google.co.uk",
+        "*.google.com.ar",
+        "*.google.com.au",
+        "*.google.com.br",
+        "*.google.com.co",
+        "*.google.com.mx",
+        "*.google.com.tr",
+        "*.google.com.vn",
+        "*.google.de",
+        "*.google.es",
+        "*.google.fr",
+        "*.google.hu",
+        "*.google.it",
+        "*.google.nl",
+        "*.google.pl",
+        "*.google.pt",
+        "*.googleapis.cn",
+        "*.gstatic.cn",
+        "*.gstatic-cn.com",
+        "googlecnapps.cn",
+        "*.googlecnapps.cn",
+        "googleapps-cn.com",
+        "*.googleapps-cn.com",
+        "gkecnapps.cn",
+        "*.gkecnapps.cn",
+        "googledownloads.cn",
+        "*.googledownloads.cn",
+        "recaptcha.net.cn",
+        "*.recaptcha.net.cn",
+        "recaptcha-cn.net",
+        "*.recaptcha-cn.net",
+        "widevine.cn",
+        "*.widevine.cn",
+        "ampproject.org.cn",
+        "*.ampproject.org.cn",
+        "ampproject.net.cn",
+        "*.ampproject.net.cn",
+        "google-analytics-cn.com",
+        "*.google-analytics-cn.com",
+        "googleadservices-cn.com",
+        "*.googleadservices-cn.com",
+        "googlevads-cn.com",
+        "*.googlevads-cn.com",
+        "googleapis-cn.com",
+        "*.googleapis-cn.com",
+        "googleoptimize-cn.com",
+        "*.googleoptimize-cn.com",
+        "doubleclick-cn.net",
+        "*.doubleclick-cn.net",
+        "*.fls.doubleclick-cn.net",
+        "*.g.doubleclick-cn.net",
+        "doubleclick.cn",
+        "*.doubleclick.cn",
+        "*.fls.doubleclick.cn",
+        "*.g.doubleclick.cn",
+        "dartsearch-cn.net",
+        "*.dartsearch-cn.net",
+        "googletraveladservices-cn.com",
+        "*.googletraveladservices-cn.com",
+        "googletagservices-cn.com",
+        "*.googletagservices-cn.com",
+        "googletagmanager-cn.com",
+        "*.googletagmanager-cn.com",
+        "googlesyndication-cn.com",
+        "*.googlesyndication-cn.com",
+        "*.safeframe.googlesyndication-cn.com",
+        "app-measurement-cn.com",
+        "*.app-measurement-cn.com",
+        "gvt1-cn.com",
+        "*.gvt1-cn.com",
+        "gvt2-cn.com",
+        "*.gvt2-cn.com",
+        "2mdn-cn.net",
+        "*.2mdn-cn.net",
+        "googleflights-cn.net",
+        "*.googleflights-cn.net",
+        "admob-cn.com",
+        "*.admob-cn.com",
+        "*.gemini.cloud.google.com",
+        "googlesandbox-cn.com",
+        "*.googlesandbox-cn.com",
+        "*.safenup.googlesandbox-cn.com",
+        "*.gstatic.com",
+        "*.metric.gstatic.com",
+        "*.gvt1.com",
+        "*.gcpcdn.gvt1.com",
+        "*.gvt2.com",
+        "*.gcp.gvt2.com",
+        "*.url.google.com",
+        "*.youtube-nocookie.com",
+        "*.ytimg.com",
+        "ai.android",
+        "android.com",
+        "*.android.com",
+        "*.flash.android.com",
+        "g.cn",
+        "*.g.cn",
+        "g.co",
+        "*.g.co",
+        "goo.gl",
+        "www.goo.gl",
+        "google-analytics.com",
+        "*.google-analytics.com",
+        "google.com",
+        "googlecommerce.com",
+        "*.googlecommerce.com",
+        "ggpht.cn",
+        "*.ggpht.cn",
+        "urchin.com",
+        "*.urchin.com",
+        "youtu.be",
+        "youtube.com",
+        "*.youtube.com",
+        "music.youtube.com",
+        "*.music.youtube.com",
+        "youtubeeducation.com",
+        "*.youtubeeducation.com",
+        "youtubekids.com",
+        "*.youtubekids.com",
+        "yt.be",
+        "*.yt.be",
+        "android.clients.google.com",
+        "*.android.google.cn",
+        "*.chrome.google.cn",
+        "*.developers.google.cn",
+        "*.aistudio.google.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "wikipedia.org",
+    "port": 443,
+    "scan_time": "2026-04-19T18:32:09.580535",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "*.wikipedia.org",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "E7",
+        "O": "Let's Encrypt"
+      },
+      "valid_from": "2026-04-07T20:52:30+00:00",
+      "valid_to": "2026-07-06T20:52:29+00:00",
+      "days_remaining": 77,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA384",
+      "serial_number": "0x6486c73514f21cde56e6d5fb2e92ab04e86",
+      "san": [
+        "*.m.mediawiki.org",
+        "*.m.wikibooks.org",
+        "*.m.wikidata.org",
+        "*.m.wikimedia.org",
+        "*.m.wikinews.org",
+        "*.m.wikipedia.org",
+        "*.m.wikiquote.org",
+        "*.m.wikisource.org",
+        "*.m.wikiversity.org",
+        "*.m.wikivoyage.org",
+        "*.m.wiktionary.org",
+        "*.mediawiki.org",
+        "*.planet.wikimedia.org",
+        "*.wikibooks.org",
+        "*.wikidata.org",
+        "*.wikifunctions.org",
+        "*.wikimedia.org",
+        "*.wikimediafoundation.org",
+        "*.wikinews.org",
+        "*.wikipedia.org",
+        "*.wikiquote.org",
+        "*.wikisource.org",
+        "*.wikiversity.org",
+        "*.wikivoyage.org",
+        "*.wiktionary.org",
+        "*.wmfusercontent.org",
+        "mediawiki.org",
+        "w.wiki",
+        "wikibooks.org",
+        "wikidata.org",
+        "wikifunctions.org",
+        "wikimedia.org",
+        "wikimediafoundation.org",
+        "wikinews.org",
+        "wikipedia.org",
+        "wikiquote.org",
+        "wikisource.org",
+        "wikiversity.org",
+        "wikivoyage.org",
+        "wiktionary.org",
+        "wmfusercontent.org"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "facebook.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:32:11.213297",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "*.facebook.com",
+        "O": "Meta Platforms, Inc.",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+        "O": "DigiCert Inc"
+      },
+      "valid_from": "2026-01-27T00:00:00+00:00",
+      "valid_to": "2026-04-27T23:59:59+00:00",
+      "days_remaining": 8,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x9eb3c75d6c22277e44dc81f552d49be",
+      "san": [
+        "*.facebook.com",
+        "*.facebook.net",
+        "*.fbcdn.net",
+        "*.fbsbx.com",
+        "*.m.facebook.com",
+        "*.messenger.com",
+        "*.xx.fbcdn.net",
+        "*.xy.fbcdn.net",
+        "*.xz.fbcdn.net",
+        "facebook.com",
+        "messenger.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "reddit.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:32:12.709285",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "*.reddit.com",
+        "O": "Reddit, Inc.",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+        "O": "DigiCert Inc"
+      },
+      "valid_from": "2026-04-08T00:00:00+00:00",
+      "valid_to": "2026-10-04T23:59:59+00:00",
+      "days_remaining": 168,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0xe9e4f5d82fcc4145fd88fd39c2a3111",
+      "san": [
+        "*.reddit.com",
+        "reddit.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "instagram.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:32:14.007727",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "*.instagram.com",
+        "O": "Meta Platforms, Inc.",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+        "O": "DigiCert Inc"
+      },
+      "valid_from": "2026-01-27T00:00:00+00:00",
+      "valid_to": "2026-04-27T23:59:59+00:00",
+      "days_remaining": 8,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x33583a9a2e905c1ea12677d5ac9344b",
+      "san": [
+        "*.instagram.com",
+        "*.cdninstagram.com",
+        "*.igsonar.com",
+        "cdninstagram.com",
+        "igsonar.com",
+        "instagram.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "amazon.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:32:15.486575",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "*.peg.a2z.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "DigiCert Global CA G2",
+        "O": "DigiCert Inc"
+      },
+      "valid_from": "2026-02-02T00:00:00+00:00",
+      "valid_to": "2027-01-23T23:59:59+00:00",
+      "days_remaining": 279,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0xcfb0f6fa7d79b54964abd9d4a1ede61",
+      "san": [
+        "amazon.co.uk",
+        "uedata.amazon.co.uk",
+        "www.amazon.co.uk",
+        "origin-www.amazon.co.uk",
+        "*.peg.a2z.com",
+        "amazon.com",
+        "amzn.com",
+        "uedata.amazon.com",
+        "us.amazon.com",
+        "www.amazon.com",
+        "www.amzn.com",
+        "corporate.amazon.com",
+        "buybox.amazon.com",
+        "iphone.amazon.com",
+        "yp.amazon.com",
+        "home.amazon.com",
+        "origin-www.amazon.com",
+        "origin2-www.amazon.com",
+        "buckeye-retail-website.amazon.com",
+        "huddles.amazon.com",
+        "amazon.de",
+        "www.amazon.de",
+        "origin-www.amazon.de",
+        "amazon.co.jp",
+        "amazon.jp",
+        "www.amazon.jp",
+        "www.amazon.co.jp",
+        "origin-www.amazon.co.jp",
+        "*.aa.peg.a2z.com",
+        "*.ab.peg.a2z.com",
+        "*.ac.peg.a2z.com",
+        "origin-www.amazon.com.au",
+        "www.amazon.com.au",
+        "*.bz.peg.a2z.com",
+        "amazon.com.au",
+        "origin2-www.amazon.co.jp",
+        "edgeflow.aero.4d5ad1d2b-frontier.amazon.co.jp",
+        "edgeflow.aero.04f01a85e-frontier.amazon.com.au",
+        "edgeflow.aero.47cf2c8c9-frontier.amazon.com",
+        "edgeflow.aero.abe2c2f23-frontier.amazon.de",
+        "edgeflow.aero.bfbdc3ca1-frontier.amazon.co.uk",
+        "edgeflow-dp.aero.4d5ad1d2b-frontier.amazon.co.jp",
+        "edgeflow-dp.aero.04f01a85e-frontier.amazon.com.au",
+        "edgeflow-dp.aero.47cf2c8c9-frontier.amazon.com",
+        "edgeflow-dp.aero.bfbdc3ca1-frontier.amazon.co.uk",
+        "edgeflow-dp.aero.abe2c2f23-frontier.amazon.de",
+        "shop.business.amazon.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "yelp.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:32:16.839860",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "yelp.com",
+        "O": "Yelp Inc.",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+        "O": "DigiCert Inc"
+      },
+      "valid_from": "2025-12-16T00:00:00+00:00",
+      "valid_to": "2026-12-05T23:59:59+00:00",
+      "days_remaining": 230,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0xe05bf9edf8eddb62afc814aa2503dcd",
+      "san": [
+        "yelp.com",
+        "*.admin.yelp.com",
+        "*.biz.yelp.com",
+        "*.m.yelp.com",
+        "*.yelp.com",
+        "admin.yelp.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "imdb.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:32:18.320463",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "us.dd.imdb.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon"
+      },
+      "valid_from": "2025-11-11T00:00:00+00:00",
+      "valid_to": "2026-10-03T23:59:59+00:00",
+      "days_remaining": 167,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x1493b1bb81ebf16505a0ce4ab040124",
+      "san": [
+        "us.dd.imdb.com",
+        "secure.imdb.com",
+        "www.imdb.to",
+        "imdb.com",
+        "imdb-webservice.amazon.com",
+        "origin-www.imdb.com",
+        "www.imdb.com",
+        "origin.www.geo.imdb.com",
+        "addpro.imdb.com",
+        "s.media-imdb.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "yahoo.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:32:19.845312",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "yahoo.com",
+        "O": "Yahoo Holdings Inc.",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+        "O": "DigiCert Inc"
+      },
+      "valid_from": "2026-03-03T00:00:00+00:00",
+      "valid_to": "2026-08-26T23:59:59+00:00",
+      "days_remaining": 129,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0xa71e31db862583c0ebe662e96b67486",
+      "san": [
+        "yahoo.com",
+        "tw.rd.yahoo.com",
+        "s.yimg.com",
+        "mbp.yimg.com",
+        "hk.rd.yahoo.com",
+        "fr-ca.rogers.yahoo.com",
+        "ddl.fp.yahoo.com",
+        "ca.rogers.yahoo.com",
+        "ca.my.yahoo.com",
+        "brb.yahoo.net",
+        "add.my.yahoo.com",
+        "*.yahoo.com",
+        "*.www.yahoo.com",
+        "*.media.yahoo.com",
+        "*.att.yahoo.com",
+        "*.amp.yimg.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "pinterest.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:32:21.518949",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "*.pinterest.com",
+        "O": "Pinterest, Inc.",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+        "O": "DigiCert Inc"
+      },
+      "valid_from": "2025-07-28T00:00:00+00:00",
+      "valid_to": "2026-08-23T23:59:59+00:00",
+      "days_remaining": 126,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x808c8e0bfac13dc649ebc578837bacf",
+      "san": [
+        "*.pinterest.com",
+        "*.pinimg.com",
+        "*.pinterest.info",
+        "*.pinterest.engineering",
+        "*.pinterestmail.com",
+        "*.pinterest.at",
+        "*.pinterest.ch",
+        "*.pinterest.de",
+        "*.pinterest.dk",
+        "*.pinterest.ie",
+        "*.pinterest.jp",
+        "*.pinterest.kr",
+        "*.pinterest.mx",
+        "*.pinterest.pt",
+        "*.pinterest.se",
+        "*.pinterest.co.at",
+        "*.pinterest.co.kr",
+        "*.pinterest.co.uk",
+        "*.pinterest.com.mx",
+        "pin.it",
+        "pinterest.com",
+        "pinimg.com",
+        "pinterest.info",
+        "pinterest.engineering",
+        "pinterestmail.com",
+        "pinterest.at",
+        "pinterest.ch",
+        "pinterest.de",
+        "pinterest.dk",
+        "pinterest.ie",
+        "pinterest.jp",
+        "pinterest.kr",
+        "pinterest.mx",
+        "pinterest.pt",
+        "pinterest.se",
+        "pinterest.co.at",
+        "pinterest.co.kr",
+        "pinterest.co.uk",
+        "pinterest.com.mx",
+        "*.pinterest.ca",
+        "*.pinterest.fr",
+        "pinterest.ca",
+        "pinterest.fr",
+        "pinterest.com.au",
+        "*.pinterest.com.au",
+        "pinterest.nz",
+        "*.pinterest.nz",
+        "pinterest.es",
+        "*.pinterest.es",
+        "pinterest.cl",
+        "*.pinterest.cl",
+        "pinterest.ph",
+        "*.pinterest.ph",
+        "pinterest.in",
+        "*.pinterest.in",
+        "pinterest.co.in",
+        "*.pinterest.co.in",
+        "pinterest.be",
+        "*.pinterest.be",
+        "pinterest.pe",
+        "*.pinterest.pe",
+        "pinterest.co",
+        "*.pinterest.co",
+        "pinterest.com.py",
+        "*.pinterest.com.py",
+        "pinterest.com.bo",
+        "*.pinterest.com.bo",
+        "pinterest.com.ec",
+        "*.pinterest.com.ec",
+        "pinterest.ec",
+        "*.pinterest.ec",
+        "pinterest.hu",
+        "*.pinterest.hu",
+        "pinterest.com.vn",
+        "*.pinterest.com.vn",
+        "pinterest.it",
+        "*.pinterest.it",
+        "pinterest.com.pe",
+        "*.pinterest.com.pe",
+        "pinterest.com.uy",
+        "*.pinterest.com.uy",
+        "pinterest.co.nz",
+        "*.pinterest.co.nz",
+        "pinterest.uk",
+        "*.pinterest.uk",
+        "pinterest.vn",
+        "*.pinterest.vn",
+        "pinterest.id",
+        "*.pinterest.id",
+        "pinterest.th",
+        "*.pinterest.th",
+        "pinterest.tw",
+        "*.pinterest.tw",
+        "pinterest.nl",
+        "*.pinterest.nl",
+        "*.testing.pinterest.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "weather.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:32:22.818607",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "weather.com",
+        "O": "THE WEATHER COMPANY MEDIA SOLUTIONS, LLC",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "DigiCert Global G3 TLS ECC SHA384 2020 CA1",
+        "O": "DigiCert Inc"
+      },
+      "valid_from": "2026-01-05T00:00:00+00:00",
+      "valid_to": "2027-01-05T23:59:59+00:00",
+      "days_remaining": 261,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA384",
+      "serial_number": "0x44b693e794fe27d5298ac9d9048d637",
+      "san": [
+        "weather.com",
+        "*.cogads.weather.com",
+        "*.dev.cogads.weather.com",
+        "*.qa.cogads.weather.com",
+        "*.w-x.co",
+        "*.weather.com",
+        "*.wsi.com",
+        "*.wunderground.com",
+        "*.wxug.com",
+        "crazimals.com",
+        "dev.theweathercompany.info",
+        "stage.theweathercompany.info",
+        "stg.crazimals.com",
+        "theweathercompany.info",
+        "w-x.co",
+        "weatherunderground.com",
+        "wsi.com",
+        "wund.com",
+        "wunderground.com",
+        "wundermap.com",
+        "wunderstation.com",
+        "www.crazimals.com",
+        "www.weather.com",
+        "wxug.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "chatgpt.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:32:24.174555",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "chatgpt.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "WE1",
+        "O": "Google Trust Services"
+      },
+      "valid_from": "2026-03-23T02:28:19+00:00",
+      "valid_to": "2026-06-21T03:28:17+00:00",
+      "days_remaining": 62,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA256",
+      "serial_number": "0xa2b0f8396c373463135e5e144c47712b",
+      "san": [
+        "chatgpt.com",
+        "*.chatgpt.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "x.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:32:25.636314",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "x.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "E8",
+        "O": "Let's Encrypt"
+      },
+      "valid_from": "2026-03-30T05:27:11+00:00",
+      "valid_to": "2026-06-28T05:27:10+00:00",
+      "days_remaining": 69,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA384",
+      "serial_number": "0x56bc55267d7c6bc7199fe3124e88d44bf25",
+      "san": [
+        "*.x.com",
+        "cdn.syndication.x.com",
+        "x.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "apple.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:32:26.971330",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "apple.com",
+        "O": "Apple Inc.",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "Apple Public EV Server ECC CA 1 - G1",
+        "O": "Apple Inc."
+      },
+      "valid_from": "2026-02-26T18:07:16+00:00",
+      "valid_to": "2026-05-27T19:09:49+00:00",
+      "days_remaining": 37,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA256",
+      "serial_number": "0x683dd800c7d60d4b1a0be70d996ea9a0",
+      "san": [
+        "apple.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "tiktok.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:32:28.305526",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "*.tiktok.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "RapidSSL TLS ECC CA G1",
+        "O": "DigiCert Inc"
+      },
+      "valid_from": "2025-06-16T00:00:00+00:00",
+      "valid_to": "2026-06-15T23:59:59+00:00",
+      "days_remaining": 57,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA256",
+      "serial_number": "0x27f1f8b1695619e9c87adf2f7fe7a33",
+      "san": [
+        "*.tiktok.com",
+        "tiktok.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "fandom.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:32:29.667958",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "fandom.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "WE1",
+        "O": "Google Trust Services"
+      },
+      "valid_from": "2026-04-18T16:12:25+00:00",
+      "valid_to": "2026-07-17T17:12:18+00:00",
+      "days_remaining": 88,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA256",
+      "serial_number": "0x45f1e388bc55a80e36b053927f5320",
+      "san": [
+        "fandom.com",
+        "*.fandom.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "tripadvisor.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:32:31.118117",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "tripadvisor.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon"
+      },
+      "valid_from": "2025-09-18T00:00:00+00:00",
+      "valid_to": "2026-10-17T23:59:59+00:00",
+      "days_remaining": 181,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0xf9b26f5007582059b9b473286874384",
+      "san": [
+        "tripadvisor.com",
+        "tripadvisor.jp",
+        "tripadvisor.dk",
+        "tripadvisor.com.eg",
+        "tripadvisor.fr",
+        "tripadvisor.ua",
+        "tripadvisor.co.nz",
+        "tripadvisor.nl",
+        "tripadvisor.com.my",
+        "tripadvisor.com.mx",
+        "tripadvisor.rs",
+        "tripadvisor.com.gr",
+        "tripadvisor.de",
+        "tripadvisor.pt",
+        "tripadvisor.fi",
+        "tripadvisor.co.hu",
+        "tripadvisor.be",
+        "tripadvisor.com.au",
+        "tripadvisor.cz",
+        "tripadvisor.com.pe",
+        "tripadvisor.com.ar",
+        "tripadvisor.es",
+        "tripadvisor.com.tr",
+        "tripadvisor.com.ph",
+        "tripadvisor.com.vn",
+        "tripadvisor.at",
+        "tripadvisor.ch",
+        "tripadvisor.in",
+        "tripadvisor.co.il",
+        "tripadvisor.co.kr",
+        "tripadvisor.cl",
+        "tripadvisor.com.hk",
+        "tripadvisor.com.tw",
+        "tripadvisor.co.za",
+        "tripadvisor.co",
+        "tripadvisor.it",
+        "tripadvisor.ca",
+        "tripadvisor.sk",
+        "tripadvisor.com.sg",
+        "tripadvisor.com.br",
+        "tripadvisor.ie",
+        "tripadvisor.co.uk",
+        "tripadvisor.co.id",
+        "tripadvisor.se"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "indeed.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:32:32.512547",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "indeed.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "WE1",
+        "O": "Google Trust Services"
+      },
+      "valid_from": "2026-03-25T20:12:23+00:00",
+      "valid_to": "2026-06-23T21:12:21+00:00",
+      "days_remaining": 64,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA256",
+      "serial_number": "0xbf1440c3a63639c80e846d8204575163",
+      "san": [
+        "indeed.com",
+        "captcha-validation-worker.indeed.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "merriam-webster.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:32:33.902106",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "*.merriam-webster.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon"
+      },
+      "valid_from": "2026-02-24T00:00:00+00:00",
+      "valid_to": "2026-09-09T23:59:59+00:00",
+      "days_remaining": 143,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0xc5d6ebc86906df6031ac40d437c230a",
+      "san": [
+        "*.merriam-webster.com",
+        "*.m-w.com",
+        "*.theusage.com",
+        "theusage.com",
+        "*.word.com",
+        "m-w.com",
+        "merriam-webster.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "spotify.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:32:35.320067",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "*.spotify.com",
+        "O": "Spotify AB",
+        "OU": null,
+        "C": "SE"
+      },
+      "issuer": {
+        "CN": "DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+        "O": "DigiCert Inc"
+      },
+      "valid_from": "2025-12-08T00:00:00+00:00",
+      "valid_to": "2026-12-08T23:59:59+00:00",
+      "days_remaining": 233,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x4a7b6ccec54b36cf146c0e8d8cc3839",
+      "san": [
+        "*.spotify.com",
+        "spotify.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "walmart.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:32:36.742916",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "www.walmart.com",
+        "O": "Walmart Inc.",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "GlobalSign ECC OV SSL CA 2018",
+        "O": "GlobalSign nv-sa"
+      },
+      "valid_from": "2026-02-20T03:07:20+00:00",
+      "valid_to": "2027-03-24T03:07:19+00:00",
+      "days_remaining": 338,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA384",
+      "serial_number": "0x61042bca6e50380db0043f1b",
+      "san": [
+        "www.walmart.com",
+        "beta.walmart.com",
+        "grocery.walmart.com",
+        "walmart.pharmacy",
+        "walmartspecialty.pharmacy",
+        "www.wal-mart.com",
+        "walmart.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "nih.gov",
+    "port": 443,
+    "scan_time": "2026-04-19T18:32:38.215990",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "www.nih.gov",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "Go Daddy Secure Certificate Authority - G2",
+        "O": "GoDaddy.com, Inc."
+      },
+      "valid_from": "2026-02-05T15:04:58+00:00",
+      "valid_to": "2027-02-15T15:47:15+00:00",
+      "days_remaining": 301,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0xbd30871c34f50e0f",
+      "san": [
+        "salud.nih.gov",
+        "devtestdomain.nih.gov",
+        "stagetestdomain.nih.gov",
+        "stagetestdomain6.nih.gov",
+        "stagetestdomain5.nih.gov",
+        "testdomain2.nih.gov",
+        "stagetestdomain2.nih.gov",
+        "stagetestdomain7.nih.gov",
+        "www.nih.com",
+        "devtestdomain7.nih.gov",
+        "clinicalresearchtrials.nih.gov",
+        "www.nih.gov",
+        "nih.gov",
+        "stagetestdomain4.nih.gov",
+        "devtestdomain4.nih.gov",
+        "newsinhealth.nih.gov",
+        "devtestdomain6.nih.gov",
+        "testdomain.nih.gov",
+        "stagetestdomain3.nih.gov",
+        "www.health.nih.gov",
+        "testdomain3.nih.gov",
+        "devtestdomain2.nih.gov",
+        "nihrecord.nih.gov",
+        "nih.com",
+        "devtestdomain3.nih.gov",
+        "nihplainlanguage.nih.gov",
+        "devtestdomain5.nih.gov",
+        "health.nih.gov"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "espn.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:32:39.784749",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "editions.espn.com",
+        "O": "The Walt Disney Company",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "Sectigo Public Server Authentication CA OV R36",
+        "O": "Sectigo Limited"
+      },
+      "valid_from": "2025-11-10T00:00:00+00:00",
+      "valid_to": "2026-11-10T23:59:59+00:00",
+      "days_remaining": 205,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x7390f4762aa71fde5c8106a61450b79",
+      "san": [
+        "editions.espn.com",
+        "*.api.espn.cl",
+        "*.api.espn.co.cr",
+        "*.api.espn.co.uk",
+        "*.api.espn.com.ar",
+        "*.api.espn.com.au",
+        "*.api.espn.com.br",
+        "*.api.espn.com.co",
+        "*.api.espn.com.do",
+        "*.api.espn.com.ec",
+        "*.api.espn.com.gt",
+        "*.api.espn.com.mx",
+        "*.api.espn.com.pa",
+        "*.api.espn.com.pe",
+        "*.api.espn.com.sg",
+        "*.api.espn.com.uy",
+        "*.api.espn.com.ve",
+        "*.api.espn.es",
+        "*.api.espn.in",
+        "*.api.espn.nl",
+        "*.espn.cl",
+        "*.espn.co.cr",
+        "*.espn.co.uk",
+        "*.espn.com",
+        "*.espn.com.ar",
+        "*.espn.com.au",
+        "*.espn.com.br",
+        "*.espn.com.co",
+        "*.espn.com.do",
+        "*.espn.com.ec",
+        "*.espn.com.gt",
+        "*.espn.com.mx",
+        "*.espn.com.pa",
+        "*.espn.com.pe",
+        "*.espn.com.sg",
+        "*.espn.com.uy",
+        "*.espn.com.ve",
+        "*.espn.es",
+        "*.espn.go.com",
+        "*.espn.in",
+        "*.espn.nl",
+        "*.espn.ph",
+        "*.espndeportes.com",
+        "*.fan.api.espn.co.cr",
+        "*.fan.api.espn.com.do",
+        "*.fan.api.espn.com.ec",
+        "*.fan.api.espn.com.gt",
+        "*.fan.api.espn.com.pa",
+        "*.fan.api.espn.com.pe",
+        "*.fan.api.espn.com.sg",
+        "*.fan.api.espn.com.uy",
+        "*.fan.api.espn.com.ve",
+        "*.fan.api.espn.es",
+        "*.fan.api.espn.nl",
+        "*.fan.api.espn.ph",
+        "espn.cl",
+        "espn.co.cr",
+        "espn.co.uk",
+        "espn.com",
+        "espn.com.ar",
+        "espn.com.au",
+        "espn.com.br",
+        "espn.com.co",
+        "espn.com.do",
+        "espn.com.ec",
+        "espn.com.gt",
+        "espn.com.mx",
+        "espn.com.pa",
+        "espn.com.pe",
+        "espn.com.sg",
+        "espn.com.uy",
+        "espn.com.ve",
+        "espn.es",
+        "espn.go.com",
+        "espn.in",
+        "espn.nl",
+        "espn.ph",
+        "espndeportes.com",
+        "fan.core.api.espn.cl",
+        "fan.core.api.espn.co.cr",
+        "fan.core.api.espn.co.uk",
+        "fan.core.api.espn.com.ar",
+        "fan.core.api.espn.com.au",
+        "fan.core.api.espn.com.br",
+        "fan.core.api.espn.com.co",
+        "fan.core.api.espn.com.do",
+        "fan.core.api.espn.com.ec",
+        "fan.core.api.espn.com.gt",
+        "fan.core.api.espn.com.mx",
+        "fan.core.api.espn.com.pa",
+        "fan.core.api.espn.com.pe",
+        "fan.core.api.espn.com.sg",
+        "fan.core.api.espn.com.uy",
+        "fan.core.api.espn.com.ve",
+        "fan.core.api.espn.es",
+        "fan.core.api.espn.in",
+        "fan.core.api.espn.nl",
+        "fan.core.api.espn.ph"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "clevelandclinic.org",
+    "port": 443,
+    "scan_time": "2026-04-19T18:32:41.139478",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "clevelandclinic.org",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "WE1",
+        "O": "Google Trust Services"
+      },
+      "valid_from": "2026-04-19T19:00:37+00:00",
+      "valid_to": "2026-07-18T20:00:35+00:00",
+      "days_remaining": 89,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA256",
+      "serial_number": "0x938e1a1eeec55bb10ec46f81ecfed005",
+      "san": [
+        "clevelandclinic.org",
+        "jobs.clevelandclinic.org"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "linkedin.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:32:42.555513",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "www.linkedin.com",
+        "O": "LinkedIn Corporation",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+        "O": "DigiCert Inc"
+      },
+      "valid_from": "2026-03-19T00:00:00+00:00",
+      "valid_to": "2026-09-19T23:59:59+00:00",
+      "days_remaining": 153,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x12c5b27a66afc4d7a0c965c0b093c32",
+      "san": [
+        "www.linkedin.com",
+        "linkedin.com",
+        "rum5.perf.linkedin.com",
+        "exp4.www.linkedin.com",
+        "exp3.www.linkedin.com",
+        "exp2.www.linkedin.com",
+        "exp1.www.linkedin.com",
+        "rum2.perf.linkedin.com",
+        "rum4.perf.linkedin.com",
+        "rum6.perf.linkedin.com",
+        "rum17.perf.linkedin.com",
+        "rum8.perf.linkedin.com",
+        "rum9.perf.linkedin.com",
+        "afd.perf.linkedin.com",
+        "rum14.perf.linkedin.com",
+        "rum18.perf.linkedin.com",
+        "rum19.perf.linkedin.com",
+        "exp5.www.linkedin.com",
+        "realtime.www.linkedin.com",
+        "px.ads.linkedin.com",
+        "px4.ads.linkedin.com",
+        "dc.ads.linkedin.com",
+        "lnkd.in",
+        "px.jobs.linkedin.com",
+        "mid4.linkedin.com",
+        "lan.sdk.linkedin.com",
+        "www.linkedin-measure.com",
+        "status.linkedin.com",
+        "payment.www.linkedin.com",
+        "afd-wcs.www.linkedin.com",
+        "shm.www.linkedin.com",
+        "static.licdn.com",
+        "static-exp1.licdn.com",
+        "static-exp2.licdn.com",
+        "static-exp3.licdn.com",
+        "static-afd.licdn.com",
+        "rum22.perf.linkedin.com",
+        "cf.perf.linkedin.com",
+        "cf.grpc.linkedin.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "nytimes.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:32:44.142130",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "nytimes.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "Thawte TLS RSA CA G1",
+        "O": "DigiCert Inc"
+      },
+      "valid_from": "2026-02-27T00:00:00+00:00",
+      "valid_to": "2026-09-13T23:59:59+00:00",
+      "days_remaining": 147,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x3fd1a181fd505218b6438a747b76185",
+      "san": [
+        "nytimes.com",
+        "www.homedelivery.nytimes.com",
+        "*.api.dev.nytimes.com",
+        "*.api.nytimes.com",
+        "*.api.stg.nytimes.com",
+        "*.blogs.nytimes.com",
+        "*.blogs.stg.nytimes.com",
+        "*.dev.nyt.com",
+        "*.dev.nyt.net",
+        "*.dev.nytimes.com",
+        "*.newsdev.nyt.net",
+        "*.newsdev.nytimes.com",
+        "*.nyt.com",
+        "*.nyt.net",
+        "*.nytco.com",
+        "*.nytimes.com",
+        "*.payflow.sbx.nytimes.com",
+        "*.sbx.nytimes.com",
+        "*.stg.newsdev.nyt.net",
+        "*.stg.newsdev.nytimes.com",
+        "*.stg.nyt.com",
+        "*.stg.nyt.net",
+        "*.stg.nytimes.com",
+        "*.timestalks.com",
+        "nyt.com",
+        "nyt.net",
+        "nytco.com",
+        "timestalks.com",
+        "*.myaccount-preview.stg.nytimes.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "ny.gov",
+    "port": 443,
+    "scan_time": "2026-04-19T18:32:45.475983",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "*.ny.gov",
+        "O": "New York State Office of Information Technology Services",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "GlobalSign Atlas R3 OV TLS CA 2025 Q3",
+        "O": "GlobalSign nv-sa"
+      },
+      "valid_from": "2025-07-21T13:50:25+00:00",
+      "valid_to": "2026-07-21T13:50:25+00:00",
+      "days_remaining": 92,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x1ba1344946908091db6606c30576ec0",
+      "san": [
+        "*.ny.gov",
+        "ny.gov"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "zillow.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:32:46.902019",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "zillow.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon"
+      },
+      "valid_from": "2025-07-18T00:00:00+00:00",
+      "valid_to": "2026-08-15T23:59:59+00:00",
+      "days_remaining": 118,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0xfd3422940e04b5fb93a0e4bd7037c9e",
+      "san": [
+        "zillow.com",
+        "zillow.ca",
+        "www.zillow.net",
+        "zillow.net",
+        "www.zillow.ca"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "quora.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:32:48.324771",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "quora.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "WR1",
+        "O": "Google Trust Services"
+      },
+      "valid_from": "2026-03-31T05:08:18+00:00",
+      "valid_to": "2026-06-29T05:08:17+00:00",
+      "days_remaining": 70,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x220a4d2c57a5dd0b11a700b9143c8a17",
+      "san": [
+        "quora.com",
+        "*.quora.com",
+        "*.www.quora.com",
+        "*.tch.quora.com",
+        "*.tch.www.quora.com",
+        "qr.ae",
+        "*.qr.ae",
+        "fs.quoracdn.net",
+        "*.fs.quoracdn.net",
+        "cf2.quoracdn.net",
+        "*.cf2.quoracdn.net"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "mayoclinic.org",
+    "port": 443,
+    "scan_time": "2026-04-19T18:32:49.771978",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "mwredirects5.mayo.edu",
+        "O": "Mayo Foundation for Medical Education and Research",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "Sectigo Public Server Authentication CA OV R40",
+        "O": "Sectigo Limited"
+      },
+      "valid_from": "2026-02-18T00:00:00+00:00",
+      "valid_to": "2027-02-18T23:59:59+00:00",
+      "days_remaining": 305,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0xcb9a0c5fe8257402165d749f598e5bff",
+      "san": [
+        "mwredirects5.mayo.edu",
+        "*.edlink.mayo.edu",
+        "*.mayo.edu",
+        "*.mayoclinicplatform.org",
+        "*.mayomedicallaboratories.com",
+        "*.testcatalog.org",
+        "arabic.mayoclinic.org",
+        "edlink.mayo.edu",
+        "mayo.edu",
+        "mayoclinic.com",
+        "mayoclinic.org",
+        "mayoclinichealthcare.co.uk",
+        "mayoclinichealthsystem.org",
+        "mayocliniclabs.com",
+        "mayoclinicplatform.org",
+        "mayoclinicproceedings.org",
+        "mayomedicallaboratories.com",
+        "store.mayoclinic.org",
+        "testcatalog.org",
+        "uscovidplasma.org",
+        "videotours.mayoclinic.org",
+        "www.ce.mayo.edu",
+        "www.executiveeducation.mayo.edu",
+        "www.mayoclinic.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "ebay.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:32:51.570228",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "ebay.com",
+        "O": "eBay, Inc.",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "Sectigo Public Server Authentication CA OV R36",
+        "O": "Sectigo Limited"
+      },
+      "valid_from": "2025-07-28T00:00:00+00:00",
+      "valid_to": "2026-07-28T23:59:59+00:00",
+      "days_remaining": 100,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x99f408949a6416edc3b8f5ec77b2ebe5",
+      "san": [
+        "ebay.com",
+        "befr.ebay.be",
+        "benl.ebay.be",
+        "cafr.ebay.ca",
+        "e-bay.it",
+        "ebay.at",
+        "ebay.be",
+        "ebay.ca",
+        "ebay.ch",
+        "ebay.co.uk",
+        "ebay.com.au",
+        "ebay.com.hk",
+        "ebay.com.my",
+        "ebay.com.sg",
+        "ebay.de",
+        "ebay.es",
+        "ebay.fr",
+        "ebay.ie",
+        "ebay.in",
+        "ebay.it",
+        "ebay.nl",
+        "ebay.ph",
+        "ebay.pl",
+        "ebay.us",
+        "ebay.vn",
+        "wwww.ebay.co.uk",
+        "wwww.ebay.com",
+        "wwww.ebay.com.au",
+        "wwww.ebay.de",
+        "wwww.ebay.in",
+        "wwww.ebay.it"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "mapquest.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:32:53.128390",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "mapquest.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon"
+      },
+      "valid_from": "2026-02-26T00:00:00+00:00",
+      "valid_to": "2026-09-11T23:59:59+00:00",
+      "days_remaining": 145,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x4567216e5aa2a140104aa75214732b4",
+      "san": [
+        "mapquest.com",
+        "*.mapquest.ca",
+        "www.mapquest.co.uk",
+        "*.mapquest.com",
+        "*.mapquest.co.uk",
+        "www.mapquest.ca"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "foxnews.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:32:54.604457",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "wildcard.foxnews.com",
+        "O": "Fox News Network, LLC",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "DigiCert Global G3 TLS ECC SHA384 2020 CA1",
+        "O": "DigiCert Inc"
+      },
+      "valid_from": "2026-02-24T00:00:00+00:00",
+      "valid_to": "2027-02-24T23:59:59+00:00",
+      "days_remaining": 311,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA384",
+      "serial_number": "0x5e7d7bac48ba5f9436e01d93a5bef71",
+      "san": [
+        "wildcard.foxnews.com",
+        "dev-try.nation.foxnews.com",
+        "dev-video.foxbusiness.com",
+        "dev-video.foxnews.com",
+        "events.foxnews.com",
+        "feeds.foxbusiness.com",
+        "feeds.foxnews.com",
+        "foxbusiness.com",
+        "foxnews.com",
+        "foxnewsinsider.com",
+        "foxnewsinternational.com",
+        "hp-cms.foxbusiness.com",
+        "hp-cms.foxnews.com",
+        "hp.cms.foxnews.com",
+        "hp.dev-cms.foxnews.com",
+        "hp.staging-cms.foxnews.com",
+        "liveblog-cms.foxbusiness.com",
+        "liveblog-cms.foxnews.com",
+        "pre-try.nation.foxnews.com",
+        "public.media.foxnews.com",
+        "qa.global.fncstatic.com",
+        "secure.media.foxnews.com",
+        "stage-pre-try.nation.foxnews.com",
+        "stage-try.nation.foxnews.com",
+        "stage-video.foxbusiness.com",
+        "stage-video.foxnews.com",
+        "try.nation.foxnews.com",
+        "ak.podcast-testing.foxnewsradio.com",
+        "ak.cuts.foxnewsradio.com",
+        "affiliates.radio.foxnews.com",
+        "*.foxnewsradio.com",
+        "*.foxnewsinternational.com",
+        "*.foxnews.com",
+        "*.foxbusiness.com",
+        "*.fncstatic.com",
+        "*.fbnstatic.com",
+        "beta.video.magazine.foxnews.com",
+        "beta.video.latino.foxnews.com",
+        "beta.video.insider.foxnews.com",
+        "beta.video.foxbusiness.com",
+        "ak.premium.foxnewsradio.com",
+        "beta.video.foxnews.com",
+        "ak.podcast.foxnewsradio.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "britannica.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:32:55.967192",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "*.britannica.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "Amazon RSA 2048 M03",
+        "O": "Amazon"
+      },
+      "valid_from": "2025-08-13T00:00:00+00:00",
+      "valid_to": "2026-09-09T23:59:59+00:00",
+      "days_remaining": 143,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x806e95cea5b8040472a47832a112109",
+      "san": [
+        "*.britannica.com",
+        "britannica.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "homedepot.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:32:57.514330",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "homedepot.com",
+        "O": "The Home Depot, Inc.",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+        "O": "DigiCert Inc"
+      },
+      "valid_from": "2026-04-03T00:00:00+00:00",
+      "valid_to": "2026-10-18T23:59:59+00:00",
+      "days_remaining": 182,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0xcab610bdfb24215b9ac460035fa9f99",
+      "san": [
+        "homedepot.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "microsoft.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:32:59.053835",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "microsoft.com",
+        "O": "Microsoft Corporation",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "Microsoft TLS G2 RSA CA OCSP 02",
+        "O": "Microsoft Corporation"
+      },
+      "valid_from": "2026-04-15T22:05:11+00:00",
+      "valid_to": "2026-10-12T22:05:11+00:00",
+      "days_remaining": 175,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha384WithRSAEncryption",
+      "serial_number": "0x410011f401f18160bd80a0032100000011f401",
+      "san": [
+        "microsoft.com",
+        "s.microsoft.com",
+        "ga.microsoft.com",
+        "aep.microsoft.com",
+        "aer.microsoft.com",
+        "grv.microsoft.com",
+        "hup.microsoft.com",
+        "mac.microsoft.com",
+        "mkb.microsoft.com",
+        "pme.microsoft.com",
+        "pmi.microsoft.com",
+        "rss.microsoft.com",
+        "sar.microsoft.com",
+        "tco.microsoft.com",
+        "fuse.microsoft.com",
+        "ieak.microsoft.com",
+        "mac2.microsoft.com",
+        "mcsp.microsoft.com",
+        "open.microsoft.com",
+        "shop.microsoft.com",
+        "spur.microsoft.com",
+        "itpro.microsoft.com",
+        "mango.microsoft.com",
+        "music.microsoft.com",
+        "pymes.microsoft.com",
+        "store.microsoft.com",
+        "aether.microsoft.com",
+        "alerts.microsoft.com",
+        "design.microsoft.com",
+        "garage.microsoft.com",
+        "gigjam.microsoft.com",
+        "msctec.microsoft.com",
+        "online.microsoft.com",
+        "stream.microsoft.com",
+        "afflink.microsoft.com",
+        "connect.microsoft.com",
+        "develop.microsoft.com",
+        "domains.microsoft.com",
+        "example.microsoft.com",
+        "madeira.microsoft.com",
+        "msdnisv.microsoft.com",
+        "mspress.microsoft.com",
+        "www.aep.microsoft.com",
+        "www.aer.microsoft.com",
+        "wwwbeta.microsoft.com",
+        "business.microsoft.com",
+        "empresas.microsoft.com",
+        "learning.microsoft.com",
+        "msdnwiki.microsoft.com",
+        "openness.microsoft.com",
+        "pinpoint.microsoft.com",
+        "snackbox.microsoft.com",
+        "sponsors.microsoft.com",
+        "stationq.microsoft.com",
+        "aistories.microsoft.com",
+        "community.microsoft.com",
+        "crawlmsdn.microsoft.com",
+        "iotschool.microsoft.com",
+        "messenger.microsoft.com",
+        "minecraft.microsoft.com",
+        "backoffice.microsoft.com",
+        "enterprise.microsoft.com",
+        "iotcentral.microsoft.com",
+        "pinunblock.microsoft.com",
+        "reroute443.microsoft.com",
+        "communities.microsoft.com",
+        "explore-smb.microsoft.com",
+        "expressions.microsoft.com",
+        "ondernemers.microsoft.com",
+        "techacademy.microsoft.com",
+        "terraserver.microsoft.com",
+        "communities2.microsoft.com",
+        "connectevent.microsoft.com",
+        "dataplatform.microsoft.com",
+        "entrepreneur.microsoft.com",
+        "hxd.research.microsoft.com",
+        "mspartnerira.microsoft.com",
+        "mydatahealth.microsoft.com",
+        "oemcommunity.microsoft.com",
+        "real-stories.microsoft.com",
+        "www.formspro.microsoft.com",
+        "futuredecoded.microsoft.com",
+        "upgradecenter.microsoft.com",
+        "learnanalytics.microsoft.com",
+        "onlinelearning.microsoft.com",
+        "businesscentral.microsoft.com",
+        "cloud-immersion.microsoft.com",
+        "studentpartners.microsoft.com",
+        "analyticspartner.microsoft.com",
+        "businessplatform.microsoft.com",
+        "explore-security.microsoft.com",
+        "kleinunternehmen.microsoft.com",
+        "partnercommunity.microsoft.com",
+        "explore-marketing.microsoft.com",
+        "innovationcontest.microsoft.com",
+        "partnerincentives.microsoft.com",
+        "phoenixcataloguat.microsoft.com",
+        "szkolyprzyszlosci.microsoft.com",
+        "www.powerautomate.microsoft.com",
+        "successionplanning.microsoft.com",
+        "lumiaconversationsuk.microsoft.com",
+        "successionplanninguat.microsoft.com",
+        "businessmobilitycenter.microsoft.com",
+        "skypeandteams.fasttrack.microsoft.com",
+        "www.microsoftdlapartnerow.microsoft.com",
+        "commercialappcertification.microsoft.com",
+        "www.skypeandteams.fasttrack.microsoft.com",
+        "ceoconnections.event.microsoft.com",
+        "biz4afrika.microsoft.com",
+        "cashback.microsoft.com",
+        "www.cashback.microsoft.com",
+        "visio.microsoft.com",
+        "insidemsr.microsoft.com",
+        "developervelocityassessment.com",
+        "www.developervelocityassessment.com",
+        "gears5.com",
+        "www.gears5.com",
+        "www.gearstactics.com",
+        "gearstactics.com",
+        "m12.microsoft.com",
+        "seeingai.com",
+        "yourchoice.microsoft.com",
+        "mvtd.events.microsoft.com",
+        "imagine.microsoft.com",
+        "microsoft.com.au",
+        "www.microsoft.com.au",
+        "dynamics.microsoft.com",
+        "powerplatform.microsoft.com",
+        "powerapps.microsoft.com",
+        "powerautomate.microsoft.com",
+        "powervirtualagents.microsoft.com",
+        "powerpages.microsoft.com",
+        "test.ideas.fabric.microsoft.com",
+        "sds.microsoft.com",
+        "ppe.sds.microsoft.com",
+        "www.microsoft365copilot.com",
+        "www.jclarity.com",
+        "techinnovatorsspotlight.com",
+        "www.techinnovatorsspotlight.com",
+        "copilot.ai",
+        "getlicensingready.com",
+        "www.getlicensingready.com",
+        "jpn.delve.office.com",
+        "aus.delve.office.com",
+        "ind.delve.office.com",
+        "kor.delve.office.com",
+        "cobra.me.microsoft.com",
+        "www.businesscentral.com",
+        "businesscentral.com",
+        "msaidatastudio.officeppe.net",
+        "ideas.fabric.microsoft.com",
+        "www.cpt.link",
+        "cpt.link",
+        "yarp.dot.net",
+        "microsoftstream.com",
+        "www.microsoftstream.com",
+        "web.microsoftstream.com",
+        "discover.copilot.ai",
+        "copilot.com",
+        "www.copilot.com",
+        "discover.copilot.com",
+        "researchforum.microsoft.com",
+        "cdn.techcommunity.microsoft.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "adobe.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:33:00.645837",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "*.adobe.com",
+        "O": "Adobe Inc",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "DigiCert Global G3 TLS ECC SHA384 2020 CA1",
+        "O": "DigiCert Inc"
+      },
+      "valid_from": "2026-01-05T00:00:00+00:00",
+      "valid_to": "2027-01-04T23:59:59+00:00",
+      "days_remaining": 260,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA384",
+      "serial_number": "0x20f2ef74916855f0c7231fefd88d523",
+      "san": [
+        "*.adobe.com",
+        "adobe.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "accuweather.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:33:02.123307",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "*.accuweather.com",
+        "O": "Accuweather, Inc.",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+        "O": "DigiCert Inc"
+      },
+      "valid_from": "2025-07-09T00:00:00+00:00",
+      "valid_to": "2026-08-08T23:59:59+00:00",
+      "days_remaining": 111,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x842774aab9baae4530060d9376f8c78",
+      "san": [
+        "*.accuweather.com",
+        "accuweather.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "netflix.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:33:03.541187",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "www.netflix.com",
+        "O": "Netflix",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "DigiCert Global G3 TLS ECC SHA384 2020 CA1",
+        "O": "DigiCert Inc"
+      },
+      "valid_from": "2026-02-18T00:00:00+00:00",
+      "valid_to": "2027-02-18T21:41:48+00:00",
+      "days_remaining": 304,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA384",
+      "serial_number": "0x5b22f84ce2ad0e52d718890c29072ab",
+      "san": [
+        "account.netflix.com",
+        "ca.netflix.com",
+        "develop-stage.netflix.com",
+        "embed.develop-stage.netflix.com",
+        "embed.release-stage.netflix.com",
+        "netflix.ca",
+        "netflix.com",
+        "release-stage.netflix.com",
+        "signup.netflix.com",
+        "tv.netflix.com",
+        "www.netflix.ca",
+        "www.netflix.com",
+        "www1.netflix.com",
+        "www2.netflix.com",
+        "www3.netflix.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "allrecipes.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:33:05.114318",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "allrecipes.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "E7",
+        "O": "Let's Encrypt"
+      },
+      "valid_from": "2026-04-13T01:17:37+00:00",
+      "valid_to": "2026-07-12T01:17:36+00:00",
+      "days_remaining": 83,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA384",
+      "serial_number": "0x6c79c1e3a09cf6a32e017c3f2407c04b57f",
+      "san": [
+        "*.allrecipes.com",
+        "allrecipes.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "usps.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:33:06.503341",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "usps.com",
+        "O": "United States Postal Service",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "Sectigo Public Server Authentication CA OV R36",
+        "O": "Sectigo Limited"
+      },
+      "valid_from": "2025-06-26T00:00:00+00:00",
+      "valid_to": "2026-06-26T23:59:59+00:00",
+      "days_remaining": 68,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0xc0aa88e9707c913e371a9641f4f5098a",
+      "san": [
+        "usps.com",
+        "*.usps.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "elmaz.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:33:08.246007",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "elmaz.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "WE1",
+        "O": "Google Trust Services"
+      },
+      "valid_from": "2026-03-10T15:32:33+00:00",
+      "valid_to": "2026-06-08T16:31:14+00:00",
+      "days_remaining": 49,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA256",
+      "serial_number": "0x14e35bc024fda32d0d787628f1978f32",
+      "san": [
+        "elmaz.com",
+        "*.elmaz.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "rottentomatoes.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:33:09.672587",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "*.rottentomatoes.com",
+        "O": "Fandango Media, LLC",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "DigiCert Global G3 TLS ECC SHA384 2020 CA1",
+        "O": "DigiCert Inc"
+      },
+      "valid_from": "2026-04-03T00:00:00+00:00",
+      "valid_to": "2026-10-18T23:59:59+00:00",
+      "days_remaining": 182,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA384",
+      "serial_number": "0x78d0f7354d670b0843bac50424fc037",
+      "san": [
+        "*.rottentomatoes.com",
+        "rottentomatoes.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "cambridge.org",
+    "port": 443,
+    "scan_time": "2026-04-19T18:33:11.140415",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "cambridge.org",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "WE1",
+        "O": "Google Trust Services"
+      },
+      "valid_from": "2026-03-16T04:14:20+00:00",
+      "valid_to": "2026-06-14T05:14:18+00:00",
+      "days_remaining": 55,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA256",
+      "serial_number": "0xca9286ac2a3890dd11d2205ffb2755f6",
+      "san": [
+        "cambridge.org",
+        "resource.cambridge.org"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "target.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:33:12.653819",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "sites.target.com",
+        "O": "Target Corporation",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "GlobalSign Atlas R3 OV TLS CA 2025 Q3",
+        "O": "GlobalSign nv-sa"
+      },
+      "valid_from": "2025-09-04T16:25:19+00:00",
+      "valid_to": "2026-10-06T16:25:18+00:00",
+      "days_remaining": 169,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x127d8c02c4acb707db2dbf523fa4e36",
+      "san": [
+        "sites.target.com",
+        "affiliate.target.com",
+        "apollo-metrics.target.com",
+        "assethub.partnersonline.com",
+        "assethub.target.com",
+        "bex.partnersonline.com",
+        "bex.target.com",
+        "cartster.target.com",
+        "cartwheel.target.com",
+        "cartwheelws-secure.target.com",
+        "circle.target.com",
+        "connect.roundel.com",
+        "corporate.target.com",
+        "developer.target.com",
+        "doppler.partnersonline.com",
+        "elevate.target.com",
+        "extgargantua.partnersonline.com",
+        "factorial.partnersonline.com",
+        "finds.target.com",
+        "greenfield.partnersonline.com",
+        "greenfield.target.com",
+        "hrocdocrequest.target.com",
+        "iccon.target.com",
+        "india.target.com",
+        "jira.target.com",
+        "launchpad.partnersonline.com",
+        "launchpad.target.com",
+        "m.target.com",
+        "marketinghub.target.com",
+        "mercury.partnersonline.com",
+        "mickra.target.com",
+        "mickradashboard.target.com",
+        "mvs.partnersonline.com",
+        "mytime.target.com",
+        "nic.target",
+        "openhouse.target.com",
+        "opensource.target.com",
+        "osmosis.partnersonline.com",
+        "partnersonline.com",
+        "pcn.partnersonline.com",
+        "peg.partnersonline.com",
+        "photosubmission.target.com",
+        "pid.partnersonline.com",
+        "plus.target.com",
+        "pmworkorderadmin.partnersonline.com",
+        "poladmin.partnersonline.com",
+        "pop.partnersonline.com",
+        "qr.target.com",
+        "r2d2.target.com",
+        "rdmplus.target.com",
+        "recognize.target.com",
+        "redcard.target.com",
+        "rik.roundel.com",
+        "roundel.com",
+        "rubix.partnersonline.com",
+        "rubix.target.com",
+        "security.target.com",
+        "servicetech.target.com",
+        "sm.partnersonline.com",
+        "spark.partnersonline.com",
+        "spark.target.com",
+        "stylehub.target.com",
+        "synergy.partnersonline.com",
+        "target.com",
+        "targetmedianetwork.target.com",
+        "tepagent.target.com",
+        "tgt-files.target.com",
+        "tgtdriver.partnersonline.com",
+        "tiam.target.com",
+        "tiiam.target.com",
+        "tvi.partnersonline.com",
+        "viewpoint.target.com",
+        "weeklyad.target.com",
+        "www.partnersonline.com",
+        "www.target.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "timeanddate.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:33:14.124394",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "*.timeanddate.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "Sectigo Public Server Authentication CA DV R36",
+        "O": "Sectigo Limited"
+      },
+      "valid_from": "2025-10-22T00:00:00+00:00",
+      "valid_to": "2026-11-22T23:59:59+00:00",
+      "days_remaining": 217,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x57bf567ca76ddc959dc55744a1330581",
+      "san": [
+        "*.timeanddate.com",
+        "timeanddate.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "costco.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:33:15.566808",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "costco.com",
+        "O": "Costco Wholesale CORPORATION",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "DigiCert Global G3 TLS ECC SHA384 2020 CA1",
+        "O": "DigiCert Inc"
+      },
+      "valid_from": "2025-09-04T00:00:00+00:00",
+      "valid_to": "2026-09-06T23:59:59+00:00",
+      "days_remaining": 140,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA384",
+      "serial_number": "0x20818f2b5130a6f93450d13d4755597",
+      "san": [
+        "costco.com",
+        "www.costco.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "amazonaws.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:33:17.028072",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "amazonaws.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon"
+      },
+      "valid_from": "2026-03-17T00:00:00+00:00",
+      "valid_to": "2026-09-30T23:59:59+00:00",
+      "days_remaining": 164,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0xfc6403a38568fc13a54584fe7d860aa",
+      "san": [
+        "amazonaws.com",
+        "www.amazonaws.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "genius.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:33:18.494969",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "genius.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "WE1",
+        "O": "Google Trust Services"
+      },
+      "valid_from": "2026-03-15T18:46:14+00:00",
+      "valid_to": "2026-06-13T19:45:59+00:00",
+      "days_remaining": 54,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA256",
+      "serial_number": "0xfaec550f9711f70b11eae40f119d92b1",
+      "san": [
+        "genius.com",
+        "*.genius.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "ziprecruiter.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:33:19.913069",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "ziprecruiter.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "WE1",
+        "O": "Google Trust Services"
+      },
+      "valid_from": "2026-03-18T01:41:26+00:00",
+      "valid_to": "2026-06-16T02:41:23+00:00",
+      "days_remaining": 57,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA256",
+      "serial_number": "0x8d693b655c43ba910deb9761571cd0ef",
+      "san": [
+        "ziprecruiter.com",
+        "*.ziprecruiter.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "wunderground.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:33:21.334845",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "weather.com",
+        "O": "THE WEATHER COMPANY MEDIA SOLUTIONS, LLC",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "DigiCert Global G3 TLS ECC SHA384 2020 CA1",
+        "O": "DigiCert Inc"
+      },
+      "valid_from": "2026-01-05T00:00:00+00:00",
+      "valid_to": "2027-01-05T23:59:59+00:00",
+      "days_remaining": 261,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA384",
+      "serial_number": "0x44b693e794fe27d5298ac9d9048d637",
+      "san": [
+        "weather.com",
+        "*.cogads.weather.com",
+        "*.dev.cogads.weather.com",
+        "*.qa.cogads.weather.com",
+        "*.w-x.co",
+        "*.weather.com",
+        "*.wsi.com",
+        "*.wunderground.com",
+        "*.wxug.com",
+        "crazimals.com",
+        "dev.theweathercompany.info",
+        "stage.theweathercompany.info",
+        "stg.crazimals.com",
+        "theweathercompany.info",
+        "w-x.co",
+        "weatherunderground.com",
+        "wsi.com",
+        "wund.com",
+        "wunderground.com",
+        "wundermap.com",
+        "wunderstation.com",
+        "www.crazimals.com",
+        "www.weather.com",
+        "wxug.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "canva.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:33:22.729434",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "canva.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon"
+      },
+      "valid_from": "2025-11-18T00:00:00+00:00",
+      "valid_to": "2026-12-17T23:59:59+00:00",
+      "days_remaining": 242,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x845bbc0993a136b5b00b0f3b9f2636e",
+      "san": [
+        "canva.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "nyc.gov",
+    "port": 443,
+    "scan_time": "2026-04-19T18:33:24.173183",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "*.nyc.gov",
+        "O": "Office of Technology and Innovation, New York City",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+        "O": "DigiCert Inc"
+      },
+      "valid_from": "2026-02-05T00:00:00+00:00",
+      "valid_to": "2027-03-08T23:59:59+00:00",
+      "days_remaining": 323,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x31d237c2480613add80c3f0d9d2c63f",
+      "san": [
+        "*.nyc.gov",
+        "nyc.gov"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "weather.gov",
+    "port": 443,
+    "scan_time": "2026-04-19T18:33:25.644696",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "weather.gov",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "R12",
+        "O": "Let's Encrypt"
+      },
+      "valid_from": "2026-03-17T18:19:03+00:00",
+      "valid_to": "2026-06-15T18:19:02+00:00",
+      "days_remaining": 56,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x57fc5a3d9dc0a15f33e5d80e38e5a189d44",
+      "san": [
+        "amdar.ncep.noaa.gov",
+        "amdar.noaa.gov",
+        "amdarqa.ncep.noaa.gov",
+        "api.weather.gov",
+        "forecast.weather.gov",
+        "hads.ncep.noaa.gov",
+        "hadsqa.ncep.noaa.gov",
+        "inws.ncep.noaa.gov",
+        "inwsqa.ncep.noaa.gov",
+        "iris.ncep.noaa.gov",
+        "irisqa.ncep.noaa.gov",
+        "madis.ncep.noaa.gov",
+        "madisqa.ncep.noaa.gov",
+        "marine.weather.gov",
+        "ntwc.arh.noaa.gov",
+        "ntwc.ncep.noaa.gov",
+        "opengeo.ncep.noaa.gov",
+        "preview-api.weather.gov",
+        "preview-forecast.weather.gov",
+        "preview-marine.weather.gov",
+        "preview-opengeo.ncep.noaa.gov",
+        "preview-ra4-gifs.weather.gov",
+        "preview-radar.weather.gov",
+        "preview-spot.weather.gov",
+        "preview.weather.gov",
+        "ra4-gifs-idp.weather.gov",
+        "ra4-gifs.weather.gov",
+        "radar.weather.gov",
+        "ripcurrents.noaa.gov",
+        "spot.weather.gov",
+        "tsunami.gov",
+        "weather.gov",
+        "www.nws.noaa.gov",
+        "www.ripcurrents.noaa.gov",
+        "www.tsunami.gov",
+        "www.weather.gov",
+        "www.wrh.noaa.gov"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "realtor.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:33:27.058308",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "apex-redirect.realtor.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon"
+      },
+      "valid_from": "2025-10-07T00:00:00+00:00",
+      "valid_to": "2026-11-05T23:59:59+00:00",
+      "days_remaining": 200,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x95ac90c6c204d7c0883afba42d93780",
+      "san": [
+        "apex-redirect.realtor.com",
+        "move.com",
+        "*.move.com",
+        "*.realtor.com",
+        "realtor.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "expedia.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:33:29.170098",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "expedia.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "E7",
+        "O": "Let's Encrypt"
+      },
+      "valid_from": "2026-03-11T09:36:24+00:00",
+      "valid_to": "2026-06-09T09:36:23+00:00",
+      "days_remaining": 50,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA384",
+      "serial_number": "0x64f46d470568b4ce43341f523c712f5b934",
+      "san": [
+        "expedia.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "github.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:33:30.591014",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "github.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "Sectigo Public Server Authentication CA DV E36",
+        "O": "Sectigo Limited"
+      },
+      "valid_from": "2026-03-06T00:00:00+00:00",
+      "valid_to": "2026-06-03T23:59:59+00:00",
+      "days_remaining": 45,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA256",
+      "serial_number": "0x1dc289c1eadafb04e9d1cf53d5d72253",
+      "san": [
+        "github.com",
+        "www.github.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "nfl.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:33:32.069031",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "nfl.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "R13",
+        "O": "Let's Encrypt"
+      },
+      "valid_from": "2026-04-18T14:19:40+00:00",
+      "valid_to": "2026-07-17T14:19:39+00:00",
+      "days_remaining": 88,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x5285422403b9c7d678d40673a2ef354af65",
+      "san": [
+        "*.nfl.com",
+        "nfl.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "gettyimages.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:33:33.456642",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "www.gettyimages.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon"
+      },
+      "valid_from": "2025-12-18T00:00:00+00:00",
+      "valid_to": "2027-01-15T23:59:59+00:00",
+      "days_remaining": 271,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x79f25586350bcd2c0952816f881fc3c",
+      "san": [
+        "www.gettyimages.com",
+        "gettyimages.nl",
+        "www.gettyimages.dk",
+        "gettyimages.no",
+        "gettyimages.fi",
+        "gettyimages.be",
+        "www.gettyimages.de",
+        "www.gettyimages.pt",
+        "www.gettyimages.hk",
+        "gettyimages.es",
+        "gettyimages.com.au",
+        "gettyimages.at",
+        "gettyimages.in",
+        "gettyimages.com.mx",
+        "gettyimages.it",
+        "gettyimages.com",
+        "www.gettyimages.co.nz",
+        "gettyimages.ae",
+        "www.gettyimages.co.jp",
+        "www.gettyimages.ca",
+        "workwithus.gettyimages.com",
+        "www.gettyimages.ch",
+        "gettyimages.co.jp",
+        "gettyimages.ie",
+        "www.gettyimages.com.mx",
+        "gettyimages.co.nz",
+        "www.gettyimages.com.au",
+        "gettyimages.dk",
+        "www.gettyimages.se",
+        "gettyimages.de",
+        "www.gettyimages.fr",
+        "gettyimages.pt",
+        "gettyimages.hk",
+        "www.gettyimages.no",
+        "www.gettyimages.com.br",
+        "www.gettyimages.nl",
+        "www.gettyimages.be",
+        "www.gettyimages.fi",
+        "gettyimages.ch",
+        "www.gettyimages.co.uk",
+        "www.gettyimages.es",
+        "www.gettyimages.at",
+        "gettyimages.ca",
+        "www.gettyimages.it",
+        "www.gettyimages.in",
+        "www.gettyimages.ae",
+        "gettyimages.com.br",
+        "gettyimages.se",
+        "www.gettyimages.ie",
+        "gettyimages.co.uk",
+        "gettyimages.fr"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "dictionary.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:33:34.774825",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "dictionary.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "WE1",
+        "O": "Google Trust Services"
+      },
+      "valid_from": "2026-03-04T23:13:59+00:00",
+      "valid_to": "2026-06-03T00:13:55+00:00",
+      "days_remaining": 44,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA256",
+      "serial_number": "0x223f0fd87fda0fff112fca3aa8f79d84",
+      "san": [
+        "dictionary.com",
+        "*.dictionary.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "mlb.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:33:36.210760",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "mlb.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "WR3",
+        "O": "Google Trust Services"
+      },
+      "valid_from": "2026-04-03T22:16:28+00:00",
+      "valid_to": "2026-07-02T23:09:42+00:00",
+      "days_remaining": 74,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x85f53a6503e940c09c4c85992270b69",
+      "san": [
+        "mlb.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "craigslist.org",
+    "port": 443,
+    "scan_time": "2026-04-19T18:33:37.658190",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "craigslist.org",
+        "O": "Craigslist, Inc.",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "DigiCert Global G3 TLS ECC SHA384 2020 CA1",
+        "O": "DigiCert Inc"
+      },
+      "valid_from": "2025-12-31T00:00:00+00:00",
+      "valid_to": "2027-01-31T23:59:59+00:00",
+      "days_remaining": 287,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA384",
+      "serial_number": "0x60a22bc424f50c2478352d62b7494ba",
+      "san": [
+        "craigslist.org",
+        "cl.com",
+        "craigslist.ca",
+        "craigslist.com",
+        "craigslist.net",
+        "*.cl.com",
+        "*.craigslist.ca",
+        "*.craigslist.com",
+        "*.craigslist.net",
+        "*.craigslist.org"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "ytdown.org",
+    "port": 443,
+    "scan_time": "2026-04-19T18:33:39.297714",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "ytdown.org",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "WE1",
+        "O": "Google Trust Services"
+      },
+      "valid_from": "2026-03-01T18:11:46+00:00",
+      "valid_to": "2026-05-30T19:09:23+00:00",
+      "days_remaining": 40,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA256",
+      "serial_number": "0xc59dc5c2c04262280db3afaec8696440",
+      "san": [
+        "ytdown.org",
+        "*.ytdown.org"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "etsy.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:33:40.692401",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "*.etsystatic.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "GlobalSign Atlas R3 DV TLS CA 2025 Q4",
+        "O": "GlobalSign nv-sa"
+      },
+      "valid_from": "2025-11-03T15:09:45+00:00",
+      "valid_to": "2026-12-05T15:09:44+00:00",
+      "days_remaining": 229,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x12d73862604a4f34e9614bd291aa888",
+      "san": [
+        "*.etsystatic.com",
+        "api-origin.etsy.com",
+        "api.etsy.com",
+        "m.etsy.com",
+        "openapi.etsy.com",
+        "www.etsy.com",
+        "etsy.com",
+        "openapi-staging.etsy.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "collinsdictionary.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:33:42.157462",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "collinsdictionary.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "WE1",
+        "O": "Google Trust Services"
+      },
+      "valid_from": "2026-02-26T18:10:42+00:00",
+      "valid_to": "2026-05-27T19:10:34+00:00",
+      "days_remaining": 37,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA256",
+      "serial_number": "0x7657a4dd783fc6d0de2a48c51c444bd",
+      "san": [
+        "collinsdictionary.com",
+        "*.collinsdictionary.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "healthline.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:33:43.571673",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "*.healthline.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon"
+      },
+      "valid_from": "2025-09-20T00:00:00+00:00",
+      "valid_to": "2026-10-18T23:59:59+00:00",
+      "days_remaining": 182,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x37fc5f22a7b50c208acf2440cb44127",
+      "san": [
+        "*.healthline.com",
+        "healthline.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "mcdonalds.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:33:45.016816",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "*.mcdonalds.com",
+        "O": "McDonald's Corporation",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+        "O": "DigiCert Inc"
+      },
+      "valid_from": "2025-08-11T00:00:00+00:00",
+      "valid_to": "2026-08-10T23:59:59+00:00",
+      "days_remaining": 113,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x21a08e04ffb9b3618cb137ddccbc8b8",
+      "san": [
+        "mcdonalds.com",
+        "*.mcdonalds.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "bbc.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:33:46.547961",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "www.bbc.com",
+        "O": "BRITISH BROADCASTING CORPORATION",
+        "OU": null,
+        "C": "GB"
+      },
+      "issuer": {
+        "CN": "GlobalSign RSA OV SSL CA 2018",
+        "O": "GlobalSign nv-sa"
+      },
+      "valid_from": "2025-06-27T06:54:01+00:00",
+      "valid_to": "2026-07-27T10:26:17+00:00",
+      "days_remaining": 98,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x245a42a2b5c5c8e991e5d713",
+      "san": [
+        "www.bbc.com",
+        "www.bbc.co.uk",
+        "www.bbcrussian.com",
+        "bbc.co.uk",
+        "bbcrussian.com",
+        "session.bbc.co.uk",
+        "search.bbc.co.uk",
+        "open.live.bbc.co.uk",
+        "news.bbc.co.uk",
+        "newsimg.bbc.co.uk",
+        "wwwnews.live.bbc.co.uk",
+        "cdnedge.bbc.co.uk",
+        "newsrss.bbc.co.uk",
+        "newsvote.bbc.co.uk",
+        "playlists.bbc.co.uk",
+        "r.bbci.co.uk",
+        "node1.bbcimg.co.uk",
+        "news.bbcimg.co.uk",
+        "account.bbc.com",
+        "session.bbc.com",
+        "bbc.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "chase.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:33:47.889406",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "www.chase.com",
+        "O": "JPMorgan Chase & Co.",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "DigiCert EV RSA CA G2",
+        "O": "DigiCert Inc"
+      },
+      "valid_from": "2025-09-12T00:00:00+00:00",
+      "valid_to": "2026-09-11T23:59:59+00:00",
+      "days_remaining": 145,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0xfe1cfb2c99ba2ae0db0a1cfb13576bb",
+      "san": [
+        "www.chase.com",
+        "chase.com",
+        "www-ndc.chase.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "ca.gov",
+    "port": 443,
+    "scan_time": "2026-04-19T18:33:49.446861",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "ca.gov",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "GeoTrust TLS RSA CA G1",
+        "O": "DigiCert Inc"
+      },
+      "valid_from": "2026-03-11T00:00:00+00:00",
+      "valid_to": "2026-09-11T23:59:59+00:00",
+      "days_remaining": 145,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0xb17b940ecdb98c4e1c93267ec5c0dce",
+      "san": [
+        "ca.gov"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "kbb.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:33:51.047079",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "kbb.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "E7",
+        "O": "Let's Encrypt"
+      },
+      "valid_from": "2026-04-10T02:36:00+00:00",
+      "valid_to": "2026-07-09T02:35:59+00:00",
+      "days_remaining": 80,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA384",
+      "serial_number": "0x6303742f6a07f2183f93907b7d5fe9f2cfe",
+      "san": [
+        "kbb.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "trustpilot.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:33:52.513584",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "*.trustpilot.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon"
+      },
+      "valid_from": "2025-11-01T00:00:00+00:00",
+      "valid_to": "2026-11-29T23:59:59+00:00",
+      "days_remaining": 224,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x45f16c655272c2493799a11419cbd88",
+      "san": [
+        "*.trustpilot.com",
+        "trustpilot.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "stanford.edu",
+    "port": 443,
+    "scan_time": "2026-04-19T18:33:54.739992",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "stanford.edu",
+        "O": "Stanford University",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "InCommon RSA Server CA 2",
+        "O": "Internet2"
+      },
+      "valid_from": "2025-04-24T00:00:00+00:00",
+      "valid_to": "2026-04-24T23:59:59+00:00",
+      "days_remaining": 5,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha384WithRSAEncryption",
+      "serial_number": "0x8be197abdedb26b5488173318c16cb0b",
+      "san": [
+        "stanford.edu",
+        "*.stanford.edu",
+        "web.stanford.edu",
+        "www-v6.stanford.edu"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "istockphoto.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:33:56.873076",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "www.istockphoto.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "Amazon RSA 2048 M03",
+        "O": "Amazon"
+      },
+      "valid_from": "2025-07-18T00:00:00+00:00",
+      "valid_to": "2026-08-15T23:59:59+00:00",
+      "days_remaining": 118,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x24498217370d5667001dc251028fab6",
+      "san": [
+        "www.istockphoto.com",
+        "italiano.istockphoto.com",
+        "istock.com",
+        "refer.istockphoto.com",
+        "www.istock.com",
+        "jezykpolski.istockphoto.com",
+        "hangul.istockphoto.com",
+        "workwithus.istockphoto.com",
+        "francais.istockphoto.com",
+        "russki.istockphoto.com",
+        "espanol.istockphoto.com",
+        "istockphoto.com",
+        "nihongo.istockphoto.com",
+        "deutsch.istockphoto.com",
+        "portugues.istockphoto.com",
+        "portuguesbrasileiro.istockphoto.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "shutterstock.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:33:58.222739",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "stockphotoeditor.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "Amazon RSA 2048 M02",
+        "O": "Amazon"
+      },
+      "valid_from": "2025-06-23T00:00:00+00:00",
+      "valid_to": "2026-07-22T23:59:59+00:00",
+      "days_remaining": 94,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0xd105063f6a8276de398d1702aa9c59b",
+      "san": [
+        "stockphotoeditor.com",
+        "skillfeed.com",
+        "inacreativeworld.com",
+        "imageneslibresdederechos.com",
+        "videosemaltadefinicao.com",
+        "highresvideos.com",
+        "stockphotoeditor.info",
+        "videosenalta.com",
+        "imagenesroyaltyfree.com",
+        "creatorstour.de",
+        "*.bigstockcorp.com",
+        "*.picdn.net",
+        "shutterstock.com",
+        "shutterstock.mobi",
+        "videosroyaltyfree.com",
+        "stockphotoeditor.net",
+        "bancodevideos.com",
+        "freestockeditor.com",
+        "freestock.com",
+        "offset.com",
+        "freestockeditor.net",
+        "bigstockcorp.com",
+        "*.highresvideos.com",
+        "videosenaltaresolucion.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "oanda.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:33:59.650899",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "oanda.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "WE1",
+        "O": "Google Trust Services"
+      },
+      "valid_from": "2026-03-11T21:45:09+00:00",
+      "valid_to": "2026-06-09T22:44:54+00:00",
+      "days_remaining": 51,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA256",
+      "serial_number": "0xadef813b8829432e0e518be105ad8ed4",
+      "san": [
+        "oanda.com",
+        "*.oanda.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "uga.edu",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:01.078885",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "uga.edu",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon"
+      },
+      "valid_from": "2025-10-20T00:00:00+00:00",
+      "valid_to": "2026-11-18T23:59:59+00:00",
+      "days_remaining": 213,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0xe37805f020f2500f3f5c123e66886f2",
+      "san": [
+        "uga.edu",
+        "www.uga.edu",
+        "www.dev.uga.edu",
+        "impact.uga.edu",
+        "www.stage.uga.edu",
+        "www.impact.uga.edu"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "twitter.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:02.589273",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "twitter.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "E7",
+        "O": "Let's Encrypt"
+      },
+      "valid_from": "2026-03-30T05:03:55+00:00",
+      "valid_to": "2026-06-28T05:03:54+00:00",
+      "days_remaining": 69,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA384",
+      "serial_number": "0x57ebe881297ee41d4d816eb20c0ab2fc905",
+      "san": [
+        "*.twitter.com",
+        "cdn.syndication.twitter.com",
+        "twitter.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "webmd.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:04.033342",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "le.prod.webmd.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "R12",
+        "O": "Let's Encrypt"
+      },
+      "valid_from": "2026-04-02T01:13:02+00:00",
+      "valid_to": "2026-07-01T01:13:01+00:00",
+      "days_remaining": 72,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x582f2726d2168cb131219102ac3e5f875df",
+      "san": [
+        "*.derigo.us",
+        "*.framesdata.com",
+        "*.krames.com",
+        "*.kramesondemand.com",
+        "*.kramesonline.com",
+        "*.kramesstaywell.com",
+        "*.kramesvideo.com",
+        "*.la1.webmd.com",
+        "*.m.webmd.com",
+        "*.ma1.krames.com",
+        "*.ma1.kramesondemand.com",
+        "*.ma1.kramesonline.com",
+        "*.ma1.kramesstaywell.com",
+        "*.ma1.kramesvideo.com",
+        "*.ma1.medicinenet.com",
+        "*.ma1.staywellhealthlibrary.com",
+        "*.ma1.staywellknowledgebase.com",
+        "*.ma1.staywellsolutionsonline.com",
+        "*.ma1.webmd.com",
+        "*.medicinenet.com",
+        "*.mediquality.net",
+        "*.medscape.com",
+        "*.medscape.org",
+        "*.medscapestatic.com",
+        "*.mngh.co",
+        "*.myframegallery.com",
+        "*.preview.m.webmd.com",
+        "*.preview.webmd.com",
+        "*.proddev.medscape.com",
+        "*.proddev.medscape.org",
+        "*.proddev.medscapestatic.com",
+        "*.staging.krames.com",
+        "*.staging.kramesondemand.com",
+        "*.staging.kramesonline.com",
+        "*.staging.kramesstaywell.com",
+        "*.staging.kramesvideo.com",
+        "*.staging.m.webmd.com",
+        "*.staging.medscape.com",
+        "*.staging.medscape.org",
+        "*.staging.medscapestatic.com",
+        "*.staging.staywellhealthlibrary.com",
+        "*.staging.staywellknowledgebase.com",
+        "*.staging.staywellsolutionsonline.com",
+        "*.staging.webmd.com",
+        "*.staywellhealthlibrary.com",
+        "*.staywellknowledgebase.com",
+        "*.staywellsolutionsonline.com",
+        "*.stg-ma1.kramesondemand.com",
+        "*.stg-ma1.kramesonline.com",
+        "*.stg-ma1.kramesstaywell.com",
+        "*.stg-ma1.kramesvideo.com",
+        "*.stg-ma1.staywellhealthlibrary.com",
+        "*.stg-ma1.staywellknowledgebase.com",
+        "*.stg-ma1.staywellsolutionsonline.com",
+        "*.stprod.webmd.com",
+        "*.webmd.com",
+        "derigo.us",
+        "fdb.rxlist.com",
+        "framesdata.com",
+        "images.emedicinehealth.com",
+        "images.onhealth.com",
+        "images.rxlist.com",
+        "img.medscape.fr",
+        "img.medscapemedizin.de",
+        "kramesondemand.com",
+        "kramesonline.com",
+        "kramesvideo.com",
+        "le.prod.webmd.com",
+        "medicinenet.com",
+        "medscape.com",
+        "medscape.org",
+        "mngh.co",
+        "mobilebeta.webmdpartner.net",
+        "sf2aim.webmd.net",
+        "staging.mobileconnections.webmd.com",
+        "staging.patientjourneys.webmd.com",
+        "staywellknowledgebase.com",
+        "staywellsolutionsonline.com",
+        "webmd.com",
+        "www.doctor.webmd.com",
+        "www.emedicinehealth.com",
+        "www.onhealth.com",
+        "www.rxlist.com",
+        "www.sponsorcontent.webmd.com",
+        "www.symptomchecker.webmd.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "nypost.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:05.514764",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "nypost.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "E8",
+        "O": "Let's Encrypt"
+      },
+      "valid_from": "2026-04-09T02:37:44+00:00",
+      "valid_to": "2026-07-08T02:37:43+00:00",
+      "days_remaining": 79,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA384",
+      "serial_number": "0x6e219b6bb0102caecb19bbf8290808be05d",
+      "san": [
+        "nypost.com",
+        "www.nypost.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "bankofamerica.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:06.937174",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "bankofamerica.com",
+        "O": "Bank of America Corporation",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "DigiCert EV RSA CA G2",
+        "O": "DigiCert Inc"
+      },
+      "valid_from": "2025-09-16T00:00:00+00:00",
+      "valid_to": "2026-09-15T23:59:59+00:00",
+      "days_remaining": 149,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x44f0fc46ecf88b2b7e2cf4543f48a15",
+      "san": [
+        "bankofamerica.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "youtubeto-mp3.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:08.262646",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "youtubeto-mp3.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "WE1",
+        "O": "Google Trust Services"
+      },
+      "valid_from": "2026-02-25T14:17:33+00:00",
+      "valid_to": "2026-05-26T15:16:18+00:00",
+      "days_remaining": 36,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA256",
+      "serial_number": "0x1a79428639d94a530e845e4816e5d52d",
+      "san": [
+        "youtubeto-mp3.com",
+        "*.youtubeto-mp3.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "go.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:09.643559",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "redirect.disneyinternational.com",
+        "O": "The Walt Disney Company",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "Sectigo Public Server Authentication CA OV R36",
+        "O": "Sectigo Limited"
+      },
+      "valid_from": "2025-08-28T00:00:00+00:00",
+      "valid_to": "2026-08-28T23:59:59+00:00",
+      "days_remaining": 131,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x7dbd9bbf18f7d4905b021d82a086b539",
+      "san": [
+        "redirect.disneyinternational.com",
+        "*.abctalentdevelopment.com",
+        "*.beautyandthebeastmusical.co.uk",
+        "*.captainamericamovie.ch",
+        "*.disney.asia",
+        "*.disney.be",
+        "*.disney.bg",
+        "*.disney.ch",
+        "*.disney.co.il",
+        "*.disney.co.jp",
+        "*.disney.co.kr",
+        "*.disney.co.th",
+        "*.disney.co.uk",
+        "*.disney.co.za",
+        "*.disney.com.au",
+        "*.disney.com.br",
+        "*.disney.com.hk",
+        "*.disney.com.tr",
+        "*.disney.com.tw",
+        "*.disney.cz",
+        "*.disney.de",
+        "*.disney.dk",
+        "*.disney.es",
+        "*.disney.fi",
+        "*.disney.fr",
+        "*.disney.gr",
+        "*.disney.hu",
+        "*.disney.id",
+        "*.disney.ie",
+        "*.disney.in",
+        "*.disney.it",
+        "*.disney.my",
+        "*.disney.nl",
+        "*.disney.no",
+        "*.disney.ph",
+        "*.disney.pl",
+        "*.disney.pt",
+        "*.disney.ro",
+        "*.disney.se",
+        "*.disney.sg",
+        "*.disney100lamitiecestmerveilleux.fr",
+        "*.disneyelpoderdelaamistad.es",
+        "*.disneyinternational.com",
+        "*.disneylatino.com",
+        "*.disneylesmerveillesdelamitie.fr",
+        "*.disneytech.asia",
+        "*.disneywonderoffriendship.co.uk",
+        "*.disneywonderoffriendship.de",
+        "*.disneywonderoffriendship.es",
+        "*.disneywonderoffriendship.fr",
+        "*.frozenthemusical.com.au",
+        "*.moanamovie.au",
+        "*.moanamovie.co.nz",
+        "*.moanamovie.com.au",
+        "*.moanamovie.nz",
+        "*.natgeo.com",
+        "*.natgeo.film",
+        "*.nationalgeographic.com",
+        "*.playground.dtci.pe",
+        "*.thelionking.ch",
+        "20thcenturyfilm.ca",
+        "20thcenturymovie.ca",
+        "20thcenturystudios.asia",
+        "abctalentdevelopment.com",
+        "ahauntinginvenice.ch",
+        "aladdineducation.co.uk",
+        "aladdinthemusical.co.uk",
+        "antlersmovie.co.uk",
+        "ballast.dmed.technology",
+        "beautyandthebeastmusical.co.uk",
+        "beforetheflood.nationalgeographic.com.au",
+        "bole-disney.com",
+        "captainamericamovie.ch",
+        "createadisneycastle.com",
+        "dgectdi.com",
+        "disney.asia",
+        "disney.bg",
+        "disney.ch",
+        "disney.co.il",
+        "disney.co.kr",
+        "disney.co.th",
+        "disney.co.uk",
+        "disney.co.za",
+        "disney.com.au",
+        "disney.com.br",
+        "disney.com.hk",
+        "disney.com.tr",
+        "disney.com.tw",
+        "disney.cz",
+        "disney.de",
+        "disney.dk",
+        "disney.es",
+        "disney.fi",
+        "disney.fr",
+        "disney.gr",
+        "disney.hu",
+        "disney.id",
+        "disney.ie",
+        "disney.in",
+        "disney.it",
+        "disney.my",
+        "disney.nl",
+        "disney.no",
+        "disney.ph",
+        "disney.pl",
+        "disney.pt",
+        "disney.ro",
+        "disney.se",
+        "disney.sg",
+        "disneyadvertising.be",
+        "disneyadvertising.es",
+        "disneyadvertising.nl",
+        "disneyartchallenge.fr",
+        "disneychannel.de",
+        "disneychannelearthday.be",
+        "disneychannelearthday.nl",
+        "disneychristmaslookbook.com",
+        "disneydayseats.co.uk",
+        "disneyfilm.ca",
+        "disneyholidays.co.uk",
+        "disneyholidays.de",
+        "disneyholidays.es",
+        "disneyholidays.ie",
+        "disneyjunior.asia",
+        "disneyjunior.ca",
+        "disneylatino.com",
+        "disneylife.ph",
+        "disneymagicexpo.com",
+        "disneymagicmoments.at",
+        "disneymagicmoments.be",
+        "disneymagicmoments.ch",
+        "disneymagicmoments.co.il",
+        "disneymagicmoments.co.uk",
+        "disneymagicmoments.co.za",
+        "disneymagicmoments.de",
+        "disneymagicmoments.es",
+        "disneymagicmoments.fr",
+        "disneymagicmoments.gen.tr",
+        "disneymagicmoments.gr",
+        "disneymagicmoments.it",
+        "disneymagicmoments.pl",
+        "disneymagicmomentsme.com",
+        "disneyme.com",
+        "disneymovie.ca",
+        "disneyonice-asia.com",
+        "disneyonice.com.my",
+        "disneyonice.com.sg",
+        "disneypackages.co.uk",
+        "disneyplus.com.tr",
+        "disneyplushotstar.com",
+        "disneyplushotstar.my",
+        "disneytheatricaleducation.co.uk",
+        "disneytickets.co.uk",
+        "disneytickets.com",
+        "disneyticketsgroups.co.uk",
+        "disneyturkiye.com.tr",
+        "disneywishtogether.au",
+        "disneyxd.ca",
+        "dlife.jp",
+        "dreambigprincess.asia",
+        "exploringthelionking.com",
+        "fireoflove.film",
+        "funtastic-lab.fr",
+        "getespn.com.au",
+        "go.com",
+        "groups.disneytickets.co.uk",
+        "hongkongdisneyland.com.cn",
+        "insideoutmovie.co.nz",
+        "insideoutmovie.com.au",
+        "lionkinghouseseats.co.uk",
+        "lionkingvideo.com",
+        "marvel-asia.com",
+        "marvelhq.com",
+        "marvelrun.sg",
+        "marvelstudios.com.hk",
+        "marvelstudiosfilm.ca",
+        "marvelstudiosmovie.ca",
+        "moanamovie.au",
+        "moanamovie.co.nz",
+        "moanamovie.com.au",
+        "moanamovie.nz",
+        "mrvertigo.topolino.it",
+        "mydisneyexperience.co.uk",
+        "mydisneyexperience.eu",
+        "mydisneyexperience.ie",
+        "natgeo.film",
+        "natgeofotowedstrijd.nl",
+        "natgeotraveller.in",
+        "nationalgeographic.be",
+        "nationalgeographic.com.tr",
+        "nationalgeographicfotowedstrijd.nl",
+        "nl.disneypartners.disney.be",
+        "playground.dtci.pe",
+        "retrograde.film",
+        "searchlightpicturesfilm.ca",
+        "searchlightpicturesmovie.ca",
+        "secure.disneytickets.co.uk",
+        "secure.www.disneytickets.co.uk",
+        "security.intakeform.disney.com",
+        "spellbook.adsales.disney.com",
+        "star-brasil.com",
+        "star-latam.com",
+        "starwars-asia.com",
+        "summerofsoulmovie.co.uk",
+        "thelionking.ch",
+        "thelionking.co.uk",
+        "theterritory.film",
+        "tsumgaomaker.jp",
+        "tv.disneyturkiye.com.tr",
+        "wefeedpeople.film",
+        "wish-gewinnspiel.de",
+        "www.ahauntinginvenice.ch",
+        "www.aladdineducation.co.uk",
+        "www.aladdinthemusical.co.uk",
+        "www.corporate.disney.fr",
+        "www.createadisneycastle.com",
+        "www.disney.be",
+        "www.disney100lamitiecestmerveilleux.fr",
+        "www.disneyartchallenge.fr",
+        "www.disneychannel.de",
+        "www.disneychannelearthday.be",
+        "www.disneychannelearthday.nl",
+        "www.disneydayseats.co.uk",
+        "www.disneyelpoderdelaamistad.es",
+        "www.disneyjunior.ca",
+        "www.disneylesmerveillesdelamitie.fr",
+        "www.disneylife.ph",
+        "www.disneymagicexpo.com",
+        "www.disneyme.com",
+        "www.disneyplus.com.tr",
+        "www.disneytheatricaleducation.co.uk",
+        "www.disneytickets.com",
+        "www.disneyticketsgroups.co.uk",
+        "www.disneyturkiye.com.tr",
+        "www.disneywishtogether.au",
+        "www.disneyxd.ca",
+        "www.exploringthelionking.com",
+        "www.fireoflove.film",
+        "www.funtastic-lab.fr",
+        "www.glassmovie.cz",
+        "www.healthytainment.disney.co.jp",
+        "www.hongkongdisneyland.com.cn",
+        "www.insideoutmovie.co.nz",
+        "www.insideoutmovie.com.au",
+        "www.lionkinghouseseats.co.uk",
+        "www.lionkingvideo.com",
+        "www.marvelstudios.com.hk",
+        "www.mydisneyexperience.co.uk",
+        "www.mydisneyexperience.eu",
+        "www.mydisneyexperience.ie",
+        "www.natgeo.pt",
+        "www.natgeofotowedstrijd.nl",
+        "www.natgeotraveller.in",
+        "www.nationalgeographic.com.tr",
+        "www.qc.disneytech.asia",
+        "www.retrograde.film",
+        "www.rex.disneytech.asia",
+        "www.theterritory.film",
+        "www.tsumgaomaker.jp",
+        "www.wefeedpeople.film",
+        "www.wish-gewinnspiel.de",
+        "zoom.disneynature.fr"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "openai.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:11.102384",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "openai.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "WE1",
+        "O": "Google Trust Services"
+      },
+      "valid_from": "2026-03-23T03:17:45+00:00",
+      "valid_to": "2026-06-21T04:17:42+00:00",
+      "days_remaining": 62,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA256",
+      "serial_number": "0xdddbeb8d2b6f57213a051a841b9aa4e",
+      "san": [
+        "openai.com",
+        "*.openai.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "vocabulary.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:12.571749",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "vocabulary.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "E8",
+        "O": "Let's Encrypt"
+      },
+      "valid_from": "2026-03-08T09:42:21+00:00",
+      "valid_to": "2026-06-06T09:42:20+00:00",
+      "days_remaining": 47,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA384",
+      "serial_number": "0x5324706d860bc7ca5190a53c759f35766b0",
+      "san": [
+        "*.vocabulary.com",
+        "vocabulary.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "4kdownload.to",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:14.012137",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "4kdownload.to",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "WE1",
+        "O": "Google Trust Services"
+      },
+      "valid_from": "2026-04-16T12:51:22+00:00",
+      "valid_to": "2026-07-15T13:48:56+00:00",
+      "days_remaining": 86,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA256",
+      "serial_number": "0x7d79e465651a4ea90efbb43d5b219dbd",
+      "san": [
+        "4kdownload.to",
+        "*.4kdownload.to"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "booking.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:15.365335",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "*.booking.com",
+        "O": "Booking.com BV",
+        "OU": null,
+        "C": "NL"
+      },
+      "issuer": {
+        "CN": "DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+        "O": "DigiCert Inc"
+      },
+      "valid_from": "2025-12-18T00:00:00+00:00",
+      "valid_to": "2026-10-30T23:59:59+00:00",
+      "days_remaining": 194,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x742de68ce571d81d04115bc5b143132",
+      "san": [
+        "*.booking.com",
+        "booking.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "fedex.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:16.755314",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "www.fedex.com",
+        "O": "FedEx Corporation",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "Sectigo Public Server Authentication CA EV R36",
+        "O": "Sectigo Limited"
+      },
+      "valid_from": "2026-03-06T00:00:00+00:00",
+      "valid_to": "2026-09-21T23:59:59+00:00",
+      "days_remaining": 155,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x180d07ee6980fcbf7d22ecbe0a024452",
+      "san": [
+        "www.fedex.com",
+        "developer.fedex.com",
+        "fedex.com",
+        "images.fedex.com",
+        "m.fedex.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "mercercounty.org",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:18.341577",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "mercercounty.org",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "R12",
+        "O": "Let's Encrypt"
+      },
+      "valid_from": "2026-03-20T09:57:50+00:00",
+      "valid_to": "2026-06-18T09:57:49+00:00",
+      "days_remaining": 59,
+      "key_type": "RSA",
+      "key_size": 3072,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x6cebfe84faf16bfadea0ee2dde074f0647d",
+      "san": [
+        "mercercounty.org"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "google.dev",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:20.058265",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "devsite-sni.developers.google.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "WR2",
+        "O": "Google Trust Services"
+      },
+      "valid_from": "2026-03-30T08:35:09+00:00",
+      "valid_to": "2026-06-22T08:35:08+00:00",
+      "days_remaining": 63,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0xc74b02e5e49e410510d9f07fda64bfe2",
+      "san": [
+        "devsite-sni.developers.google.com",
+        "docs.actifio.com",
+        "d.actifio.com",
+        "apigee.com",
+        "*.apigee.com",
+        "appdefensealliance.dev",
+        "*.appdefensealliance.dev",
+        "bazel.build",
+        "*.bazel.build",
+        "builders.google",
+        "*.builders.google",
+        "cel.dev",
+        "*.cel.dev",
+        "deepmind.google.com",
+        "*.deepmind.google.com",
+        "developer.nest.com",
+        "developers.nest.com",
+        "devsitetest.how",
+        "*.devsitetest.how",
+        "fuchsia.dev",
+        "*.fuchsia.dev",
+        "issues.fuchsia.dev",
+        "*.issues.fuchsia.dev",
+        "generativeai.google",
+        "*.generativeai.google",
+        "*.generativeai.google.com",
+        "google.dev",
+        "ai.google.dev",
+        "www.ai.google.dev",
+        "*.google.dev",
+        "intrinsic.ai",
+        "*.intrinsic.ai",
+        "jibemobile.com",
+        "*.jibemobile.com",
+        "learn.mapsplatform.google.com",
+        "*.learn.mapsplatform.google.com",
+        "onboarding.off.goog",
+        "*.onboarding.off.goog",
+        "openthread.io",
+        "*.openthread.io",
+        "openweave.io",
+        "*.openweave.io",
+        "openxla.org",
+        "*.openxla.org",
+        "preview.source.android.com",
+        "privacysandbox.google.com",
+        "*.privacysandbox.google.com",
+        "quantumai.google",
+        "*.quantumai.google",
+        "tensorflow.org",
+        "*.tensorflow.org",
+        "web.dev",
+        "*.web.dev",
+        "webrtc.org",
+        "www.webrtc.org",
+        "wing.com",
+        "*.wing.com",
+        "wing.dev",
+        "*.wing.dev",
+        "devsite.google",
+        "*.devsite.google",
+        "mediapipe.dev",
+        "*.mediapipe.dev",
+        "ai.dev",
+        "*.ai.dev",
+        "ai.studio",
+        "*.ai.studio",
+        "app.new",
+        "*.app.new",
+        "chat.new",
+        "*.chat.new",
+        "bot.new",
+        "*.bot.new",
+        "agent.new",
+        "*.agent.new",
+        "ai.app",
+        "*.ai.app"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "carfax.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:21.590778",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "*.carfax.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon"
+      },
+      "valid_from": "2025-10-17T00:00:00+00:00",
+      "valid_to": "2026-11-14T23:59:59+00:00",
+      "days_remaining": 209,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0xc3df7d5b7b2cfceb5dc5b2eb4a6cf73",
+      "san": [
+        "*.carfax.com",
+        "carfax.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "turbowarp.org",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:23.115927",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "turbowarp.org",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "WE1",
+        "O": "Google Trust Services"
+      },
+      "valid_from": "2026-04-17T00:34:41+00:00",
+      "valid_to": "2026-07-16T01:32:03+00:00",
+      "days_remaining": 87,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA256",
+      "serial_number": "0x72ca7b50789154700e120d543a030efd",
+      "san": [
+        "turbowarp.org",
+        "*.turbowarp.org"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "meraki.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:24.570511",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "meraki.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon"
+      },
+      "valid_from": "2026-03-29T00:00:00+00:00",
+      "valid_to": "2026-10-12T23:59:59+00:00",
+      "days_remaining": 176,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x7d4d06ba079cc7b8a87853afccc2ce9",
+      "san": [
+        "meraki.com",
+        "www.meraki.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "forbes.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:25.992439",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "forbes.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "GlobalSign Atlas R3 DV TLS CA 2025 Q4",
+        "O": "GlobalSign nv-sa"
+      },
+      "valid_from": "2025-11-10T19:01:53+00:00",
+      "valid_to": "2026-12-12T19:01:52+00:00",
+      "days_remaining": 236,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x15856fe205bf0174a89cc0ebf4da166",
+      "san": [
+        "forbes.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "nba.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:27.388596",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "allball.blogs.nba.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "R12",
+        "O": "Let's Encrypt"
+      },
+      "valid_from": "2026-03-07T11:16:30+00:00",
+      "valid_to": "2026-06-05T11:16:29+00:00",
+      "days_remaining": 46,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x57c41e38c758f35323ca3dc9c1c40a35e85",
+      "san": [
+        "2k.nba.com",
+        "2kmytotalwellbeing.nba.com",
+        "75shop.ca",
+        "account.nba.com",
+        "allball.blogs.nba.com",
+        "ar.nba.com",
+        "argentina.nbabasketballschool.com",
+        "auction.nba.com",
+        "auctions.nba.com",
+        "austinspurs.com",
+        "australia.nbabasketballschool.com",
+        "basketballwithoutborders.com",
+        "benefitshomecourt.com",
+        "bolaonbaplayoffs.com",
+        "brainstorm.pistons.com",
+        "brazil.nbabasketballschool.com",
+        "bucks.com",
+        "ca.nba.com",
+        "canadafan.nba.com",
+        "cantoncharge.com",
+        "celtics.com",
+        "china.nba.com",
+        "clevelandcharge.com",
+        "clubgreen.celtics.com",
+        "cms-api-dev.nba.com",
+        "cms-api.nba.com",
+        "concur.nba.com",
+        "content.utahjazz.com",
+        "cpskyhawks.com",
+        "cruisebasketball.com",
+        "de.leaguepass.nba.com",
+        "digitaldatarequests.nba.com",
+        "docsupport.nba.com",
+        "dr.nbabasketballschool.com",
+        "dwhreports.nba.com",
+        "es.leaguepass.nba.com",
+        "es.nba.com",
+        "ewaiver.nba.com",
+        "feverbasketball.com",
+        "fidelity.nba.com",
+        "finance.utahjazz.com",
+        "ftwaynemadants.com",
+        "gdcsupport.nba.com",
+        "georgia.nbabasketballschool.com",
+        "germany.nbabasketballschool.com",
+        "glmytotalwellbeing.nba.com",
+        "gr.leaguepass.nba.com",
+        "greece.id.nba.com",
+        "greece.nbabasketballschool.com",
+        "greensboroswarm.com",
+        "hangtime.blogs.nba.com",
+        "hcm.nba.com",
+        "help.nba.com",
+        "hk.nba.com",
+        "hknba.nba.com",
+        "home.utahjazz.com",
+        "hoop.nba.com",
+        "hornetsvenomgt.com",
+        "in.nba.com",
+        "india.nbabasketballschool.com",
+        "indianapacers.com",
+        "intranet.utahjazz.com",
+        "italy.nbabasketballschool.com",
+        "itsolutions.nba.com",
+        "japan.nbabasketballschool.com",
+        "jrnba.com",
+        "jrnbaleague.uk",
+        "leaguepasssupport.nba.com",
+        "localdtcsupport.nba.com",
+        "mycigna.nba.com",
+        "mydepartment.nba.com",
+        "mydrive.nba.com",
+        "mytotalwellbeing.nba.com",
+        "nba.com",
+        "nbabasketballschool.com",
+        "nbacourtoptix.nba.com",
+        "nbae-support.nba.com",
+        "nbagameworn.nba.com",
+        "nbaiddevsupport.nba.com",
+        "nbaidsupport.nba.com",
+        "nbascdw.nba.com",
+        "nbatogether.nba.com",
+        "nbatv.nba.com",
+        "now.nba.com",
+        "ontarioclippers.com",
+        "poland.nbabasketballschool.com",
+        "privacy.nba.com",
+        "qa-sapfinance.nba.com",
+        "qatar.nbabasketballschool.com",
+        "requests.cloudsre.nba.com",
+        "requests.srecore.nba.com",
+        "sapfinance.nba.com",
+        "sapfinanceqa.nba.com",
+        "secure.nba.com",
+        "spamfilter.nba.com",
+        "stats-inquiry.nba.com",
+        "www.digitaldatarequests.nba.com",
+        "www.docsupport.nba.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "cnbc.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:28.851081",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "cnbc.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon"
+      },
+      "valid_from": "2026-02-25T00:00:00+00:00",
+      "valid_to": "2026-09-10T23:59:59+00:00",
+      "days_remaining": 144,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x75d8b8b102760be76b8a3df98c44bb6",
+      "san": [
+        "cnbc.com",
+        "*.cnbc.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "handbrake.fr",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:30.210224",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "handbrake.fr",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "R13",
+        "O": "Let's Encrypt"
+      },
+      "valid_from": "2026-04-10T22:31:36+00:00",
+      "valid_to": "2026-07-09T22:31:35+00:00",
+      "days_remaining": 80,
+      "key_type": "RSA",
+      "key_size": 4096,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x5c4178c8be6960a13b4145347b31effafbc",
+      "san": [
+        "forum.handbrake.fr",
+        "handbrake.fr",
+        "www.handbrake.fr"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "opentable.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:32.702466",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "opentable.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "R12",
+        "O": "Let's Encrypt"
+      },
+      "valid_from": "2026-03-23T10:23:16+00:00",
+      "valid_to": "2026-06-21T10:23:15+00:00",
+      "days_remaining": 62,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x5947789923e06a1796460aad7f40f62bd4c",
+      "san": [
+        "opentable.com",
+        "www.opentable.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "wellsfargo.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:34.027229",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "wellsfargo.com",
+        "O": "Wells Fargo & Company",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "Wells Fargo Public Trust Certification Authority 01 G2",
+        "O": "Wells Fargo & Company"
+      },
+      "valid_from": "2025-07-16T00:00:00+00:00",
+      "valid_to": "2026-08-16T23:59:59+00:00",
+      "days_remaining": 119,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0xd4f32ddcf686c9e767c2a4e976f44e7",
+      "san": [
+        "wellsfargo.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  }
+]

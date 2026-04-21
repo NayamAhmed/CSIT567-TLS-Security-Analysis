@@ -1,0 +1,18 @@
+{
+  "total_scanned": 165,
+  "successful_scans": 165,
+  "tls_1_3_support": 69.6969696969697,
+  "tls_1_2_support": 90.9090909090909,
+  "tls_1_1_support": 0.0,
+  "tls_1_0_support": 0.0,
+  "weak_ciphers_present": 0.0,
+  "weak_keys": 0.0,
+  "expired_certificates": 1.8181818181818181,
+  "self_signed_certs": 0.6060606060606061,
+  "avg_key_size": 2124.255319148936,
+  "avg_days_remaining": 71.77333333333333,
+  "poodle_vulnerable": 0.0,
+  "beast_vulnerable": 0.0,
+  "ecc_count": 56,
+  "rsa_count": 94
+}

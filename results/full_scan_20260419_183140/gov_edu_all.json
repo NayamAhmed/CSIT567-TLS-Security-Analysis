@@ -1,0 +1,2818 @@
+[
+  {
+    "host": "whitehouse.gov",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:35.492984",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "whitehouse.gov",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "E8",
+        "O": "Let's Encrypt"
+      },
+      "valid_from": "2026-03-30T09:15:45+00:00",
+      "valid_to": "2026-06-28T09:15:44+00:00",
+      "days_remaining": 69,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA384",
+      "serial_number": "0x5ba1e72dc0b8f34d4d8966847504a3add9b",
+      "san": [
+        "whitehouse.gov",
+        "www.whitehouse.gov"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "state.gov",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:36.942898",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "state.gov",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon"
+      },
+      "valid_from": "2026-03-29T00:00:00+00:00",
+      "valid_to": "2026-10-12T23:59:59+00:00",
+      "days_remaining": 176,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0xc2e807cdb56188aa52da9a420087de7",
+      "san": [
+        "state.gov",
+        "*.state.gov"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "defense.gov",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:38.447671",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "stats.defense.gov",
+        "O": "Defense Media Activity",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "DigiCert Global G3 TLS ECC SHA384 2020 CA1",
+        "O": "DigiCert Inc"
+      },
+      "valid_from": "2026-03-25T00:00:00+00:00",
+      "valid_to": "2026-10-09T23:59:59+00:00",
+      "days_remaining": 173,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA384",
+      "serial_number": "0xe53fde92f8004c56ab6a20cadd82989",
+      "san": [
+        "stats.defense.gov",
+        "defense.gov",
+        "media.defense.gov",
+        "www.defense.gov",
+        "static.defense.gov"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "treasury.gov",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:39.996311",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "treasury.gov",
+        "O": "Department of Treasury",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "Entrust OV TLS Issuing RSA CA 2",
+        "O": "Entrust Limited"
+      },
+      "valid_from": "2025-10-08T00:00:00+00:00",
+      "valid_to": "2026-11-08T23:59:59+00:00",
+      "days_remaining": 203,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0xfb962e1dc8b1dd415d6b5a2effc24bb7",
+      "san": [
+        "treasury.gov",
+        "ama.gov",
+        "cdfifund.gov",
+        "cfius.gov",
+        "ffb.gov",
+        "financialresearch.gov",
+        "financialstability.gov",
+        "fsoc.gov",
+        "irs.gov",
+        "makinghomeaffordable.gov",
+        "mha.gov",
+        "myira.gov",
+        "mymoney.gov",
+        "tigta.gov",
+        "tips.tigta.gov",
+        "transparency.treasury.gov",
+        "treas.gov",
+        "usaspending.gov",
+        "ustreas.gov",
+        "www.cfius.gov",
+        "www.tigta.gov",
+        "www.treasury.gov"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "justice.gov",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:41.404656",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "justice.gov",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "Cloudflare TLS Issuing ECC CA 1",
+        "O": "CLOUDFLARE, INC."
+      },
+      "valid_from": "2026-04-02T23:37:09+00:00",
+      "valid_to": "2026-07-01T22:45:05+00:00",
+      "days_remaining": 73,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA256",
+      "serial_number": "0x4ad2efd2ef2c52fa8529f9b37acda0e2",
+      "san": [
+        "justice.gov",
+        "*.justice.gov",
+        "*.csa.justice.gov",
+        "*.fixnics.csa.justice.gov",
+        "*.grantsnet.justice.gov",
+        "*.civ.justice.gov",
+        "*.idms.justice.gov"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "homeland.gov",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:42.888950",
+    "tls_versions": {
+      "TLSv1.2": false,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {},
+      "issuer": {},
+      "valid_from": null,
+      "valid_to": null,
+      "days_remaining": null,
+      "key_type": null,
+      "key_size": null,
+      "signature_algorithm": null,
+      "serial_number": null,
+      "san": [],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": false,
+      "error": "[Errno 11001] getaddrinfo failed"
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "nsa.gov",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:43.970246",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "www.defense.gov",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "R13",
+        "O": "Let's Encrypt"
+      },
+      "valid_from": "2026-02-19T17:12:39+00:00",
+      "valid_to": "2026-05-20T17:12:38+00:00",
+      "days_remaining": 30,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x585046ff390169116a9fcdf0b15a582e2d4",
+      "san": [
+        "2017dodtransition.defense.gov",
+        "2025dodtransition.defense.gov",
+        "actuary.defense.gov",
+        "armedforcessports.defense.gov",
+        "atsdio.defense.gov",
+        "basicresearch.defense.gov",
+        "business.defense.gov",
+        "cmsmedia.defense.gov",
+        "comptroller.defense.gov",
+        "ctip.defense.gov",
+        "cyberwork.defense.gov",
+        "dam.defense.gov",
+        "data.defense.gov",
+        "dbb.defense.gov",
+        "dcips.defense.gov",
+        "dcmo.defense.gov",
+        "dod.defense.gov",
+        "dodcertpmo.defense.gov",
+        "dodcio.defense.gov",
+        "dodmwrandresalepolicy.defense.gov",
+        "dodsioo.defense.gov",
+        "dpac.defense.gov",
+        "dpcld.defense.gov",
+        "dpclo.defense.gov",
+        "energy.defense.gov",
+        "frcsw.navair.navy.mil",
+        "history.defense.gov",
+        "innovation.defense.gov",
+        "irt.defense.gov",
+        "jamrs.defense.gov",
+        "jifco.defense.gov",
+        "jnlwp.defense.gov",
+        "jsc.defense.gov",
+        "kb.defense.gov",
+        "la.defense.gov",
+        "m.nsa.gov",
+        "media.defense.gov",
+        "militarypay.defense.gov",
+        "nmio.ise.gov",
+        "nsa.gov",
+        "ogc.osd.mil",
+        "oig.nsa.gov",
+        "open.defense.gov",
+        "ousdi.defense.gov",
+        "policy.defense.gov",
+        "prhome.defense.gov",
+        "ra.defense.gov",
+        "rfpb.defense.gov",
+        "servicedesk.defense.gov",
+        "testqfwtnxc2r2odbaxs2x-a.defense.gov",
+        "valor.defense.gov",
+        "vwac.defense.gov",
+        "www.alssa.mil",
+        "www.blueroof.gov",
+        "www.business.defense.gov",
+        "www.dantes.mil",
+        "www.dc3.mil",
+        "www.defense.gov",
+        "www.deomi.mil",
+        "www.dod.defense.gov",
+        "www.dodnafaccounting.defense.gov",
+        "www.dsca.mil",
+        "www.jtfcs.northcom.mil",
+        "www.jtfn.northcom.mil",
+        "www.norad.mil",
+        "www.northcom.mil",
+        "www.nsa.gov",
+        "www.ukraineoversight.gov",
+        "www.whs.mil"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "fbi.gov",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:45.417441",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "fbi.gov",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "WE1",
+        "O": "Google Trust Services"
+      },
+      "valid_from": "2026-02-17T15:56:43+00:00",
+      "valid_to": "2026-05-18T16:56:41+00:00",
+      "days_remaining": 28,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA256",
+      "serial_number": "0x32c54486de29b4580d975605ab874051",
+      "san": [
+        "fbi.gov",
+        "*.fbi.gov"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "cia.gov",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:46.761349",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "www.cia.gov",
+        "O": "Central Intelligence Agency",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "DigiCert Global G3 TLS ECC SHA384 2020 CA1",
+        "O": "DigiCert Inc"
+      },
+      "valid_from": "2025-08-13T00:00:00+00:00",
+      "valid_to": "2026-08-12T23:59:59+00:00",
+      "days_remaining": 115,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA384",
+      "serial_number": "0x19472548d26cd8e3ad4d02d0fe33811",
+      "san": [
+        "www.cia.gov",
+        "cia.gov"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "nih.gov",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:48.182551",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "www.nih.gov",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "Go Daddy Secure Certificate Authority - G2",
+        "O": "GoDaddy.com, Inc."
+      },
+      "valid_from": "2026-02-05T15:04:58+00:00",
+      "valid_to": "2027-02-15T15:47:15+00:00",
+      "days_remaining": 301,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0xbd30871c34f50e0f",
+      "san": [
+        "salud.nih.gov",
+        "devtestdomain.nih.gov",
+        "stagetestdomain.nih.gov",
+        "stagetestdomain6.nih.gov",
+        "stagetestdomain5.nih.gov",
+        "testdomain2.nih.gov",
+        "stagetestdomain2.nih.gov",
+        "stagetestdomain7.nih.gov",
+        "www.nih.com",
+        "devtestdomain7.nih.gov",
+        "clinicalresearchtrials.nih.gov",
+        "www.nih.gov",
+        "nih.gov",
+        "stagetestdomain4.nih.gov",
+        "devtestdomain4.nih.gov",
+        "newsinhealth.nih.gov",
+        "devtestdomain6.nih.gov",
+        "testdomain.nih.gov",
+        "stagetestdomain3.nih.gov",
+        "www.health.nih.gov",
+        "testdomain3.nih.gov",
+        "devtestdomain2.nih.gov",
+        "nihrecord.nih.gov",
+        "nih.com",
+        "devtestdomain3.nih.gov",
+        "nihplainlanguage.nih.gov",
+        "devtestdomain5.nih.gov",
+        "health.nih.gov"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "cdc.gov",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:49.595312",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "*.cdc.gov",
+        "O": "Centers for Disease Control and Prevention",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "DigiCert Global G3 TLS ECC SHA384 2020 CA1",
+        "O": "DigiCert Inc"
+      },
+      "valid_from": "2025-05-19T00:00:00+00:00",
+      "valid_to": "2026-05-19T23:59:59+00:00",
+      "days_remaining": 30,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA384",
+      "serial_number": "0x2a5ea2d46dc8139818296f55baa7f89",
+      "san": [
+        "*.cdc.gov",
+        "cdc.gov"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "fda.gov",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:50.992415",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "www.fda.gov",
+        "O": "US Department of Health and Human Services",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "HydrantID Server CA O1",
+        "O": "IdenTrust"
+      },
+      "valid_from": "2026-02-11T16:55:46+00:00",
+      "valid_to": "2027-03-13T16:54:46+00:00",
+      "days_remaining": 327,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x40019c4da15c83f2ba8f7f7f2c03d130",
+      "san": [
+        "fda.gov",
+        "dps.fda.gov",
+        "www.fda.gov",
+        "labels.fda.gov",
+        "ceportal.fda.gov",
+        "labels-mig.fda.gov",
+        "www.access.fda.gov",
+        "dps.preprod.fda.gov",
+        "www.preprod.fda.gov",
+        "govdashboard.fda.gov",
+        "labels.preprod.fda.gov",
+        "www.accessdata.fda.gov",
+        "purplebooksearch.fda.gov",
+        "www.access.preprod.fda.gov",
+        "www.accessdata-mig.fda.gov",
+        "www.accessdata.preprod.fda.gov",
+        "purplebooksearch.preprod.fda.gov"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "epa.gov",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:52.340512",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "*.epa.gov",
+        "O": "Environmental Protection Agency",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+        "O": "DigiCert Inc"
+      },
+      "valid_from": "2026-04-16T00:00:00+00:00",
+      "valid_to": "2026-10-21T23:59:59+00:00",
+      "days_remaining": 185,
+      "key_type": "RSA",
+      "key_size": 4096,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x11c982ca4fd8c647ea6d9bb9cf9b9c6",
+      "san": [
+        "*.epa.gov",
+        "epa.gov",
+        "pubweb.epa.gov",
+        "archive.epa.gov",
+        "www3.epa.gov",
+        "stashed.epa.gov",
+        "water.epa.gov",
+        "snapshot.epa.gov",
+        "19january2017snapshot.epa.gov",
+        "19January2021snapshot.epa.gov",
+        "developer.epa.gov",
+        "blog.epa.gov",
+        "cleanairnortheast.epa.gov"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "energy.gov",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:54.085347",
+    "tls_versions": {
+      "TLSv1.2": false,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {},
+      "issuer": {},
+      "valid_from": null,
+      "valid_to": null,
+      "days_remaining": null,
+      "key_type": null,
+      "key_size": null,
+      "signature_algorithm": null,
+      "serial_number": null,
+      "san": [],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": false,
+      "error": "TLS/SSL connection has been closed (EOF) (_ssl.c:1032)"
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "commerce.gov",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:55.494745",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "commerce.gov",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "WE1",
+        "O": "Google Trust Services"
+      },
+      "valid_from": "2026-03-28T00:05:57+00:00",
+      "valid_to": "2026-06-26T01:05:30+00:00",
+      "days_remaining": 67,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA256",
+      "serial_number": "0xa5ccafa8a518ccf7134933bf5c49cc8e",
+      "san": [
+        "commerce.gov",
+        "*.space.commerce.gov",
+        "*.ea.commerce.gov",
+        "*.hr.commerce.gov",
+        "*.connection.commerce.gov",
+        "beta.w1.space.commerce.gov",
+        "*.beta.w1.space.commerce.gov",
+        "*.learning.commerce.gov",
+        "*.d.commerce.gov",
+        "*.data.commerce.gov",
+        "*.learn.commerce.gov",
+        "*.e-learning.commerce.gov",
+        "*.commerce.gov",
+        "*.eas.commerce.gov",
+        "login.csc.eas.commerce.gov",
+        "*.camsic.commerce.gov"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "interior.gov",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:57.028576",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "interior.gov",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "WE1",
+        "O": "Google Trust Services"
+      },
+      "valid_from": "2026-03-06T16:58:59+00:00",
+      "valid_to": "2026-06-04T17:58:42+00:00",
+      "days_remaining": 45,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA256",
+      "serial_number": "0x858391d2fb5d08131199e4390b67c332",
+      "san": [
+        "interior.gov",
+        "*.interior.gov"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "agriculture.gov",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:58.443581",
+    "tls_versions": {
+      "TLSv1.2": false,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {},
+      "issuer": {},
+      "valid_from": null,
+      "valid_to": null,
+      "days_remaining": null,
+      "key_type": null,
+      "key_size": null,
+      "signature_algorithm": null,
+      "serial_number": null,
+      "san": [],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": false,
+      "error": "[Errno 11001] getaddrinfo failed"
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "transportation.gov",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:59.519722",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "transportation.gov",
+        "O": "U.S. Department of Transportation",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "Entrust OV TLS Issuing RSA CA 2",
+        "O": "Entrust Limited"
+      },
+      "valid_from": "2026-02-02T00:00:00+00:00",
+      "valid_to": "2027-02-02T23:59:59+00:00",
+      "days_remaining": 289,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x5130b21c60abedede4faa80fece580b6",
+      "san": [
+        "transportation.gov",
+        "dot.gov",
+        "phmsa.dot.gov",
+        "www.phmsa.dot.gov",
+        "www.transportation.gov"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "labor.gov",
+    "port": 443,
+    "scan_time": "2026-04-19T18:35:01.509646",
+    "tls_versions": {
+      "TLSv1.2": false,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {},
+      "issuer": {},
+      "valid_from": null,
+      "valid_to": null,
+      "days_remaining": null,
+      "key_type": null,
+      "key_size": null,
+      "signature_algorithm": null,
+      "serial_number": null,
+      "san": [],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": false,
+      "error": "[Errno 11001] getaddrinfo failed"
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "education.gov",
+    "port": 443,
+    "scan_time": "2026-04-19T18:35:02.598530",
+    "tls_versions": {
+      "TLSv1.2": false,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {},
+      "issuer": {},
+      "valid_from": null,
+      "valid_to": null,
+      "days_remaining": null,
+      "key_type": null,
+      "key_size": null,
+      "signature_algorithm": null,
+      "serial_number": null,
+      "san": [],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": false,
+      "error": "[Errno 11001] getaddrinfo failed"
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "veterans.gov",
+    "port": 443,
+    "scan_time": "2026-04-19T18:35:03.698248",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "www.dol.gov",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "R13",
+        "O": "Let's Encrypt"
+      },
+      "valid_from": "2026-04-10T13:07:08+00:00",
+      "valid_to": "2026-07-09T13:07:07+00:00",
+      "days_remaining": 80,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x6319ef8c36c412020707bcf7bd0c1d0f46f",
+      "san": [
+        "veterans.gov",
+        "www.dol.gov",
+        "www.veterans.gov"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "hhs.gov",
+    "port": 443,
+    "scan_time": "2026-04-19T18:35:05.355939",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "hhs.gov",
+        "O": "United States Department of Health and Human Services",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+        "O": "DigiCert Inc"
+      },
+      "valid_from": "2025-12-01T00:00:00+00:00",
+      "valid_to": "2026-12-21T23:59:59+00:00",
+      "days_remaining": 246,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x9a0df661e6bd4f7f9f4c33ff60d4375",
+      "san": [
+        "hhs.gov",
+        "dhhs.gov",
+        "www.dhhs.gov",
+        "pandemicflu.gov",
+        "stopbullying.gov",
+        "aging.gov",
+        "foodsafety.gov",
+        "betobaccofree.gov",
+        "therealcost.gov",
+        "fitness.gov",
+        "www.fitness.gov",
+        "globalhealth.gov",
+        "surgeongeneral.gov",
+        "www.surgeongeneral.gov",
+        "thisfreelife.gov",
+        "tobacco.gov",
+        "opioids.gov",
+        "organdonor.gov",
+        "everytrycounts.gov",
+        "lowerdrugcosts.gov",
+        "www.lowerdrugcosts.gov",
+        "espanol.lowerdrugcosts.gov",
+        "www.espanol.lowerdrugcosts.gov",
+        "www.visforvaccinated.gov",
+        "visforvaccinated.gov",
+        "freshempire.gov",
+        "aanhpiheritage.gov",
+        "www.aanhpiheritage.gov",
+        "medicamentosbajoprecio.gov",
+        "www.medicamentosbajoprecio.gov",
+        "vaccines.gov",
+        "www.vaccines.gov"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "hud.gov",
+    "port": 443,
+    "scan_time": "2026-04-19T18:35:06.924395",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "www.hud.gov",
+        "O": "U.S. Department of Housing and Urban Development",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "GeoTrust TLS RSA CA G1",
+        "O": "DigiCert Inc"
+      },
+      "valid_from": "2025-12-12T00:00:00+00:00",
+      "valid_to": "2026-12-17T23:59:59+00:00",
+      "days_remaining": 242,
+      "key_type": "RSA",
+      "key_size": 4096,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x476d792c754a57f72fe83aae28656f2",
+      "san": [
+        "www.hud.gov",
+        "hud.gov",
+        "blog.hud.gov",
+        "fhadirect.hud.gov",
+        "ptp.hud.gov"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "ssa.gov",
+    "port": 443,
+    "scan_time": "2026-04-19T18:35:09.020567",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "*.ssa.gov",
+        "O": "Social Security Administration",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+        "O": "DigiCert Inc"
+      },
+      "valid_from": "2026-02-23T00:00:00+00:00",
+      "valid_to": "2027-01-03T23:59:59+00:00",
+      "days_remaining": 259,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x3843902d17ec5373046b6f07c176346",
+      "san": [
+        "*.ssa.gov",
+        "ssa.gov"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "usps.gov",
+    "port": 443,
+    "scan_time": "2026-04-19T18:35:10.665398",
+    "tls_versions": {
+      "TLSv1.2": false,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {},
+      "issuer": {},
+      "valid_from": null,
+      "valid_to": null,
+      "days_remaining": null,
+      "key_type": null,
+      "key_size": null,
+      "signature_algorithm": null,
+      "serial_number": null,
+      "san": [],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": false,
+      "error": "[Errno 11001] getaddrinfo failed"
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "ca.gov",
+    "port": 443,
+    "scan_time": "2026-04-19T18:35:11.762837",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "ca.gov",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "GeoTrust TLS RSA CA G1",
+        "O": "DigiCert Inc"
+      },
+      "valid_from": "2026-03-11T00:00:00+00:00",
+      "valid_to": "2026-09-11T23:59:59+00:00",
+      "days_remaining": 145,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0xb17b940ecdb98c4e1c93267ec5c0dce",
+      "san": [
+        "ca.gov"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "tx.gov",
+    "port": 443,
+    "scan_time": "2026-04-19T18:35:13.328387",
+    "tls_versions": {
+      "TLSv1.2": false,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {},
+      "issuer": {},
+      "valid_from": null,
+      "valid_to": null,
+      "days_remaining": null,
+      "key_type": null,
+      "key_size": null,
+      "signature_algorithm": null,
+      "serial_number": null,
+      "san": [],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": false,
+      "error": "timed out"
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "ny.gov",
+    "port": 443,
+    "scan_time": "2026-04-19T18:36:44.543033",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "*.ny.gov",
+        "O": "New York State Office of Information Technology Services",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "GlobalSign Atlas R3 OV TLS CA 2025 Q3",
+        "O": "GlobalSign nv-sa"
+      },
+      "valid_from": "2025-07-21T13:50:25+00:00",
+      "valid_to": "2026-07-21T13:50:25+00:00",
+      "days_remaining": 92,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x1ba1344946908091db6606c30576ec0",
+      "san": [
+        "*.ny.gov",
+        "ny.gov"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "fl.gov",
+    "port": 443,
+    "scan_time": "2026-04-19T18:36:46.019344",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "myflorida.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "Go Daddy Secure Certificate Authority - G2",
+        "O": "GoDaddy.com, Inc."
+      },
+      "valid_from": "2025-08-30T13:12:49+00:00",
+      "valid_to": "2026-08-28T18:14:41+00:00",
+      "days_remaining": 130,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x794bab038093a796",
+      "san": [
+        "myflorida.com",
+        "www.myflorida.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "il.gov",
+    "port": 443,
+    "scan_time": "2026-04-19T18:36:47.882533",
+    "tls_versions": {
+      "TLSv1.2": false,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {},
+      "issuer": {},
+      "valid_from": null,
+      "valid_to": null,
+      "days_remaining": null,
+      "key_type": null,
+      "key_size": null,
+      "signature_algorithm": null,
+      "serial_number": null,
+      "san": [],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": false,
+      "error": "[WinError 10054] An existing connection was forcibly closed by the remote host"
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "pa.gov",
+    "port": 443,
+    "scan_time": "2026-04-19T18:36:49.445349",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "pa.gov",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "GeoTrust TLS RSA CA G1",
+        "O": "DigiCert Inc"
+      },
+      "valid_from": "2026-02-13T00:00:00+00:00",
+      "valid_to": "2026-08-10T23:59:59+00:00",
+      "days_remaining": 113,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0xffa073ca1b452ed49d050eeadf223b2",
+      "san": [
+        "pa.gov"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "ohio.gov",
+    "port": 443,
+    "scan_time": "2026-04-19T18:36:51.056722",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "ohio.gov",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon"
+      },
+      "valid_from": "2025-09-23T00:00:00+00:00",
+      "valid_to": "2026-10-21T23:59:59+00:00",
+      "days_remaining": 185,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0xa334f5ed6bacc9405e3eb8fe822c0e2",
+      "san": [
+        "ohio.gov",
+        "pbr.ohio.gov",
+        "www.ohio.gov",
+        "governor.ohio.gov",
+        "www.fosterandadopt.jfs.ohio.gov",
+        "www.ohiomitigationplan.ohio.gov",
+        "www.info.bwc.ohio.gov",
+        "www.innovateohio.gov",
+        "fosterandadopt.jfs.ohio.gov",
+        "www.opportunityzones.ohio.gov",
+        "www.insurance.ohio.gov",
+        "www.topjobs.ohio.gov",
+        "opportunityzones.ohio.gov",
+        "firstlady.ohio.gov",
+        "transportation.ohio.gov",
+        "managedcare.medicaid.ohio.gov",
+        "www.dodd.ohio.gov",
+        "www.opi.ohio.gov",
+        "www.ood.ohio.gov",
+        "www.octf.ohio.gov",
+        "topjobs.ohio.gov",
+        "techcred.ohio.gov",
+        "uas.ohio.gov",
+        "cyber.ohio.gov",
+        "www.techcred.ohio.gov",
+        "www.managedcare.medicaid.ohio.gov",
+        "www.agri.ohio.gov",
+        "odh.ohio.gov",
+        "dodd.ohio.gov",
+        "otec.transportation.ohio.gov",
+        "recoveryohio.gov",
+        "octf.ohio.gov",
+        "agri.ohio.gov",
+        "careers.ohio.gov",
+        "publicsafety.ohio.gov",
+        "ood.ohio.gov",
+        "www.rail.ohio.gov",
+        "www.workforce.ohio.gov",
+        "www.odh.ohio.gov",
+        "www.publicsafety.ohio.gov",
+        "drive.ohio.gov",
+        "insurance.ohio.gov",
+        "www.obm.ohio.gov",
+        "info.bwc.ohio.gov",
+        "www.governor.ohio.gov",
+        "www.business.ohio.gov",
+        "dx.ohio.gov",
+        "business.ohio.gov",
+        "www.uas.ohio.gov",
+        "www.transportation.ohio.gov",
+        "www.careers.ohio.gov",
+        "www.serb.ohio.gov",
+        "www.drive.ohio.gov",
+        "www.firstlady.ohio.gov",
+        "opi.ohio.gov",
+        "www.cyber.ohio.gov",
+        "innovateohio.gov",
+        "ohiomitigationplan.ohio.gov",
+        "serb.ohio.gov",
+        "www.recoveryohio.gov",
+        "www.pbr.ohio.gov",
+        "rail.ohio.gov",
+        "obm.ohio.gov",
+        "www.otec.transportation.ohio.gov",
+        "workforce.ohio.gov"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "ga.gov",
+    "port": 443,
+    "scan_time": "2026-04-19T18:36:53.243264",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "*.georgia.gov",
+        "O": "Georgia Technology Authority",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+        "O": "DigiCert Inc"
+      },
+      "valid_from": "2025-09-15T00:00:00+00:00",
+      "valid_to": "2026-10-16T23:59:59+00:00",
+      "days_remaining": 180,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x294c62b56bb9a116b5b3052f86fc022",
+      "san": [
+        "*.georgia.gov",
+        "georgia.gov",
+        "*.prod.dsga.codes",
+        "prod.dsga.codes",
+        "*.ga.gov",
+        "ga.gov"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "nc.gov",
+    "port": 443,
+    "scan_time": "2026-04-19T18:36:54.738739",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "nc.gov",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "R13",
+        "O": "Let's Encrypt"
+      },
+      "valid_from": "2026-03-01T19:15:18+00:00",
+      "valid_to": "2026-05-30T19:15:17+00:00",
+      "days_remaining": 40,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x5573f091f2a78b86041edd5483d80b5dfd9",
+      "san": [
+        "avianflu.nc.gov",
+        "nc.gov",
+        "ncgov.com",
+        "ncgov.net",
+        "ncgov.org",
+        "northcarolina.gov",
+        "np.nc.gov",
+        "openbudget.nc.gov",
+        "state.nc.us",
+        "volunteernc.org",
+        "www.ncgov-2012.nc.gov",
+        "www.ncgov.com",
+        "www.ncgov.net",
+        "www.ncgov.org",
+        "www.northcarolina.gov",
+        "www.state.nc.us",
+        "www.volunteernc.org"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "mi.gov",
+    "port": 443,
+    "scan_time": "2026-04-19T18:36:56.258303",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "www.michigan.gov",
+        "O": "State of Michigan",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "GeoTrust TLS RSA CA G1",
+        "O": "DigiCert Inc"
+      },
+      "valid_from": "2025-08-25T00:00:00+00:00",
+      "valid_to": "2026-08-24T23:59:59+00:00",
+      "days_remaining": 127,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x7d9cd12d2bd5adfe7a7eed5f1512df9",
+      "san": [
+        "www.michigan.gov",
+        "az.cms.michigan.gov",
+        "az.cmstest.michigan.gov",
+        "az.scdev-identityserver.michigan.gov",
+        "az.scdev.michigan.gov",
+        "az.scprod-identityserver.michigan.gov",
+        "az.scprod.michigan.gov",
+        "az.sctest-identityserver.michigan.gov",
+        "az.sctest.michigan.gov",
+        "az.www.michigan.gov",
+        "cms.michigan.gov",
+        "cmstest.michigan.gov",
+        "digitalguidelines.michigan.gov",
+        "mi.gov",
+        "mich.gov",
+        "michigan.gov",
+        "scdev-identityserver.michigan.gov",
+        "scdev.michigan.gov",
+        "scprod-identityserver.michigan.gov",
+        "scprod.michigan.gov",
+        "sctest-identityserver.michigan.gov",
+        "sctest.michigan.gov",
+        "search.michigan.gov",
+        "staging.cms.michigan.gov",
+        "staging.cmstest.michigan.gov",
+        "staging.scdev.michigan.gov",
+        "staging.scprod.michigan.gov",
+        "staging.sctest.michigan.gov",
+        "staging.www.michigan.gov",
+        "www.mi.gov",
+        "www.mich.gov"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "nj.gov",
+    "port": 443,
+    "scan_time": "2026-04-19T18:36:57.699626",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "imperva.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "GlobalSign Atlas R3 DV TLS CA 2025 Q4",
+        "O": "GlobalSign nv-sa"
+      },
+      "valid_from": "2026-01-05T14:07:19+00:00",
+      "valid_to": "2026-07-04T14:07:19+00:00",
+      "days_remaining": 75,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x15fbddc2e06d0938db2e88a4f149982",
+      "san": [
+        "*.bvh.dca.nj.gov",
+        "wictraining.nj.gov",
+        "*.uatpprmottmac.njdotproblemreporting.nj.gov",
+        "njmmp.nj.gov",
+        "*.dhs.state.nj.us",
+        "*.njtms.org",
+        "*.dmava.org",
+        "www.nj.gov",
+        "wicuat.nj.gov",
+        "www.njmmp.nj.gov",
+        "*.njsp.gov",
+        "geotest.nj.gov",
+        "www.cyber.nj.gov",
+        "njgin.nj.gov",
+        "*.njstart.gov",
+        "perc.state.nj.us",
+        "*.dep.nj.gov",
+        "*.lps.nj.gov",
+        "*.dol.state.nj.us",
+        "geoapps.nj.gov",
+        "*.dcf.state.nj.us",
+        "njtms.org",
+        "www2-tre.mwg.state.nj.us",
+        "geo.nj.gov",
+        "reqtrack.nj.gov",
+        "*.account.business.nj.gov",
+        "adoptionrecords.nj.gov",
+        "dmava.org",
+        "*.njsp.org",
+        "cyber.nj.gov",
+        "www.lwdwebpt.dol.state.nj.us",
+        "www.njiis.nj.gov",
+        "*.business.nj.gov",
+        "*.crc.nj.gov",
+        "healthsurveys.nj.gov",
+        "njiis.nj.gov",
+        "*.nj.gov",
+        "lwdwebpt.dol.state.nj.us",
+        "*.state.nj.us",
+        "enjine.smarter.nj.gov",
+        "maps.nj.gov",
+        "*.connecting.nj.gov",
+        "*.mwg.nj.gov",
+        "*.danielslawredact.nj.gov",
+        "data.nj.gov",
+        "imperva.com",
+        "wms.nj.gov",
+        "edrs.nj.gov",
+        "www.adoptionrecords.nj.gov",
+        "*.doe.state.nj.us",
+        "www.edrs.nj.gov",
+        "*.njmilitiamuseum.gov",
+        "*.voyager.nj.gov",
+        "www.perc.state.nj.us",
+        "lwd.state.nj.us",
+        "*.njdotproblemreporting.nj.gov",
+        "mycareer.nj.gov",
+        "dcfebpr.dcf.state.nj.us",
+        "*.mwg.state.nj.us",
+        "njstart.gov",
+        "www.healthsurveys.nj.gov",
+        "connecting.nj.gov",
+        "*.respond.cyber.nj.gov",
+        "business.nj.gov",
+        "nj.gov",
+        "njdotproblemreporting.nj.gov",
+        "njmilitiamuseum.gov"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "va.gov",
+    "port": 443,
+    "scan_time": "2026-04-19T18:36:59.206996",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "www.va.gov",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "Sectigo Public Server Authentication CA DV R36",
+        "O": "Sectigo Limited"
+      },
+      "valid_from": "2025-12-20T00:00:00+00:00",
+      "valid_to": "2027-01-18T23:59:59+00:00",
+      "days_remaining": 274,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0xa1f4db22dda19f972a0da5f8bdf8ec6",
+      "san": [
+        "www.va.gov",
+        "va.gov"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "wa.gov",
+    "port": 443,
+    "scan_time": "2026-04-19T18:37:00.674186",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "access.wa.gov",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "R13",
+        "O": "Let's Encrypt"
+      },
+      "valid_from": "2026-02-21T17:26:04+00:00",
+      "valid_to": "2026-05-22T17:26:03+00:00",
+      "days_remaining": 32,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x51afc5713a3de99349e3948e42928474121",
+      "san": [
+        "access.wa.gov",
+        "accessibility.wa.gov",
+        "contact.wa.gov",
+        "floodrecovery.wa.gov",
+        "suspectfraud.com",
+        "suspectfraud.org",
+        "suspectfraud.wa.gov",
+        "wa.gov",
+        "www.access.wa.gov",
+        "www.accessibility.wa.gov",
+        "www.wa.gov"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "az.gov",
+    "port": 443,
+    "scan_time": "2026-04-19T18:37:02.072766",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "az.gov",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "WE1",
+        "O": "Google Trust Services"
+      },
+      "valid_from": "2026-04-19T16:44:11+00:00",
+      "valid_to": "2026-07-18T17:44:08+00:00",
+      "days_remaining": 89,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA256",
+      "serial_number": "0x477d2a8e4ff3a5550efe50f05df3f1a7",
+      "san": [
+        "az.gov",
+        "www.ansac.az.gov"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "ma.gov",
+    "port": 443,
+    "scan_time": "2026-04-19T18:37:03.440301",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "mass.gov",
+        "O": "Commonwealth Of Massachusetts",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+        "O": "DigiCert Inc"
+      },
+      "valid_from": "2025-12-04T00:00:00+00:00",
+      "valid_to": "2026-12-10T23:59:59+00:00",
+      "days_remaining": 235,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0xc24ae4013bc7f4402e80a5e0212a112",
+      "san": [
+        "mass.gov"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "mit.edu",
+    "port": 443,
+    "scan_time": "2026-04-19T18:37:04.915331",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "web.mit.edu",
+        "O": "Massachusetts Institute of Technology",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "GeoTrust TLS RSA CA G1",
+        "O": "DigiCert Inc"
+      },
+      "valid_from": "2025-12-10T00:00:00+00:00",
+      "valid_to": "2026-04-30T23:59:59+00:00",
+      "days_remaining": 11,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0xce4fdae0137778e71b708da3d3bcaa2",
+      "san": [
+        "web.mit.edu",
+        "alum-dev.mit.edu",
+        "alum.mit.edu",
+        "climate.mit.edu",
+        "emergency-dev.mit.edu",
+        "events-static.mit.edu",
+        "giving-dev.mit.edu",
+        "giving.mit.edu",
+        "img.mit.edu",
+        "mit.edu",
+        "mit.mit.edu",
+        "mitpress.mit.edu",
+        "mitpressbookstore.mit.edu",
+        "staging-mitpress.mit.edu",
+        "swartz-documents.mit.edu",
+        "swartz-report.mit.edu",
+        "thereader-staging.mitpress.mit.edu",
+        "thereader.mitpress.mit.edu",
+        "w.mit.edu",
+        "w3.mit.edu",
+        "web-cert.mit.edu",
+        "web-forms.mit.edu",
+        "web-staging.mit.edu",
+        "web.mit",
+        "www-cert.mit.edu",
+        "www-mit.mit.edu",
+        "www-staging.mit.edu",
+        "www.mit",
+        "www.mit.edu",
+        "www.web.mit.edu",
+        "wwww.mit.edu"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "stanford.edu",
+    "port": 443,
+    "scan_time": "2026-04-19T18:37:06.422543",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "stanford.edu",
+        "O": "Stanford University",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "InCommon RSA Server CA 2",
+        "O": "Internet2"
+      },
+      "valid_from": "2025-04-24T00:00:00+00:00",
+      "valid_to": "2026-04-24T23:59:59+00:00",
+      "days_remaining": 5,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha384WithRSAEncryption",
+      "serial_number": "0x8be197abdedb26b5488173318c16cb0b",
+      "san": [
+        "stanford.edu",
+        "*.stanford.edu",
+        "web.stanford.edu",
+        "www-v6.stanford.edu"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "harvard.edu",
+    "port": 443,
+    "scan_time": "2026-04-19T18:37:08.475767",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "harvard.edu",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "E8",
+        "O": "Let's Encrypt"
+      },
+      "valid_from": "2026-03-08T07:37:41+00:00",
+      "valid_to": "2026-06-06T07:37:40+00:00",
+      "days_remaining": 47,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA384",
+      "serial_number": "0x5dd48e500c44d0801801e588c688adf0bea",
+      "san": [
+        "harvard.edu",
+        "www.harvard.edu"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "caltech.edu",
+    "port": 443,
+    "scan_time": "2026-04-19T18:37:09.926126",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "caltech.edu",
+        "O": "California Institute of Technology",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "InCommon RSA Server CA 2",
+        "O": "Internet2"
+      },
+      "valid_from": "2025-12-10T00:00:00+00:00",
+      "valid_to": "2026-12-10T23:59:59+00:00",
+      "days_remaining": 235,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x3f5c9d571b654970a5a295b328247f16",
+      "san": [
+        "caltech.edu",
+        "admissions.caltech.edu",
+        "alumni.caltech.edu",
+        "aphms.caltech.edu",
+        "bbe.caltech.edu",
+        "biology.caltech.edu",
+        "bond.caltech.edu",
+        "brinsonhub.caltech.edu",
+        "caltech.info",
+        "caltech.net",
+        "caltech.org",
+        "cms.caltech.edu",
+        "cns.caltech.edu",
+        "csa.caltech.edu",
+        "eands.caltech.edu",
+        "eas.caltech.edu",
+        "ee.caltech.edu",
+        "einstein.caltech.edu",
+        "finaid.caltech.edu",
+        "galcit.caltech.edu",
+        "gps.caltech.edu",
+        "hpc.caltech.edu",
+        "hss.caltech.edu",
+        "imss.caltech.edu",
+        "jobs.caltech.edu",
+        "kiss.caltech.edu",
+        "lncrna.caltech.edu",
+        "mayo.caltech.edu",
+        "mems.caltech.edu",
+        "ogc.caltech.edu",
+        "pma.caltech.edu",
+        "quarantine.caltech.edu",
+        "registermydevice.caltech.edu",
+        "spamtrap.caltech.edu",
+        "srl.caltech.edu",
+        "studaff.caltech.edu",
+        "techer.caltech.edu",
+        "theory.caltech.edu",
+        "vis.caltech.edu",
+        "vision.caltech.edu",
+        "www.csa.caltech.edu",
+        "www.srl.caltech.edu",
+        "www.techer.caltech.edu"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "berkeley.edu",
+    "port": 443,
+    "scan_time": "2026-04-19T18:37:12.016661",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "berkeley.edu",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "WE1",
+        "O": "Google Trust Services"
+      },
+      "valid_from": "2026-04-17T02:32:07+00:00",
+      "valid_to": "2026-07-16T03:31:58+00:00",
+      "days_remaining": 87,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA256",
+      "serial_number": "0xb119cc10b6fcafa3132cd67793fd0b48",
+      "san": [
+        "berkeley.edu"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "ucla.edu",
+    "port": 443,
+    "scan_time": "2026-04-19T18:37:13.524221",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "ucla.edu",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon"
+      },
+      "valid_from": "2025-08-18T00:00:00+00:00",
+      "valid_to": "2026-09-16T23:59:59+00:00",
+      "days_remaining": 150,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0xa6a3a4e7d2c548adc45fd1843ad03ef",
+      "san": [
+        "ucla.edu"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "umich.edu",
+    "port": 443,
+    "scan_time": "2026-04-19T18:37:15.385363",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "umich.edu",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "WE1",
+        "O": "Google Trust Services"
+      },
+      "valid_from": "2026-03-23T17:10:58+00:00",
+      "valid_to": "2026-06-21T18:10:54+00:00",
+      "days_remaining": 62,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA256",
+      "serial_number": "0xefecc6bae82a28ec0e841919f76c1e97",
+      "san": [
+        "umich.edu"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "cornell.edu",
+    "port": 443,
+    "scan_time": "2026-04-19T18:37:16.796229",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "cornell.edu",
+        "O": "Cornell University",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "InCommon RSA Server CA 2",
+        "O": "Internet2"
+      },
+      "valid_from": "2025-07-02T00:00:00+00:00",
+      "valid_to": "2026-07-02T23:59:59+00:00",
+      "days_remaining": 74,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0xcde4b2a4c37cf6fd27ce886754055999",
+      "san": [
+        "cornell.edu"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "princeton.edu",
+    "port": 443,
+    "scan_time": "2026-04-19T18:37:18.382017",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "princeton.edu",
+        "O": "The Trustees of Princeton University",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "InCommon RSA Server CA 2",
+        "O": "Internet2"
+      },
+      "valid_from": "2025-05-07T00:00:00+00:00",
+      "valid_to": "2026-06-07T23:59:59+00:00",
+      "days_remaining": 49,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha384WithRSAEncryption",
+      "serial_number": "0x80df7b0deb2ba5da01e1351ec3d4edce",
+      "san": [
+        "princeton.edu"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "yale.edu",
+    "port": 443,
+    "scan_time": "2026-04-19T18:37:20.031267",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "yale.edu",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "Certainly Intermediate R1",
+        "O": "Certainly"
+      },
+      "valid_from": "2026-04-16T09:28:01+00:00",
+      "valid_to": "2026-05-16T09:28:00+00:00",
+      "days_remaining": 26,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x78f71777074071b6f004224d0956c5f2244b",
+      "san": [
+        "yale.edu"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  }
+]

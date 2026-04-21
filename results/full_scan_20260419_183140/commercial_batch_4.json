@@ -1,0 +1,1139 @@
+[
+  {
+    "host": "dictionary.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:33:34.774825",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "dictionary.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "WE1",
+        "O": "Google Trust Services"
+      },
+      "valid_from": "2026-03-04T23:13:59+00:00",
+      "valid_to": "2026-06-03T00:13:55+00:00",
+      "days_remaining": 44,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA256",
+      "serial_number": "0x223f0fd87fda0fff112fca3aa8f79d84",
+      "san": [
+        "dictionary.com",
+        "*.dictionary.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "mlb.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:33:36.210760",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "mlb.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "WR3",
+        "O": "Google Trust Services"
+      },
+      "valid_from": "2026-04-03T22:16:28+00:00",
+      "valid_to": "2026-07-02T23:09:42+00:00",
+      "days_remaining": 74,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x85f53a6503e940c09c4c85992270b69",
+      "san": [
+        "mlb.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "craigslist.org",
+    "port": 443,
+    "scan_time": "2026-04-19T18:33:37.658190",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "craigslist.org",
+        "O": "Craigslist, Inc.",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "DigiCert Global G3 TLS ECC SHA384 2020 CA1",
+        "O": "DigiCert Inc"
+      },
+      "valid_from": "2025-12-31T00:00:00+00:00",
+      "valid_to": "2027-01-31T23:59:59+00:00",
+      "days_remaining": 287,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA384",
+      "serial_number": "0x60a22bc424f50c2478352d62b7494ba",
+      "san": [
+        "craigslist.org",
+        "cl.com",
+        "craigslist.ca",
+        "craigslist.com",
+        "craigslist.net",
+        "*.cl.com",
+        "*.craigslist.ca",
+        "*.craigslist.com",
+        "*.craigslist.net",
+        "*.craigslist.org"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "ytdown.org",
+    "port": 443,
+    "scan_time": "2026-04-19T18:33:39.297714",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "ytdown.org",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "WE1",
+        "O": "Google Trust Services"
+      },
+      "valid_from": "2026-03-01T18:11:46+00:00",
+      "valid_to": "2026-05-30T19:09:23+00:00",
+      "days_remaining": 40,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA256",
+      "serial_number": "0xc59dc5c2c04262280db3afaec8696440",
+      "san": [
+        "ytdown.org",
+        "*.ytdown.org"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "etsy.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:33:40.692401",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "*.etsystatic.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "GlobalSign Atlas R3 DV TLS CA 2025 Q4",
+        "O": "GlobalSign nv-sa"
+      },
+      "valid_from": "2025-11-03T15:09:45+00:00",
+      "valid_to": "2026-12-05T15:09:44+00:00",
+      "days_remaining": 229,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x12d73862604a4f34e9614bd291aa888",
+      "san": [
+        "*.etsystatic.com",
+        "api-origin.etsy.com",
+        "api.etsy.com",
+        "m.etsy.com",
+        "openapi.etsy.com",
+        "www.etsy.com",
+        "etsy.com",
+        "openapi-staging.etsy.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "collinsdictionary.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:33:42.157462",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "collinsdictionary.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "WE1",
+        "O": "Google Trust Services"
+      },
+      "valid_from": "2026-02-26T18:10:42+00:00",
+      "valid_to": "2026-05-27T19:10:34+00:00",
+      "days_remaining": 37,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA256",
+      "serial_number": "0x7657a4dd783fc6d0de2a48c51c444bd",
+      "san": [
+        "collinsdictionary.com",
+        "*.collinsdictionary.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "healthline.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:33:43.571673",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "*.healthline.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon"
+      },
+      "valid_from": "2025-09-20T00:00:00+00:00",
+      "valid_to": "2026-10-18T23:59:59+00:00",
+      "days_remaining": 182,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x37fc5f22a7b50c208acf2440cb44127",
+      "san": [
+        "*.healthline.com",
+        "healthline.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "mcdonalds.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:33:45.016816",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "*.mcdonalds.com",
+        "O": "McDonald's Corporation",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+        "O": "DigiCert Inc"
+      },
+      "valid_from": "2025-08-11T00:00:00+00:00",
+      "valid_to": "2026-08-10T23:59:59+00:00",
+      "days_remaining": 113,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x21a08e04ffb9b3618cb137ddccbc8b8",
+      "san": [
+        "mcdonalds.com",
+        "*.mcdonalds.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "bbc.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:33:46.547961",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "www.bbc.com",
+        "O": "BRITISH BROADCASTING CORPORATION",
+        "OU": null,
+        "C": "GB"
+      },
+      "issuer": {
+        "CN": "GlobalSign RSA OV SSL CA 2018",
+        "O": "GlobalSign nv-sa"
+      },
+      "valid_from": "2025-06-27T06:54:01+00:00",
+      "valid_to": "2026-07-27T10:26:17+00:00",
+      "days_remaining": 98,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x245a42a2b5c5c8e991e5d713",
+      "san": [
+        "www.bbc.com",
+        "www.bbc.co.uk",
+        "www.bbcrussian.com",
+        "bbc.co.uk",
+        "bbcrussian.com",
+        "session.bbc.co.uk",
+        "search.bbc.co.uk",
+        "open.live.bbc.co.uk",
+        "news.bbc.co.uk",
+        "newsimg.bbc.co.uk",
+        "wwwnews.live.bbc.co.uk",
+        "cdnedge.bbc.co.uk",
+        "newsrss.bbc.co.uk",
+        "newsvote.bbc.co.uk",
+        "playlists.bbc.co.uk",
+        "r.bbci.co.uk",
+        "node1.bbcimg.co.uk",
+        "news.bbcimg.co.uk",
+        "account.bbc.com",
+        "session.bbc.com",
+        "bbc.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "chase.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:33:47.889406",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "www.chase.com",
+        "O": "JPMorgan Chase & Co.",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "DigiCert EV RSA CA G2",
+        "O": "DigiCert Inc"
+      },
+      "valid_from": "2025-09-12T00:00:00+00:00",
+      "valid_to": "2026-09-11T23:59:59+00:00",
+      "days_remaining": 145,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0xfe1cfb2c99ba2ae0db0a1cfb13576bb",
+      "san": [
+        "www.chase.com",
+        "chase.com",
+        "www-ndc.chase.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "ca.gov",
+    "port": 443,
+    "scan_time": "2026-04-19T18:33:49.446861",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "ca.gov",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "GeoTrust TLS RSA CA G1",
+        "O": "DigiCert Inc"
+      },
+      "valid_from": "2026-03-11T00:00:00+00:00",
+      "valid_to": "2026-09-11T23:59:59+00:00",
+      "days_remaining": 145,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0xb17b940ecdb98c4e1c93267ec5c0dce",
+      "san": [
+        "ca.gov"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "kbb.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:33:51.047079",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "kbb.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "E7",
+        "O": "Let's Encrypt"
+      },
+      "valid_from": "2026-04-10T02:36:00+00:00",
+      "valid_to": "2026-07-09T02:35:59+00:00",
+      "days_remaining": 80,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA384",
+      "serial_number": "0x6303742f6a07f2183f93907b7d5fe9f2cfe",
+      "san": [
+        "kbb.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "trustpilot.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:33:52.513584",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "*.trustpilot.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon"
+      },
+      "valid_from": "2025-11-01T00:00:00+00:00",
+      "valid_to": "2026-11-29T23:59:59+00:00",
+      "days_remaining": 224,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x45f16c655272c2493799a11419cbd88",
+      "san": [
+        "*.trustpilot.com",
+        "trustpilot.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "stanford.edu",
+    "port": 443,
+    "scan_time": "2026-04-19T18:33:54.739992",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "stanford.edu",
+        "O": "Stanford University",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "InCommon RSA Server CA 2",
+        "O": "Internet2"
+      },
+      "valid_from": "2025-04-24T00:00:00+00:00",
+      "valid_to": "2026-04-24T23:59:59+00:00",
+      "days_remaining": 5,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha384WithRSAEncryption",
+      "serial_number": "0x8be197abdedb26b5488173318c16cb0b",
+      "san": [
+        "stanford.edu",
+        "*.stanford.edu",
+        "web.stanford.edu",
+        "www-v6.stanford.edu"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "istockphoto.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:33:56.873076",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "www.istockphoto.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "Amazon RSA 2048 M03",
+        "O": "Amazon"
+      },
+      "valid_from": "2025-07-18T00:00:00+00:00",
+      "valid_to": "2026-08-15T23:59:59+00:00",
+      "days_remaining": 118,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x24498217370d5667001dc251028fab6",
+      "san": [
+        "www.istockphoto.com",
+        "italiano.istockphoto.com",
+        "istock.com",
+        "refer.istockphoto.com",
+        "www.istock.com",
+        "jezykpolski.istockphoto.com",
+        "hangul.istockphoto.com",
+        "workwithus.istockphoto.com",
+        "francais.istockphoto.com",
+        "russki.istockphoto.com",
+        "espanol.istockphoto.com",
+        "istockphoto.com",
+        "nihongo.istockphoto.com",
+        "deutsch.istockphoto.com",
+        "portugues.istockphoto.com",
+        "portuguesbrasileiro.istockphoto.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "shutterstock.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:33:58.222739",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "stockphotoeditor.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "Amazon RSA 2048 M02",
+        "O": "Amazon"
+      },
+      "valid_from": "2025-06-23T00:00:00+00:00",
+      "valid_to": "2026-07-22T23:59:59+00:00",
+      "days_remaining": 94,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0xd105063f6a8276de398d1702aa9c59b",
+      "san": [
+        "stockphotoeditor.com",
+        "skillfeed.com",
+        "inacreativeworld.com",
+        "imageneslibresdederechos.com",
+        "videosemaltadefinicao.com",
+        "highresvideos.com",
+        "stockphotoeditor.info",
+        "videosenalta.com",
+        "imagenesroyaltyfree.com",
+        "creatorstour.de",
+        "*.bigstockcorp.com",
+        "*.picdn.net",
+        "shutterstock.com",
+        "shutterstock.mobi",
+        "videosroyaltyfree.com",
+        "stockphotoeditor.net",
+        "bancodevideos.com",
+        "freestockeditor.com",
+        "freestock.com",
+        "offset.com",
+        "freestockeditor.net",
+        "bigstockcorp.com",
+        "*.highresvideos.com",
+        "videosenaltaresolucion.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "oanda.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:33:59.650899",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "oanda.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "WE1",
+        "O": "Google Trust Services"
+      },
+      "valid_from": "2026-03-11T21:45:09+00:00",
+      "valid_to": "2026-06-09T22:44:54+00:00",
+      "days_remaining": 51,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA256",
+      "serial_number": "0xadef813b8829432e0e518be105ad8ed4",
+      "san": [
+        "oanda.com",
+        "*.oanda.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "uga.edu",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:01.078885",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "uga.edu",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon"
+      },
+      "valid_from": "2025-10-20T00:00:00+00:00",
+      "valid_to": "2026-11-18T23:59:59+00:00",
+      "days_remaining": 213,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0xe37805f020f2500f3f5c123e66886f2",
+      "san": [
+        "uga.edu",
+        "www.uga.edu",
+        "www.dev.uga.edu",
+        "impact.uga.edu",
+        "www.stage.uga.edu",
+        "www.impact.uga.edu"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "twitter.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:02.589273",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "twitter.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "E7",
+        "O": "Let's Encrypt"
+      },
+      "valid_from": "2026-03-30T05:03:55+00:00",
+      "valid_to": "2026-06-28T05:03:54+00:00",
+      "days_remaining": 69,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA384",
+      "serial_number": "0x57ebe881297ee41d4d816eb20c0ab2fc905",
+      "san": [
+        "*.twitter.com",
+        "cdn.syndication.twitter.com",
+        "twitter.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "webmd.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:04.033342",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "le.prod.webmd.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "R12",
+        "O": "Let's Encrypt"
+      },
+      "valid_from": "2026-04-02T01:13:02+00:00",
+      "valid_to": "2026-07-01T01:13:01+00:00",
+      "days_remaining": 72,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x582f2726d2168cb131219102ac3e5f875df",
+      "san": [
+        "*.derigo.us",
+        "*.framesdata.com",
+        "*.krames.com",
+        "*.kramesondemand.com",
+        "*.kramesonline.com",
+        "*.kramesstaywell.com",
+        "*.kramesvideo.com",
+        "*.la1.webmd.com",
+        "*.m.webmd.com",
+        "*.ma1.krames.com",
+        "*.ma1.kramesondemand.com",
+        "*.ma1.kramesonline.com",
+        "*.ma1.kramesstaywell.com",
+        "*.ma1.kramesvideo.com",
+        "*.ma1.medicinenet.com",
+        "*.ma1.staywellhealthlibrary.com",
+        "*.ma1.staywellknowledgebase.com",
+        "*.ma1.staywellsolutionsonline.com",
+        "*.ma1.webmd.com",
+        "*.medicinenet.com",
+        "*.mediquality.net",
+        "*.medscape.com",
+        "*.medscape.org",
+        "*.medscapestatic.com",
+        "*.mngh.co",
+        "*.myframegallery.com",
+        "*.preview.m.webmd.com",
+        "*.preview.webmd.com",
+        "*.proddev.medscape.com",
+        "*.proddev.medscape.org",
+        "*.proddev.medscapestatic.com",
+        "*.staging.krames.com",
+        "*.staging.kramesondemand.com",
+        "*.staging.kramesonline.com",
+        "*.staging.kramesstaywell.com",
+        "*.staging.kramesvideo.com",
+        "*.staging.m.webmd.com",
+        "*.staging.medscape.com",
+        "*.staging.medscape.org",
+        "*.staging.medscapestatic.com",
+        "*.staging.staywellhealthlibrary.com",
+        "*.staging.staywellknowledgebase.com",
+        "*.staging.staywellsolutionsonline.com",
+        "*.staging.webmd.com",
+        "*.staywellhealthlibrary.com",
+        "*.staywellknowledgebase.com",
+        "*.staywellsolutionsonline.com",
+        "*.stg-ma1.kramesondemand.com",
+        "*.stg-ma1.kramesonline.com",
+        "*.stg-ma1.kramesstaywell.com",
+        "*.stg-ma1.kramesvideo.com",
+        "*.stg-ma1.staywellhealthlibrary.com",
+        "*.stg-ma1.staywellknowledgebase.com",
+        "*.stg-ma1.staywellsolutionsonline.com",
+        "*.stprod.webmd.com",
+        "*.webmd.com",
+        "derigo.us",
+        "fdb.rxlist.com",
+        "framesdata.com",
+        "images.emedicinehealth.com",
+        "images.onhealth.com",
+        "images.rxlist.com",
+        "img.medscape.fr",
+        "img.medscapemedizin.de",
+        "kramesondemand.com",
+        "kramesonline.com",
+        "kramesvideo.com",
+        "le.prod.webmd.com",
+        "medicinenet.com",
+        "medscape.com",
+        "medscape.org",
+        "mngh.co",
+        "mobilebeta.webmdpartner.net",
+        "sf2aim.webmd.net",
+        "staging.mobileconnections.webmd.com",
+        "staging.patientjourneys.webmd.com",
+        "staywellknowledgebase.com",
+        "staywellsolutionsonline.com",
+        "webmd.com",
+        "www.doctor.webmd.com",
+        "www.emedicinehealth.com",
+        "www.onhealth.com",
+        "www.rxlist.com",
+        "www.sponsorcontent.webmd.com",
+        "www.symptomchecker.webmd.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  }
+]

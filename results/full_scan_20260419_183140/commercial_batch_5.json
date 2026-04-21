@@ -1,0 +1,1413 @@
+[
+  {
+    "host": "nypost.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:05.514764",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "nypost.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "E8",
+        "O": "Let's Encrypt"
+      },
+      "valid_from": "2026-04-09T02:37:44+00:00",
+      "valid_to": "2026-07-08T02:37:43+00:00",
+      "days_remaining": 79,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA384",
+      "serial_number": "0x6e219b6bb0102caecb19bbf8290808be05d",
+      "san": [
+        "nypost.com",
+        "www.nypost.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "bankofamerica.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:06.937174",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "bankofamerica.com",
+        "O": "Bank of America Corporation",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "DigiCert EV RSA CA G2",
+        "O": "DigiCert Inc"
+      },
+      "valid_from": "2025-09-16T00:00:00+00:00",
+      "valid_to": "2026-09-15T23:59:59+00:00",
+      "days_remaining": 149,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x44f0fc46ecf88b2b7e2cf4543f48a15",
+      "san": [
+        "bankofamerica.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "youtubeto-mp3.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:08.262646",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "youtubeto-mp3.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "WE1",
+        "O": "Google Trust Services"
+      },
+      "valid_from": "2026-02-25T14:17:33+00:00",
+      "valid_to": "2026-05-26T15:16:18+00:00",
+      "days_remaining": 36,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA256",
+      "serial_number": "0x1a79428639d94a530e845e4816e5d52d",
+      "san": [
+        "youtubeto-mp3.com",
+        "*.youtubeto-mp3.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "go.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:09.643559",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "redirect.disneyinternational.com",
+        "O": "The Walt Disney Company",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "Sectigo Public Server Authentication CA OV R36",
+        "O": "Sectigo Limited"
+      },
+      "valid_from": "2025-08-28T00:00:00+00:00",
+      "valid_to": "2026-08-28T23:59:59+00:00",
+      "days_remaining": 131,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x7dbd9bbf18f7d4905b021d82a086b539",
+      "san": [
+        "redirect.disneyinternational.com",
+        "*.abctalentdevelopment.com",
+        "*.beautyandthebeastmusical.co.uk",
+        "*.captainamericamovie.ch",
+        "*.disney.asia",
+        "*.disney.be",
+        "*.disney.bg",
+        "*.disney.ch",
+        "*.disney.co.il",
+        "*.disney.co.jp",
+        "*.disney.co.kr",
+        "*.disney.co.th",
+        "*.disney.co.uk",
+        "*.disney.co.za",
+        "*.disney.com.au",
+        "*.disney.com.br",
+        "*.disney.com.hk",
+        "*.disney.com.tr",
+        "*.disney.com.tw",
+        "*.disney.cz",
+        "*.disney.de",
+        "*.disney.dk",
+        "*.disney.es",
+        "*.disney.fi",
+        "*.disney.fr",
+        "*.disney.gr",
+        "*.disney.hu",
+        "*.disney.id",
+        "*.disney.ie",
+        "*.disney.in",
+        "*.disney.it",
+        "*.disney.my",
+        "*.disney.nl",
+        "*.disney.no",
+        "*.disney.ph",
+        "*.disney.pl",
+        "*.disney.pt",
+        "*.disney.ro",
+        "*.disney.se",
+        "*.disney.sg",
+        "*.disney100lamitiecestmerveilleux.fr",
+        "*.disneyelpoderdelaamistad.es",
+        "*.disneyinternational.com",
+        "*.disneylatino.com",
+        "*.disneylesmerveillesdelamitie.fr",
+        "*.disneytech.asia",
+        "*.disneywonderoffriendship.co.uk",
+        "*.disneywonderoffriendship.de",
+        "*.disneywonderoffriendship.es",
+        "*.disneywonderoffriendship.fr",
+        "*.frozenthemusical.com.au",
+        "*.moanamovie.au",
+        "*.moanamovie.co.nz",
+        "*.moanamovie.com.au",
+        "*.moanamovie.nz",
+        "*.natgeo.com",
+        "*.natgeo.film",
+        "*.nationalgeographic.com",
+        "*.playground.dtci.pe",
+        "*.thelionking.ch",
+        "20thcenturyfilm.ca",
+        "20thcenturymovie.ca",
+        "20thcenturystudios.asia",
+        "abctalentdevelopment.com",
+        "ahauntinginvenice.ch",
+        "aladdineducation.co.uk",
+        "aladdinthemusical.co.uk",
+        "antlersmovie.co.uk",
+        "ballast.dmed.technology",
+        "beautyandthebeastmusical.co.uk",
+        "beforetheflood.nationalgeographic.com.au",
+        "bole-disney.com",
+        "captainamericamovie.ch",
+        "createadisneycastle.com",
+        "dgectdi.com",
+        "disney.asia",
+        "disney.bg",
+        "disney.ch",
+        "disney.co.il",
+        "disney.co.kr",
+        "disney.co.th",
+        "disney.co.uk",
+        "disney.co.za",
+        "disney.com.au",
+        "disney.com.br",
+        "disney.com.hk",
+        "disney.com.tr",
+        "disney.com.tw",
+        "disney.cz",
+        "disney.de",
+        "disney.dk",
+        "disney.es",
+        "disney.fi",
+        "disney.fr",
+        "disney.gr",
+        "disney.hu",
+        "disney.id",
+        "disney.ie",
+        "disney.in",
+        "disney.it",
+        "disney.my",
+        "disney.nl",
+        "disney.no",
+        "disney.ph",
+        "disney.pl",
+        "disney.pt",
+        "disney.ro",
+        "disney.se",
+        "disney.sg",
+        "disneyadvertising.be",
+        "disneyadvertising.es",
+        "disneyadvertising.nl",
+        "disneyartchallenge.fr",
+        "disneychannel.de",
+        "disneychannelearthday.be",
+        "disneychannelearthday.nl",
+        "disneychristmaslookbook.com",
+        "disneydayseats.co.uk",
+        "disneyfilm.ca",
+        "disneyholidays.co.uk",
+        "disneyholidays.de",
+        "disneyholidays.es",
+        "disneyholidays.ie",
+        "disneyjunior.asia",
+        "disneyjunior.ca",
+        "disneylatino.com",
+        "disneylife.ph",
+        "disneymagicexpo.com",
+        "disneymagicmoments.at",
+        "disneymagicmoments.be",
+        "disneymagicmoments.ch",
+        "disneymagicmoments.co.il",
+        "disneymagicmoments.co.uk",
+        "disneymagicmoments.co.za",
+        "disneymagicmoments.de",
+        "disneymagicmoments.es",
+        "disneymagicmoments.fr",
+        "disneymagicmoments.gen.tr",
+        "disneymagicmoments.gr",
+        "disneymagicmoments.it",
+        "disneymagicmoments.pl",
+        "disneymagicmomentsme.com",
+        "disneyme.com",
+        "disneymovie.ca",
+        "disneyonice-asia.com",
+        "disneyonice.com.my",
+        "disneyonice.com.sg",
+        "disneypackages.co.uk",
+        "disneyplus.com.tr",
+        "disneyplushotstar.com",
+        "disneyplushotstar.my",
+        "disneytheatricaleducation.co.uk",
+        "disneytickets.co.uk",
+        "disneytickets.com",
+        "disneyticketsgroups.co.uk",
+        "disneyturkiye.com.tr",
+        "disneywishtogether.au",
+        "disneyxd.ca",
+        "dlife.jp",
+        "dreambigprincess.asia",
+        "exploringthelionking.com",
+        "fireoflove.film",
+        "funtastic-lab.fr",
+        "getespn.com.au",
+        "go.com",
+        "groups.disneytickets.co.uk",
+        "hongkongdisneyland.com.cn",
+        "insideoutmovie.co.nz",
+        "insideoutmovie.com.au",
+        "lionkinghouseseats.co.uk",
+        "lionkingvideo.com",
+        "marvel-asia.com",
+        "marvelhq.com",
+        "marvelrun.sg",
+        "marvelstudios.com.hk",
+        "marvelstudiosfilm.ca",
+        "marvelstudiosmovie.ca",
+        "moanamovie.au",
+        "moanamovie.co.nz",
+        "moanamovie.com.au",
+        "moanamovie.nz",
+        "mrvertigo.topolino.it",
+        "mydisneyexperience.co.uk",
+        "mydisneyexperience.eu",
+        "mydisneyexperience.ie",
+        "natgeo.film",
+        "natgeofotowedstrijd.nl",
+        "natgeotraveller.in",
+        "nationalgeographic.be",
+        "nationalgeographic.com.tr",
+        "nationalgeographicfotowedstrijd.nl",
+        "nl.disneypartners.disney.be",
+        "playground.dtci.pe",
+        "retrograde.film",
+        "searchlightpicturesfilm.ca",
+        "searchlightpicturesmovie.ca",
+        "secure.disneytickets.co.uk",
+        "secure.www.disneytickets.co.uk",
+        "security.intakeform.disney.com",
+        "spellbook.adsales.disney.com",
+        "star-brasil.com",
+        "star-latam.com",
+        "starwars-asia.com",
+        "summerofsoulmovie.co.uk",
+        "thelionking.ch",
+        "thelionking.co.uk",
+        "theterritory.film",
+        "tsumgaomaker.jp",
+        "tv.disneyturkiye.com.tr",
+        "wefeedpeople.film",
+        "wish-gewinnspiel.de",
+        "www.ahauntinginvenice.ch",
+        "www.aladdineducation.co.uk",
+        "www.aladdinthemusical.co.uk",
+        "www.corporate.disney.fr",
+        "www.createadisneycastle.com",
+        "www.disney.be",
+        "www.disney100lamitiecestmerveilleux.fr",
+        "www.disneyartchallenge.fr",
+        "www.disneychannel.de",
+        "www.disneychannelearthday.be",
+        "www.disneychannelearthday.nl",
+        "www.disneydayseats.co.uk",
+        "www.disneyelpoderdelaamistad.es",
+        "www.disneyjunior.ca",
+        "www.disneylesmerveillesdelamitie.fr",
+        "www.disneylife.ph",
+        "www.disneymagicexpo.com",
+        "www.disneyme.com",
+        "www.disneyplus.com.tr",
+        "www.disneytheatricaleducation.co.uk",
+        "www.disneytickets.com",
+        "www.disneyticketsgroups.co.uk",
+        "www.disneyturkiye.com.tr",
+        "www.disneywishtogether.au",
+        "www.disneyxd.ca",
+        "www.exploringthelionking.com",
+        "www.fireoflove.film",
+        "www.funtastic-lab.fr",
+        "www.glassmovie.cz",
+        "www.healthytainment.disney.co.jp",
+        "www.hongkongdisneyland.com.cn",
+        "www.insideoutmovie.co.nz",
+        "www.insideoutmovie.com.au",
+        "www.lionkinghouseseats.co.uk",
+        "www.lionkingvideo.com",
+        "www.marvelstudios.com.hk",
+        "www.mydisneyexperience.co.uk",
+        "www.mydisneyexperience.eu",
+        "www.mydisneyexperience.ie",
+        "www.natgeo.pt",
+        "www.natgeofotowedstrijd.nl",
+        "www.natgeotraveller.in",
+        "www.nationalgeographic.com.tr",
+        "www.qc.disneytech.asia",
+        "www.retrograde.film",
+        "www.rex.disneytech.asia",
+        "www.theterritory.film",
+        "www.tsumgaomaker.jp",
+        "www.wefeedpeople.film",
+        "www.wish-gewinnspiel.de",
+        "zoom.disneynature.fr"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "openai.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:11.102384",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "openai.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "WE1",
+        "O": "Google Trust Services"
+      },
+      "valid_from": "2026-03-23T03:17:45+00:00",
+      "valid_to": "2026-06-21T04:17:42+00:00",
+      "days_remaining": 62,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA256",
+      "serial_number": "0xdddbeb8d2b6f57213a051a841b9aa4e",
+      "san": [
+        "openai.com",
+        "*.openai.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "vocabulary.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:12.571749",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "vocabulary.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "E8",
+        "O": "Let's Encrypt"
+      },
+      "valid_from": "2026-03-08T09:42:21+00:00",
+      "valid_to": "2026-06-06T09:42:20+00:00",
+      "days_remaining": 47,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA384",
+      "serial_number": "0x5324706d860bc7ca5190a53c759f35766b0",
+      "san": [
+        "*.vocabulary.com",
+        "vocabulary.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "4kdownload.to",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:14.012137",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "4kdownload.to",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "WE1",
+        "O": "Google Trust Services"
+      },
+      "valid_from": "2026-04-16T12:51:22+00:00",
+      "valid_to": "2026-07-15T13:48:56+00:00",
+      "days_remaining": 86,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA256",
+      "serial_number": "0x7d79e465651a4ea90efbb43d5b219dbd",
+      "san": [
+        "4kdownload.to",
+        "*.4kdownload.to"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "booking.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:15.365335",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "*.booking.com",
+        "O": "Booking.com BV",
+        "OU": null,
+        "C": "NL"
+      },
+      "issuer": {
+        "CN": "DigiCert Global G2 TLS RSA SHA256 2020 CA1",
+        "O": "DigiCert Inc"
+      },
+      "valid_from": "2025-12-18T00:00:00+00:00",
+      "valid_to": "2026-10-30T23:59:59+00:00",
+      "days_remaining": 194,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x742de68ce571d81d04115bc5b143132",
+      "san": [
+        "*.booking.com",
+        "booking.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "fedex.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:16.755314",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "www.fedex.com",
+        "O": "FedEx Corporation",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "Sectigo Public Server Authentication CA EV R36",
+        "O": "Sectigo Limited"
+      },
+      "valid_from": "2026-03-06T00:00:00+00:00",
+      "valid_to": "2026-09-21T23:59:59+00:00",
+      "days_remaining": 155,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x180d07ee6980fcbf7d22ecbe0a024452",
+      "san": [
+        "www.fedex.com",
+        "developer.fedex.com",
+        "fedex.com",
+        "images.fedex.com",
+        "m.fedex.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "mercercounty.org",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:18.341577",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "mercercounty.org",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "R12",
+        "O": "Let's Encrypt"
+      },
+      "valid_from": "2026-03-20T09:57:50+00:00",
+      "valid_to": "2026-06-18T09:57:49+00:00",
+      "days_remaining": 59,
+      "key_type": "RSA",
+      "key_size": 3072,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x6cebfe84faf16bfadea0ee2dde074f0647d",
+      "san": [
+        "mercercounty.org"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "google.dev",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:20.058265",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "devsite-sni.developers.google.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "WR2",
+        "O": "Google Trust Services"
+      },
+      "valid_from": "2026-03-30T08:35:09+00:00",
+      "valid_to": "2026-06-22T08:35:08+00:00",
+      "days_remaining": 63,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0xc74b02e5e49e410510d9f07fda64bfe2",
+      "san": [
+        "devsite-sni.developers.google.com",
+        "docs.actifio.com",
+        "d.actifio.com",
+        "apigee.com",
+        "*.apigee.com",
+        "appdefensealliance.dev",
+        "*.appdefensealliance.dev",
+        "bazel.build",
+        "*.bazel.build",
+        "builders.google",
+        "*.builders.google",
+        "cel.dev",
+        "*.cel.dev",
+        "deepmind.google.com",
+        "*.deepmind.google.com",
+        "developer.nest.com",
+        "developers.nest.com",
+        "devsitetest.how",
+        "*.devsitetest.how",
+        "fuchsia.dev",
+        "*.fuchsia.dev",
+        "issues.fuchsia.dev",
+        "*.issues.fuchsia.dev",
+        "generativeai.google",
+        "*.generativeai.google",
+        "*.generativeai.google.com",
+        "google.dev",
+        "ai.google.dev",
+        "www.ai.google.dev",
+        "*.google.dev",
+        "intrinsic.ai",
+        "*.intrinsic.ai",
+        "jibemobile.com",
+        "*.jibemobile.com",
+        "learn.mapsplatform.google.com",
+        "*.learn.mapsplatform.google.com",
+        "onboarding.off.goog",
+        "*.onboarding.off.goog",
+        "openthread.io",
+        "*.openthread.io",
+        "openweave.io",
+        "*.openweave.io",
+        "openxla.org",
+        "*.openxla.org",
+        "preview.source.android.com",
+        "privacysandbox.google.com",
+        "*.privacysandbox.google.com",
+        "quantumai.google",
+        "*.quantumai.google",
+        "tensorflow.org",
+        "*.tensorflow.org",
+        "web.dev",
+        "*.web.dev",
+        "webrtc.org",
+        "www.webrtc.org",
+        "wing.com",
+        "*.wing.com",
+        "wing.dev",
+        "*.wing.dev",
+        "devsite.google",
+        "*.devsite.google",
+        "mediapipe.dev",
+        "*.mediapipe.dev",
+        "ai.dev",
+        "*.ai.dev",
+        "ai.studio",
+        "*.ai.studio",
+        "app.new",
+        "*.app.new",
+        "chat.new",
+        "*.chat.new",
+        "bot.new",
+        "*.bot.new",
+        "agent.new",
+        "*.agent.new",
+        "ai.app",
+        "*.ai.app"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "carfax.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:21.590778",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "*.carfax.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon"
+      },
+      "valid_from": "2025-10-17T00:00:00+00:00",
+      "valid_to": "2026-11-14T23:59:59+00:00",
+      "days_remaining": 209,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0xc3df7d5b7b2cfceb5dc5b2eb4a6cf73",
+      "san": [
+        "*.carfax.com",
+        "carfax.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "turbowarp.org",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:23.115927",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "turbowarp.org",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "WE1",
+        "O": "Google Trust Services"
+      },
+      "valid_from": "2026-04-17T00:34:41+00:00",
+      "valid_to": "2026-07-16T01:32:03+00:00",
+      "days_remaining": 87,
+      "key_type": "EC",
+      "key_size": 256,
+      "signature_algorithm": "ecdsa-with-SHA256",
+      "serial_number": "0x72ca7b50789154700e120d543a030efd",
+      "san": [
+        "turbowarp.org",
+        "*.turbowarp.org"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "meraki.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:24.570511",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "meraki.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "Amazon RSA 2048 M04",
+        "O": "Amazon"
+      },
+      "valid_from": "2026-03-29T00:00:00+00:00",
+      "valid_to": "2026-10-12T23:59:59+00:00",
+      "days_remaining": 176,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x7d4d06ba079cc7b8a87853afccc2ce9",
+      "san": [
+        "meraki.com",
+        "www.meraki.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "forbes.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:25.992439",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": false,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "forbes.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "GlobalSign Atlas R3 DV TLS CA 2025 Q4",
+        "O": "GlobalSign nv-sa"
+      },
+      "valid_from": "2025-11-10T19:01:53+00:00",
+      "valid_to": "2026-12-12T19:01:52+00:00",
+      "days_remaining": 236,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x15856fe205bf0174a89cc0ebf4da166",
+      "san": [
+        "forbes.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "nba.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:27.388596",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "allball.blogs.nba.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "R12",
+        "O": "Let's Encrypt"
+      },
+      "valid_from": "2026-03-07T11:16:30+00:00",
+      "valid_to": "2026-06-05T11:16:29+00:00",
+      "days_remaining": 46,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x57c41e38c758f35323ca3dc9c1c40a35e85",
+      "san": [
+        "2k.nba.com",
+        "2kmytotalwellbeing.nba.com",
+        "75shop.ca",
+        "account.nba.com",
+        "allball.blogs.nba.com",
+        "ar.nba.com",
+        "argentina.nbabasketballschool.com",
+        "auction.nba.com",
+        "auctions.nba.com",
+        "austinspurs.com",
+        "australia.nbabasketballschool.com",
+        "basketballwithoutborders.com",
+        "benefitshomecourt.com",
+        "bolaonbaplayoffs.com",
+        "brainstorm.pistons.com",
+        "brazil.nbabasketballschool.com",
+        "bucks.com",
+        "ca.nba.com",
+        "canadafan.nba.com",
+        "cantoncharge.com",
+        "celtics.com",
+        "china.nba.com",
+        "clevelandcharge.com",
+        "clubgreen.celtics.com",
+        "cms-api-dev.nba.com",
+        "cms-api.nba.com",
+        "concur.nba.com",
+        "content.utahjazz.com",
+        "cpskyhawks.com",
+        "cruisebasketball.com",
+        "de.leaguepass.nba.com",
+        "digitaldatarequests.nba.com",
+        "docsupport.nba.com",
+        "dr.nbabasketballschool.com",
+        "dwhreports.nba.com",
+        "es.leaguepass.nba.com",
+        "es.nba.com",
+        "ewaiver.nba.com",
+        "feverbasketball.com",
+        "fidelity.nba.com",
+        "finance.utahjazz.com",
+        "ftwaynemadants.com",
+        "gdcsupport.nba.com",
+        "georgia.nbabasketballschool.com",
+        "germany.nbabasketballschool.com",
+        "glmytotalwellbeing.nba.com",
+        "gr.leaguepass.nba.com",
+        "greece.id.nba.com",
+        "greece.nbabasketballschool.com",
+        "greensboroswarm.com",
+        "hangtime.blogs.nba.com",
+        "hcm.nba.com",
+        "help.nba.com",
+        "hk.nba.com",
+        "hknba.nba.com",
+        "home.utahjazz.com",
+        "hoop.nba.com",
+        "hornetsvenomgt.com",
+        "in.nba.com",
+        "india.nbabasketballschool.com",
+        "indianapacers.com",
+        "intranet.utahjazz.com",
+        "italy.nbabasketballschool.com",
+        "itsolutions.nba.com",
+        "japan.nbabasketballschool.com",
+        "jrnba.com",
+        "jrnbaleague.uk",
+        "leaguepasssupport.nba.com",
+        "localdtcsupport.nba.com",
+        "mycigna.nba.com",
+        "mydepartment.nba.com",
+        "mydrive.nba.com",
+        "mytotalwellbeing.nba.com",
+        "nba.com",
+        "nbabasketballschool.com",
+        "nbacourtoptix.nba.com",
+        "nbae-support.nba.com",
+        "nbagameworn.nba.com",
+        "nbaiddevsupport.nba.com",
+        "nbaidsupport.nba.com",
+        "nbascdw.nba.com",
+        "nbatogether.nba.com",
+        "nbatv.nba.com",
+        "now.nba.com",
+        "ontarioclippers.com",
+        "poland.nbabasketballschool.com",
+        "privacy.nba.com",
+        "qa-sapfinance.nba.com",
+        "qatar.nbabasketballschool.com",
+        "requests.cloudsre.nba.com",
+        "requests.srecore.nba.com",
+        "sapfinance.nba.com",
+        "sapfinanceqa.nba.com",
+        "secure.nba.com",
+        "spamfilter.nba.com",
+        "stats-inquiry.nba.com",
+        "www.digitaldatarequests.nba.com",
+        "www.docsupport.nba.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "cnbc.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:28.851081",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "cnbc.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "Amazon RSA 2048 M01",
+        "O": "Amazon"
+      },
+      "valid_from": "2026-02-25T00:00:00+00:00",
+      "valid_to": "2026-09-10T23:59:59+00:00",
+      "days_remaining": 144,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x75d8b8b102760be76b8a3df98c44bb6",
+      "san": [
+        "cnbc.com",
+        "*.cnbc.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "handbrake.fr",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:30.210224",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "handbrake.fr",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "R13",
+        "O": "Let's Encrypt"
+      },
+      "valid_from": "2026-04-10T22:31:36+00:00",
+      "valid_to": "2026-07-09T22:31:35+00:00",
+      "days_remaining": 80,
+      "key_type": "RSA",
+      "key_size": 4096,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x5c4178c8be6960a13b4145347b31effafbc",
+      "san": [
+        "forum.handbrake.fr",
+        "handbrake.fr",
+        "www.handbrake.fr"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "opentable.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:32.702466",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "opentable.com",
+        "O": null,
+        "OU": null,
+        "C": null
+      },
+      "issuer": {
+        "CN": "R12",
+        "O": "Let's Encrypt"
+      },
+      "valid_from": "2026-03-23T10:23:16+00:00",
+      "valid_to": "2026-06-21T10:23:15+00:00",
+      "days_remaining": 62,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0x5947789923e06a1796460aad7f40f62bd4c",
+      "san": [
+        "opentable.com",
+        "www.opentable.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  },
+  {
+    "host": "wellsfargo.com",
+    "port": 443,
+    "scan_time": "2026-04-19T18:34:34.027229",
+    "tls_versions": {
+      "TLSv1.2": true,
+      "TLSv1.3": true,
+      "TLSv1.1": false,
+      "TLSv1.0": false
+    },
+    "supported_ciphers": [],
+    "weak_ciphers": [],
+    "certificate": {
+      "subject": {
+        "CN": "wellsfargo.com",
+        "O": "Wells Fargo & Company",
+        "OU": null,
+        "C": "US"
+      },
+      "issuer": {
+        "CN": "Wells Fargo Public Trust Certification Authority 01 G2",
+        "O": "Wells Fargo & Company"
+      },
+      "valid_from": "2025-07-16T00:00:00+00:00",
+      "valid_to": "2026-08-16T23:59:59+00:00",
+      "days_remaining": 119,
+      "key_type": "RSA",
+      "key_size": 2048,
+      "signature_algorithm": "sha256WithRSAEncryption",
+      "serial_number": "0xd4f32ddcf686c9e767c2a4e976f44e7",
+      "san": [
+        "wellsfargo.com"
+      ],
+      "is_self_signed": false,
+      "is_expired": false,
+      "is_valid": true
+    },
+    "vulnerabilities": {
+      "heartbleed": false,
+      "robot": false,
+      "freak": false,
+      "logjam": false,
+      "poodle": false,
+      "crime": false,
+      "beast": false
+    },
+    "error": null
+  }
+]
