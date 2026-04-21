@@ -3,9 +3,7 @@
 Target lists for TLS scanning - FULL DATASET
 """
 
-# ============================================================
 # TOP 100 COMMERCIAL WEBSITES
-# ============================================================
 
 TOP_100_SITES = [
     "youtube.com",
@@ -110,9 +108,8 @@ TOP_100_SITES = [
     "wellsfargo.com",
 ]
 
-# ============================================================
 # TOP 50 GOVERNMENT/EDUCATION SITES
-# ============================================================
+
 
 GOV_EDU_SITES = [
     "whitehouse.gov",
@@ -167,9 +164,7 @@ GOV_EDU_SITES = [
     "yale.edu",
 ]
 
-# ============================================================
 # BADSSL VALIDATION SITES
-# ============================================================
 
 BADSSL_SITES = [
     "badssl.com",
